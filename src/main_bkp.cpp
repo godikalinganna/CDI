@@ -82,7 +82,7 @@ bool fVerifyingBlocks = false;
 unsigned int nCoinCacheSize = 5000;
 bool fAlerts = DEFAULT_ALERTS;
 
-unsigned int nStakeMinAge = 30 * 60;
+unsigned int nStakeMinAge = 3 * 60 * 60;
 int64_t nReserveBalance = 0;
 
 /** Fees smaller than this (in duffs) are considered zero fee (for relaying and mining)
@@ -2164,14 +2164,14 @@ int64_t GetBlockValue(int nHeight)
     int64_t nSubsidy = 0;
 
     if (nHeight == 0) {
-        nSubsidy = 2000000 * COIN;
-    } else if (nHeight > 0 && nHeight <= 50) {
+        nSubsidy = 17500000 * COIN;
+    } else if (nHeight > 0 && nHeight <= 200) {
         nSubsidy = 2500 * COIN;
-    } else if (nHeight > 50 && nHeight <= 100) {
+    } else if (nHeight > 200 && nHeight <= 775600) {
         nSubsidy = 7 * COIN;
-    } else if (nHeight > 100 && nHeight <= 200) {
+    } else if (nHeight > 775600 && nHeight <= 1043999) {
         nSubsidy = 4.5 * COIN;
-    } else if (nHeight > 200 && nHeight <= 202) {
+    } else if (nHeight > 1043999 && nHeight <= 1562398) {
         nSubsidy = 3.6 * COIN;
     } else {
         nSubsidy = 2.7 * COIN;
