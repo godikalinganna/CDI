@@ -211,8 +211,8 @@ assert(genesis.hashMerkleRoot == uint256("0xe3ea3505eaf9a7b95dd8b19bfdcfb584ce26
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "04659d53bd8f7ad9d34a17281febedac754e5a6eb136142d3a9c6c0ea21b6ed7498ceb3d872eed00ae755f7aeadaeb1d9ab5e1a8f1e7efcd0ddcb39d4623c12790";
-       // strSporkKey ="047fa77f3ee5c377c55ed454b4dfe842f3078921f27fdb7a91c82ed2ade0c11eb9ac9a6c3ce31dc1b17f4b04692aad1c6bc1809a896c75e0f601caab730e4bddd6";
+       // strSporkKey = "04659d53bd8f7ad9d34a17281febedac754e5a6eb136142d3a9c6c0ea21b6ed7498ceb3d872eed00ae755f7aeadaeb1d9ab5e1a8f1e7efcd0ddcb39d4623c12790";
+       strSporkKey ="047fa77f3ee5c377c55ed454b4dfe842f3078921f27fdb7a91c82ed2ade0c11eb9ac9a6c3ce31dc1b17f4b04692aad1c6bc1809a896c75e0f601caab730e4bddd6";
         strObfuscationPoolDummyAddress = "PCYiHgGJJ6xGHqivmdZrYjRnhaYf6AJ2Mp";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
 
@@ -299,8 +299,8 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
-         strSporkKey = "04659d53bd8f7ad9d34a17281febedac754e5a6eb136142d3a9c6c0ea21b6ed7498ceb3d872eed00ae755f7aeadaeb1d9ab5e1a8f1e7efcd0ddcb39d4623c12790";
-	// strSporkKey ="047fa77f3ee5c377c55ed454b4dfe842f3078921f27fdb7a91c82ed2ade0c11eb9ac9a6c3ce31dc1b17f4b04692aad1c6bc1809a896c75e0f601caab730e4bddd6";
+        // strSporkKey = "04659d53bd8f7ad9d34a17281febedac754e5a6eb136142d3a9c6c0ea21b6ed7498ceb3d872eed00ae755f7aeadaeb1d9ab5e1a8f1e7efcd0ddcb39d4623c12790";
+	 strSporkKey ="047fa77f3ee5c377c55ed454b4dfe842f3078921f27fdb7a91c82ed2ade0c11eb9ac9a6c3ce31dc1b17f4b04692aad1c6bc1809a896c75e0f601caab730e4bddd6";
         strObfuscationPoolDummyAddress = "PCYiHgGJJ6xGHqivmdZrYjRnhaYf6AJ2Mp";
         nStartMasternodePayments = 1505224800; //Fri, 09 Jan 2015 21:05:58 GMT
         nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
