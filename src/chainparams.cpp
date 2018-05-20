@@ -5,6 +5,7 @@
 // Copyright (c) 2017 The Phore developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
+//testing..
 
 #include "libzerocoin/Params.h"
 #include "chainparams.h"
