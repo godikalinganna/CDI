@@ -114,7 +114,7 @@
     </message>
 </context>
 <context>
-    <name>AskPasscdiaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
         <source>Passcdiase Dialog</source>
         <translation>Inserimento parola d'ordine</translation>

@@ -143,9 +143,9 @@
     </message>
 </context>
 <context>
-    <name>AskPasscdiaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpasscdiasedialog.ui" line="+26"/>
+        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passcdiase Dialog</source>
         <translation>Passcdiase Dialog</translation>
     </message>
@@ -175,7 +175,7 @@
         <translation>For anonymization and staking only</translation>
     </message>
     <message>
-        <location filename="../askpasscdiasedialog.cpp" line="+44"/>
+        <location filename="../askpassphrasedialog.cpp" line="+44"/>
         <source>Enter the new passcdiase to the wallet.&lt;br/&gt;Please use a passcdiase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Enter the new passcdiase to the wallet.&lt;br/&gt;Please use a passcdiase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
     </message>

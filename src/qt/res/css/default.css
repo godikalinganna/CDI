@@ -749,7 +749,7 @@ width:1px;
 /**************************** SETTINGS MENU *********************************************/
 
 /* Encrypt Wallet and Change Passcdiase Dialog */
-QDialog#AskPasscdiaseDialog QLabel#passLabel1, QDialog#AskPasscdiaseDialog QLabel#passLabel2, QDialog#AskPasscdiaseDialog QLabel#passLabel3 {
+QDialog#AskPassphraseDialog QLabel#passLabel1, QDialog#AskPassphraseDialog QLabel#passLabel2, QDialog#AskPassphraseDialog QLabel#passLabel3 {
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:170px;
 min-height:33px; /* base width of 25px for QLineEdit, plus padding and border */

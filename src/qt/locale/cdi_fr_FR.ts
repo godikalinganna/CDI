@@ -106,7 +106,7 @@
     </message>
 </context>
 <context>
-    <name>AskPasscdiaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
         <source>Enter passcdiase</source>
         <translation>Entrer la cdiase secrète</translation>

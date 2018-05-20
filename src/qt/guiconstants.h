@@ -10,7 +10,7 @@
 /* Milliseconds between model updates */
 static const int MODEL_UPDATE_DELAY = 250;
 
-/* AskPasscdiaseDialog -- Maximum passcdiase length */
+/* AskPassphraseDialog -- Maximum passcdiase length */
 static const int MAX_PASSCDIASE_SIZE = 1024;
 
 /* CDI GUI -- Size of icons in status bar */

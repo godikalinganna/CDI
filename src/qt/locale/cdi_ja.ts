@@ -1,258 +1,260 @@
-<TS language="en_US" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ja_JP">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Right-click to edit address or label</translation>
+        <translation>右クリックでアドレスもしくはラベルを編集</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Create a new address</translation>
+        <translation>新しいアドレスを作成</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;New</translation>
+        <translation>＆新規</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copy the currently selected address to the system clipboard</translation>
+        <translation>クリップボードへ現在選択しているアドレスをコピー</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Copy</translation>
+        <translation>＆コピー</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Delete the currently selected address from the list</translation>
+        <translation>リストから選択されたアドレスを削除</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Delete</translation>
+        <translation>＆削除</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Export the data in the current tab to a file</translation>
+        <translation>現在開かれているタブの内容をエクスポート</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Export</translation>
+        <translation>＆エクスポート</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>C&amp;lose</translation>
+        <translation>＆閉じる</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Choose the address to send coins to</translation>
+        <translation>送信先アドレスを選んでコインを送る</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Choose the address to receive coins with</translation>
+        <translation>受信用アドレスを選んでコインを受け取る</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>C&amp;hoose</translation>
+        <translation>＆選択</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Sending addresses</translation>
+        <translation>送信先アドレス</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Receiving addresses</translation>
+        <translation>受信用アドレス</translation>
     </message>
     <message>
         <source>These are your CDI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your CDI addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <translation>これは支払い先アドレスです。送金の際には常に送金量・送金先アドレスを確認してください。</translation>
     </message>
     <message>
         <source>These are your CDI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your CDI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <translation>受け取り用アドレスです。各トランザクション/受信 につき新しいアドレスを使うことをお勧めします。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Copy Address</translation>
+        <translation>＆アドレスをコピー</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Copy &amp;Label</translation>
+        <translation>＆ラベルをコピー</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Edit</translation>
+        <translation>＆編集</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Export Address List</translation>
+        <translation>アドレスリストをエクスポート</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Comma separated file (*.csv)</translation>
+        <translation>形式は次の形です。 (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Exporting Failed</translation>
+        <translation>エクスポート失敗</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>There was an error trying to save the address list to %1. Please try again.</translation>
+        <translation>アドレスリストを%1 へ出力する際に何らかのエラーが発生しました。 もう一度お試しください。</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>ラベル</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Address</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(no label)</translation>
+        <translation>(ラベルなし)</translation>
     </message>
 </context>
 <context>
-    <name>AskPasscdiaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
         <source>Passcdiase Dialog</source>
-        <translation>Passcdiase Dialog</translation>
+        <translation>パスワードダイアログ</translation>
     </message>
     <message>
         <source>Enter passcdiase</source>
-        <translation>Enter passcdiase</translation>
+        <translation>パスワードを入力してください。</translation>
     </message>
     <message>
         <source>New passcdiase</source>
-        <translation>New passcdiase</translation>
+        <translation>新しいパスワード</translation>
     </message>
     <message>
         <source>Repeat new passcdiase</source>
-        <translation>Repeat new passcdiase</translation>
+        <translation>新しいパスワードの確認</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</translation>
+        <translation>OSのアカウントに侵入された際、パスワードなしでの送金を防ぎます。</translation>
     </message>
     <message>
         <source>For anonymization and staking only</source>
-        <translation>For anonymization and staking only</translation>
+        <translation>匿名化およびステーキングのみを有効化</translation>
     </message>
     <message>
         <source>Enter the new passcdiase to the wallet.&lt;br/&gt;Please use a passcdiase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Enter the new passcdiase to the wallet.&lt;br/&gt;Please use a passcdiase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
+        <translation>新しいパスワードを入力してください。&lt;br/&gt;パスワード/フレーズは&lt;b&gt;10文字以上&lt;/b&gt;, もしくは &lt;b&gt;8単語以上&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Encrypt wallet</translation>
+        <translation>ウォレットを暗号化</translation>
     </message>
     <message>
         <source>This operation needs your wallet passcdiase to unlock the wallet.</source>
-        <translation>This operation needs your wallet passcdiase to unlock the wallet.</translation>
+        <translation>この操作にはウォレットのパスワードを入力しウォレットの暗号化を解除する必要があります。</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Unlock wallet</translation>
+        <translation>ウォレットの暗号化を解除</translation>
     </message>
     <message>
         <source>This operation needs your wallet passcdiase to decrypt the wallet.</source>
-        <translation>This operation needs your wallet passcdiase to decrypt the wallet.</translation>
+        <translation>この操作では、ウォレットの復号化のためパスワードが必要です。</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Decrypt wallet</translation>
+        <translation>ウォレットの復号化</translation>
     </message>
     <message>
         <source>Change passcdiase</source>
-        <translation>Change passcdiase</translation>
+        <translation>パスワードの変更</translation>
     </message>
     <message>
         <source>Enter the old and new passcdiase to the wallet.</source>
-        <translation>Enter the old and new passcdiase to the wallet.</translation>
+        <translation>古いパスワード・新しいパスワードを入力してください。</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Confirm wallet encryption</translation>
+        <translation>ウォレットの再暗号化を行いました</translation>
     </message>
     <message>
         <source>CDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CDIs from being stolen by malware infecting your computer.</source>
-        <translation>CDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CDIs from being stolen by malware infecting your computer.</translation>
+        <translation>暗号化を完了するためウォレットを閉じます。暗号化されたため、パスワードがなければ攻撃者はCDIを送金できません。</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Are you sure you wish to encrypt your wallet?</translation>
+        <translation>ウォレットを暗号化しますか？</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passcdiase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passcdiase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</translation>
+        <translation>注意 : もし暗号化した後パスワードを忘れた場合 &lt;b&gt;すべてのCDIを失います&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Wallet encrypted</translation>
+        <translation>ウォレットは暗号化されました</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</translation>
+        <translation>重要 : 暗号化前に取ったwallet.datのバックアップは消去し、新しくバックアップを取り直してください(以前のdatは暗号化されていないため)。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Wallet encryption failed</translation>
+        <translation>ウォレットの暗号化に失敗しました</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</translation>
+        <translation>ウォレットの暗号化は内部エラーのため失敗しました。あなたのウォレットは暗号化されていません。</translation>
     </message>
     <message>
         <source>The supplied passcdiases do not match.</source>
-        <translation>The supplied passcdiases do not match.</translation>
+        <translation>入力されたパスワードが一致していません</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Wallet unlock failed</translation>
+        <translation>ウォレットのアンロックに失敗しました</translation>
     </message>
     <message>
         <source>The passcdiase entered for the wallet decryption was incorrect.</source>
-        <translation>The passcdiase entered for the wallet decryption was incorrect.</translation>
+        <translation>復号化のために入力されたパスワードが一致してません</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Wallet decryption failed</translation>
+        <translation>ウォレットの復号に失敗しました</translation>
     </message>
     <message>
         <source>Wallet passcdiase was successfully changed.</source>
-        <translation>Wallet passcdiase was successfully changed.</translation>
+        <translation>ウォレットのパスワードの変更に成功しました</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Warning: The Caps Lock key is on!</translation>
+        <translation>警告 : CapsLock がオンになっています！</translation>
     </message>
 </context>
 <context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
-        <translation>BIP 38 Tool</translation>
+        <translation>BIP 38 ツール</translation>
     </message>
     <message>
         <source>&amp;BIP 38 Encrypt</source>
-        <translation>&amp;BIP 38 Encrypt</translation>
+        <translation>&amp;BIP 38 暗号化</translation>
     </message>
     <message>
         <source>Enter a CDI Address that you would like to encrypt using BIP 38. Enter a passcdiase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Enter a CDI Address that you would like to encrypt using BIP 38. Enter a passcdiase in the middle box. Press encrypt to compute the encrypted private key.</translation>
+        <translation>BIP38 を用いて暗号化したCDI アドレスを入力してください。パスワードを中段の入力欄に記入し、encrypt ボタンを押して暗号化されたプライベートキーを取得しましょう。</translation>
     </message>
     <message>
         <source>Address:</source>
-        <translation>Address:</translation>
+        <translation>アドレス:</translation>
     </message>
     <message>
         <source>The CDI address to sign the message with</source>
-        <translation>The CDI address to sign the message with</translation>
+        <translation>メッセージを署名したいCDI アドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Choose previously used address</translation>
+        <translation>以前利用したアドレスを選択</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -260,7 +262,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Paste address from clipboard</translation>
+        <translation>クリップボードからアドレスをペースト</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -268,386 +270,388 @@
     </message>
     <message>
         <source>Passcdiase: </source>
-        <translation>Passcdiase: </translation>
+        <translation>パスワード : </translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
-        <translation>Encrypted Key:</translation>
+        <translation>暗号化されたキー :</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Copy the current signature to the system clipboard</translation>
+        <translation>今表示されている署名をクリップボードへコピー</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this CDI address</source>
-        <translation>Sign the message to prove you own this CDI address</translation>
+        <translation>CDI アドレスの所持を証明するためにこのメッセージを署名</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
-        <translation>Encrypt &amp;Key</translation>
+        <translation>&amp;キーを暗号化</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Reset all sign message fields</translation>
+        <translation>全ての署名されたメッセージをリセット</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Clear &amp;All</translation>
+        <translation>&amp;全てクリア</translation>
     </message>
     <message>
         <source>&amp;BIP 38 Decrypt</source>
-        <translation>&amp;BIP 38 Decrypt</translation>
+        <translation>&amp;BIP 38 復号化</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passcdiase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Enter the BIP 38 encrypted private key. Enter the passcdiase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</translation>
+        <source>Enter the BIP 38 encrypted private key. Enter the passcdiase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking &apos;Import Address&apos; will add this private key to the wallet.</source>
+        <translation>BIP38 暗号化されたプライベートキーを一番上の欄に入力し、二番目の欄にパスワードを入力してください。プライベートキーを出力するため、復号化ボタンを押してください。アドレスのインポートをクリックしてウォレットに追加できます。</translation>
     </message>
     <message>
         <source>The CDI address the message was signed with</source>
-        <translation>The CDI address the message was signed with</translation>
+        <translation>このCDIアドレスのメッセージは次により署名されています</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified CDI address</source>
-        <translation>Verify the message to ensure it was signed with the specified CDI address</translation>
+        <translation>メッセージが特定のCDIアドレスにより署名されていることを確認してください。</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
-        <translation>Decrypt &amp;Key</translation>
+        <translation>&amp;キーの復号化</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Reset all verify message fields</translation>
+        <translation>確認されたメッセージ欄をリセットする。</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
-        <translation>Decrypted Key:</translation>
+        <translation>復号化されたキー:</translation>
     </message>
     <message>
         <source>Import Address</source>
-        <translation>Import Address</translation>
+        <translation>アドレスのインポート</translation>
     </message>
     <message>
-        <source>Click "Decrypt Key" to compute key</source>
-        <translation>Click "Decrypt Key" to compute key</translation>
+        <source>Click &quot;Decrypt Key&quot; to compute key</source>
+        <translation>&quot;キーの復号化&quot;をクリックしてキーを表示</translation>
     </message>
     <message>
         <source>The entered passcdiase is invalid. </source>
-        <translation>The entered passcdiase is invalid. </translation>
+        <translation>入力されたパスワードは間違っています。 </translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
-        <translation>Allowed: 0-9,a-z,A-Z,</translation>
+        <translation>使える文字: 0-9,a-z,A-Z,</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>The entered address is invalid.</translation>
+        <translation>入力されたアドレスは間違っています。</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Please check the address and try again.</translation>
+        <translation>アドレスを確認し、もう一度試してください。</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>The entered address does not refer to a key.</translation>
+        <translation>入力されたアドレスはキーへ結合していません。</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Wallet unlock was cancelled.</translation>
+        <translation>ウォレットのアンロックは中断されました。</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Private key for the entered address is not available.</translation>
+        <translation>入力されたアドレスのプライベートキーは利用できません。</translation>
     </message>
     <message>
         <source>Failed to decrypt.</source>
-        <translation>Failed to decrypt.</translation>
+        <translation>復号化に失敗しました。</translation>
     </message>
     <message>
         <source>Please check the key and passcdiase and try again.</source>
-        <translation>Please check the key and passcdiase and try again.</translation>
+        <translation>キーとパスワードを確認し、もう一度試してください。</translation>
     </message>
     <message>
         <source>Data Not Valid.</source>
-        <translation>Data Not Valid.</translation>
+        <translation>データが正しくありません。</translation>
     </message>
     <message>
         <source>Please try again.</source>
-        <translation>Please try again.</translation>
+        <translation>もう一度お試しください。</translation>
     </message>
     <message>
         <source>Please wait while key is imported</source>
-        <translation>Please wait while key is imported</translation>
+        <translation>キーをインポートするまでお待ちください。</translation>
     </message>
     <message>
         <source>Key Already Held By Wallet</source>
-        <translation>Key Already Held By Wallet</translation>
+        <translation>このキーは既にウォレットにインポートされています。</translation>
     </message>
     <message>
         <source>Error Adding Key To Wallet</source>
-        <translation>Error Adding Key To Wallet</translation>
+        <translation>キーをウォレットに追加するのにエラーが出ました。</translation>
     </message>
     <message>
         <source>Successfully Added Private Key To Wallet</source>
-        <translation>Successfully Added Private Key To Wallet</translation>
+        <translation>プライベートキーをウォレットに追加しました。</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Wallet</source>
-        <translation>Wallet</translation>
+        <translation>ウォレット</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Node</translation>
+        <translation>ノード</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Overview</translation>
+        <translation>&amp;概要</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Show general overview of wallet</translation>
+        <translation>ウォレットの概要を見る</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Send</translation>
+        <translation>&amp;送金</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Receive</translation>
+        <translation>&amp;受け取り</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transactions</translation>
+        <translation>&amp;トランザクション</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Browse transaction history</translation>
+        <translation>トランザクション履歴を参照する</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>E&amp;xit</translation>
+        <translation>&amp;終了</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Quit application</translation>
+        <translation>アプリを終了する</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>About &amp;Qt</translation>
+        <translation>&amp;Qt について</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Show information about Qt</translation>
+        <translation>Qtについての情報を表示する</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Options...</translation>
+        <translation>オプション</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Show / Hide</translation>
+        <translation>&amp;表示/非表示</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Show or hide the main Window</translation>
+        <translation>メインウィンドウの表示/非表示</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Encrypt Wallet...</translation>
+        <translation>&amp;ウォレットの暗号化</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Encrypt the private keys that belong to your wallet</translation>
+        <translation>あなたのウォレットに保存されているプライベートキーを暗号化</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Wallet...</translation>
+        <translation>&amp;ウォレットのバックアップ</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Backup wallet to another location</translation>
+        <translation>ウォレットデータを他の場所へ保存します</translation>
     </message>
     <message>
         <source>&amp;Change Passcdiase...</source>
-        <translation>&amp;Change Passcdiase...</translation>
+        <translation>&amp;パスワードの変更</translation>
     </message>
     <message>
         <source>Change the passcdiase used for wallet encryption</source>
-        <translation>Change the passcdiase used for wallet encryption</translation>
+        <translation>ウォレットの暗号化にしようしていたパスワードを変更します</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Unlock Wallet...</translation>
+        <translation>&amp;ウォレットのアンロック</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Unlock wallet</translation>
+        <translation>ウォレットのアンロック</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>&amp;Lock Wallet</translation>
+        <translation>&amp;ウォレットのロック</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Sign &amp;message...</translation>
+        <translation>&amp;メッセージの署名...</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Verify message...</translation>
+        <translation>&amp;メッセージの確認</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Information</translation>
+        <translation>&amp;情報</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Show diagnostic information</translation>
+        <translation>診断結果を表示</translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>&amp;Debug console</translation>
+        <translation>&amp;デバッグコンソール</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>Open debugging console</translation>
+        <translation>デバッグコンソールを開く</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>&amp;Network Monitor</translation>
+        <translation>&amp;ネットワークモニター</translation>
     </message>
     <message>
         <source>Show network monitor</source>
-        <translation>Show network monitor</translation>
+        <translation>ネットワークモニターを確認する</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>&amp;Peers list</translation>
+        <translation>&amp;ピア一覧</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Show peers info</translation>
+        <translation>ピアの情報を確認する</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>Wallet &amp;Repair</translation>
+        <translation>&amp;ウォレット修復</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Show wallet repair options</translation>
+        <translation>ウォレットの修復オプションを表示する</translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Open configuration file</translation>
+        <translation>ウォレットの設定ファイルを開く</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-        <translation>Show Automatic &amp;Backups</translation>
+        <translation>自動 &amp;バックアップを開く</translation>
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Show automatically created wallet backups</translation>
+        <translation>自動で作成されたウォレットのバックアップを確認する</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Sending addresses...</translation>
+        <translation>&amp;送金アドレス</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Show the list of used sending addresses and labels</translation>
+        <translation>送金アドレス・ラベルの一覧を確認する</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Receiving addresses...</translation>
+        <translation>&amp;受け取りアドレス</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Show the list of used receiving addresses and labels</translation>
+        <translation>受け取りアドレス・ラベルの一覧を確認する</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Open &amp;URI...</translation>
+        <translation>&amp;URI を開く</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Command-line options</translation>
+        <translation>&amp; コマンドラインオプション</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>Processed %n block of transaction history.</numerusform><numerusform>Processed %n blocks of transaction history.</numerusform></translation>
+        <translation>
+            <numerusform>トランザクション履歴から %n ブロックを処理しました</numerusform>
+        </translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>Synchronizing additional data: %p%</translation>
+        <translation>追加のデータを同期中: %p%</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;File</translation>
+        <translation>&amp;ファイル</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Settings</translation>
+        <translation>&amp;設定</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;Tools</translation>
+        <translation>&amp;ツール</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Help</translation>
+        <translation>&amp;ヘルプ</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Tabs toolbar</translation>
+        <translation>ツールバー</translation>
     </message>
     <message>
         <source>CDI Core</source>
-        <translation>CDI Core</translation>
+        <translation>CDI コア</translation>
     </message>
     <message>
         <source>Send coins to a CDI address</source>
-        <translation>Send coins to a CDI address</translation>
+        <translation>CDI addressへ送金する</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and cdi: URIs)</source>
-        <translation>Request payments (generates QR codes and cdi: URIs)</translation>
+        <translation>支払いを作成する (QRコード または cdi: URIを作成)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
-        <translation>&amp;Masternodes</translation>
+        <translation>&amp;マスターノード</translation>
     </message>
     <message>
         <source>Browse masternodes</source>
-        <translation>Browse masternodes</translation>
+        <translation>マスターノードを参照</translation>
     </message>
     <message>
         <source>&amp;About CDI Core</source>
-        <translation>&amp;About CDI Core</translation>
+        <translation>&amp;CDI コアについて</translation>
     </message>
     <message>
         <source>Show information about CDI Core</source>
-        <translation>Show information about CDI Core</translation>
+        <translation>CDI コアの情報をみる</translation>
     </message>
     <message>
         <source>Modify configuration options for CDI</source>
-        <translation>Modify configuration options for CDI</translation>
+        <translation>CDIのオプションを編集する</translation>
     </message>
     <message>
         <source>Sign messages with your CDI addresses to prove you own them</source>
-        <translation>Sign messages with your CDI addresses to prove you own them</translation>
+        <translation>あなたがそのアドレスを所有していることをメッセージの署名を用いて証明する</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified CDI addresses</source>
-        <translation>Verify messages to ensure they were signed with specified CDI addresses</translation>
+        <translation>メッセージが特定のCDIアドレスにより署名されていることを確認する</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
-        <translation>&amp;BIP38 tool</translation>
+        <translation>&amp;BIP38 ツール</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passcdiase</source>
-        <translation>Encrypt and decrypt private keys using a passcdiase</translation>
+        <translation>パスワードを用いて暗号化・復号化する</translation>
     </message>
     <message>
         <source>&amp;MultiSend</source>
@@ -655,123 +659,133 @@
     </message>
     <message>
         <source>MultiSend Settings</source>
-        <translation>MultiSend Settings</translation>
+        <translation>MultiSend の設定</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
-        <translation>Open Wallet &amp;Configuration File</translation>
+        <translation>ウォレットの &amp;設定ファイルを開く</translation>
     </message>
     <message>
         <source>Open &amp;Masternode Configuration File</source>
-        <translation>Open &amp;Masternode Configuration File</translation>
+        <translation>マスターノードの &amp;設定ファイルを開く</translation>
     </message>
     <message>
         <source>Open Masternode configuration file</source>
-        <translation>Open Masternode configuration file</translation>
+        <translation>マスターノードの設定ファイルを開く</translation>
     </message>
     <message>
         <source>Open a CDI: URI or payment request</source>
-        <translation>Open a CDI: URI or payment request</translation>
+        <translation>CDI: URI か支払いリクエストを開く</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
-        <translation>&amp;Blockchain explorer</translation>
+        <translation>&amp;ブロックチェーンエクスプローラ</translation>
     </message>
     <message>
         <source>Block explorer window</source>
-        <translation>Block explorer window</translation>
+        <translation>ブロックエクスプローラ</translation>
     </message>
     <message>
         <source>Show the CDI Core help message to get a list with possible CDI command-line options</source>
-        <translation>Show the CDI Core help message to get a list with possible CDI command-line options</translation>
+        <translation>CDI コアのヘルプメッセージを表示してコマンドラインオプションを確認する</translation>
     </message>
     <message>
         <source>CDI Core client</source>
-        <translation>CDI Core client</translation>
+        <translation>CDI コア クライアント</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to CDI network</source>
-        <translation><numerusform>%n active connection(s) to CDI network</numerusform><numerusform>%n active connection(s) to CDI network</numerusform></translation>
+        <translation>
+            <numerusform>%n 個のアクティブなノードが存在します</numerusform>
+        </translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchronizing with network...</translation>
+        <translation>ネットワークと同期中</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
-        <translation>Importing blocks from disk...</translation>
+        <translation>ブロックデータをdatからインポート中</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Reindexing blocks on disk...</translation>
+        <translation>ブロックデータを整理中</translation>
     </message>
     <message>
         <source>No block source available...</source>
-        <translation>No block source available...</translation>
+        <translation>利用可能なブロックデータが見つかりません</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Up to date</translation>
+        <translation>最新データ</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n hour</numerusform><numerusform>%n hours</numerusform></translation>
+        <translation>
+            <numerusform>%n 時間</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n day</numerusform><numerusform>%n days</numerusform></translation>
+        <translation>
+            <numerusform>%n 日</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n week</numerusform><numerusform>%n weeks</numerusform></translation>
+        <translation>
+            <numerusform>%n 週</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 and %2</translation>
+        <translation>%1 と %2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n year</numerusform><numerusform>%n years</numerusform></translation>
+        <translation>
+            <numerusform>%n 年</numerusform>
+        </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 behind</translation>
+        <translation>%1 前</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Catching up...</translation>
+        <translation>更新中</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Last received block was generated %1 ago.</translation>
+        <translation>最後のブロックは %1 前のものです。</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transactions after this will not yet be visible.</translation>
+        <translation>これ以降のトランザクションはまだ確認できません。</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Warning</translation>
+        <translation>警告</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Information</translation>
+        <translation>情報</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Sent transaction</translation>
+        <translation>出金トランザクション</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Incoming transaction</translation>
+        <translation>入金トランザクション</translation>
     </message>
     <message>
         <source>Sent MultiSend transaction</source>
-        <translation>Sent MultiSend transaction</translation>
+        <translation>送金した MultiSend トランザクション</translation>
     </message>
     <message>
         <source>Date: %1
@@ -779,104 +793,152 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Date: %1
-Amount: %2
-Type: %3
-Address: %4
+        <translation>日付: %1
+枚数: %2
+形式: %3
+アドレス: %4
 </translation>
     </message>
     <message>
         <source>Staking is active
  MultiSend: %1</source>
-        <translation>Staking is active
+        <translation>ステーキングしています
  MultiSend: %1</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Active</translation>
+        <translation>利用可能</translation>
     </message>
     <message>
         <source>Not Active</source>
-        <translation>Not Active</translation>
+        <translation>利用不可</translation>
     </message>
     <message>
         <source>Staking is not active
  MultiSend: %1</source>
-        <translation>Staking is not active
+        <translation>ステーキングしていません
  MultiSend: %1</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</translation>
+        <translation>ウォレットは &lt;b&gt;暗号化&lt;/bされています&gt; 現在は &lt;b&gt;アンロック&lt;/bされています&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
-        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</translation>
+        <translation>ウォレットは&lt;b&gt;暗号化&lt;/bされています&gt; 現在は &lt;b&gt;アンロック&lt;/bされています&gt; (ステーキング・匿名化のみ)</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
+        <translation>ウォレットは &lt;b&gt;暗号化&lt;/bされています&gt; 現在は &lt;b&gt;ロック&lt;/b&gt;されています</translation>
+    </message>
+    <message>
+        <source>&amp;Privacy</source>
+        <translation>&amp;匿名化</translation>
+    </message>
+    <message>
+        <source>Privacy Actions for zCDI</source>
+        <translation>zCDIによる匿名化</translation>
+    </message>
+    <message>
+        <source>&amp;Multisignature creation...</source>
+        <translation>&amp;マルチシグネチャアドレス生成...</translation>
+    </message>
+    <message>
+        <source>Create a new multisignature address and add it to this wallet</source>
+        <translation>新しいマルチシグネチャアドレスを生成し、ウォレットへ追加します</translation>
+    </message>
+    <message>
+        <source>&amp;Multisignature spending...</source>
+        <translation>&amp;マルチシグネチャアドレスでの支払い...</translation>
+    </message>
+    <message>
+        <source>Spend from a multisignature address</source>
+        <translation>マルチシグネチャアドレスから支払います</translation>
+    </message>
+    <message>
+        <source>&amp;Multisignature signing...</source>
+        <translation>&amp;マルチシグネチャアドレスでの署名...</translation>
+    </message>
+    <message>
+        <source>Sign with a multisignature address</source>
+        <translation>マルチシグネチャアドレスで署名します</translation>
+    </message>
+    <message>
+        <source>%1 behind. Scanning block %2</source>
+        <translation>%1 前です。ブロックをスキャン中 %2</translation>
+    </message>
+    <message>
+        <source>A fatal error occurred. CDI can no longer continue safely and will quit.</source>
+        <translation>致命的なエラーが発生しました。CDIは終了します。</translation>
+    </message>
+    <message>
+        <source>High Sierra not supported with this build</source>
+        <translation>High Sierra はこのビルドにおいてサポートされていません</translation>
     </message>
 </context>
 <context>
     <name>BlockExplorer</name>
     <message>
         <source>Blockchain Explorer</source>
-        <translation>Blockchain Explorer</translation>
+        <translation>ブロックチェーンエクスプローラ</translation>
     </message>
     <message>
         <source>Address / Block / Transaction</source>
-        <translation>Address / Block / Transaction</translation>
+        <translation>アドレス / ブロック数 / トランザクション</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Search</translation>
+        <translation>検索</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation>テキスト</translation>
     </message>
     <message>
         <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (cdi.conf).</source>
-        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (cdi.conf).</translation>
+        <translation>すべてのトランザクションが確認できるわけではありません。全て確認したい場合、txindex=1 とウォレット設定ファイルへ追加してください (cdi.conf)。</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
-        <translation>Total: %1 (OBF compatible: %2 / Enabled: %3)</translation>
+        <translation>総量: %1 (OBF 適合性: %2 / Enabled: %3)</translation>
     </message>
     <message>
         <source>Network Alert</source>
-        <translation>Network Alert</translation>
+        <translation>ネットワークについての警告</translation>
+    </message>
+    <message>
+        <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
+        <translation>合計: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / 不明: %5)</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Quantity:</translation>
+        <translation>選択数:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bytes:</translation>
+        <translation>バイト:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Amount:</translation>
+        <translation>枚数:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Priority:</translation>
+        <translation>優先度:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Fee:</translation>
+        <translation>手数料:</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Coin Selection</translation>
+        <translation>コインの選択</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -884,43 +946,43 @@ Address: %4
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>After Fee:</translation>
+        <translation>手数料差し引き後:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Change:</translation>
+        <translation>お釣り:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(un)select all</translation>
+        <translation>全てチェック/チェックを外す</translation>
     </message>
     <message>
         <source>toggle lock state</source>
-        <translation>toggle lock state</translation>
+        <translation>ロック状態の切り替え</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Tree mode</translation>
+        <translation>Tree モード</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>List mode</translation>
+        <translation>List モード</translation>
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 locked)</translation>
+        <translation>(1 ロックされています)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Amount</translation>
+        <translation>枚数</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Received with label</translation>
+        <translation>ラベル</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Received with address</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
         <source>DS Rounds</source>
@@ -928,99 +990,99 @@ Address: %4
     </message>
     <message>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation>日付</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Confirmations</translation>
+        <translation>確認数</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Confirmed</translation>
+        <translation>確認済み</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation>Priority</translation>
+        <translation>優先度</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Copy address</translation>
+        <translation>アドレスのコピー</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copy label</translation>
+        <translation>ラベルのコピー</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copy amount</translation>
+        <translation>枚数のコピー</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Copy transaction ID</translation>
+        <translation>トランザクションIDのコピー</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Lock unspent</translation>
+        <translation>未使用トランザクションをロック</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Unlock unspent</translation>
+        <translation>未使用トランザクションをアンロック</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Copy quantity</translation>
+        <translation>選択数をコピー</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Copy fee</translation>
+        <translation>手数料をコピー</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Copy after fee</translation>
+        <translation>手数料差し引き後をコピー</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Copy bytes</translation>
+        <translation>バイトをコピー</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Copy priority</translation>
+        <translation>優先度をコピー</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Copy dust</translation>
+        <translation>dustをコピー</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Copy change</translation>
+        <translation>お釣りをコピー</translation>
     </message>
     <message>
-        <source>Please switch to "List mode" to use this function.</source>
-        <translation>Please switch to "List mode" to use this function.</translation>
+        <source>Please switch to &quot;List mode&quot; to use this function.</source>
+        <translation>この機能を利用するために、&quot;Listモード&quot;へ変更してください。</translation>
     </message>
     <message>
         <source>Non-anonymized input selected. &lt;b&gt;Obfuscation will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Obfuscation, please deselect all non-nonymized inputs first and then check Obfuscation checkbox again.</source>
-        <translation>Non-anonymized input selected. &lt;b&gt;Obfuscation will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Obfuscation, please deselect all non-nonymized inputs first and then check Obfuscation checkbox again.</translation>
+        <translation>非匿名なコインが選択されました。&lt;b&gt;個の送金には匿名化は利用できません。&lt;/b&gt;&lt;br&gt;&lt;br&gt;もし匿名化を利用したい場合、すべての非匿名な入力ブロックのチェックを外し、匿名化にチェックを入れてください。</translation>
     </message>
     <message>
         <source>highest</source>
-        <translation>highest</translation>
+        <translation>最高</translation>
     </message>
     <message>
         <source>higher</source>
-        <translation>higher</translation>
+        <translation>非常に高い</translation>
     </message>
     <message>
         <source>high</source>
-        <translation>high</translation>
+        <translation>高い</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation>medium-high</translation>
+        <translation>多少高い</translation>
     </message>
     <message>
         <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Can vary +/- %1 duff(s) per input.</translation>
+        <translation>入力当たり、 +/- %1 duff(s) 程度変動します。</translation>
     </message>
     <message>
         <source>n/a</source>
@@ -1028,86 +1090,90 @@ Address: %4
     </message>
     <message>
         <source>medium</source>
-        <translation>medium</translation>
+        <translation>通常</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation>low-medium</translation>
+        <translation>少し低い</translation>
     </message>
     <message>
         <source>low</source>
-        <translation>low</translation>
+        <translation>低い</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation>lower</translation>
+        <translation>さらに低い</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation>lowest</translation>
+        <translation>最低</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 locked)</translation>
+        <translation>(%1 個ロックされています)</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>none</translation>
+        <translation>なし</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>yes</translation>
+        <translation>はい</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>no</translation>
+        <translation>いいえ</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>This label turns red, if the transaction size is greater than 1000 bytes.</translation>
+        <translation>もしこのラベルが赤ければ、トランザクションのサイズが1000バイトを超えているということです。</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>This means a fee of at least %1 per kB is required.</translation>
+        <translation>この意味は手数料がKB 当たり%1 必要になるということです。</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
-        <translation>Can vary +/- 1 byte per input.</translation>
+        <translation> +/- 1 バイト程度変動します</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
         <translation>Transactions with higher priority are more likely to get included into a block.</translation>
     </message>
     <message>
-        <source>This label turns red, if the priority is smaller than "medium".</source>
-        <translation>This label turns red, if the priority is smaller than "medium".</translation>
+        <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
+        <translation>このラベルが赤くなるのは、&quot;通常&quot;よりも優先度が低いときです。</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>This label turns red, if any recipient receives an amount smaller than %1.</translation>
+        <translation>このラベルが赤くなるのは、%1 よりも各アドレスの受け取る枚数が低くなる時です。</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(no label)</translation>
+        <translation>(ラベルなし)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>change from %1 (%2)</translation>
+        <translation>%1 からのお釣り (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(change)</translation>
+        <translation>(お釣り)</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>形式</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Edit Address</translation>
+        <translation>アドレスの編集</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Label</translation>
+        <translation>&amp;ラベル</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
@@ -1115,7 +1181,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Address</translation>
+        <translation>&amp;アドレス</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
@@ -1123,42 +1189,42 @@ Address: %4
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>New receiving address</translation>
+        <translation>新しい受け取りアドレス</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>New sending address</translation>
+        <translation>新しい送金アドレス</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Edit receiving address</translation>
+        <translation>受け取りアドレスを編集</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Edit sending address</translation>
+        <translation>送金アドレスを編集</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid CDI address.</source>
-        <translation>The entered address "%1" is not a valid CDI address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CDI address.</source>
+        <translation>入力したアドレス &quot;%1&quot; は正しいCDIアドレスではありません </translation>
     </message>
     <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>The entered address "%1" is already in the address book.</translation>
+        <source>The entered address &quot;%1&quot; is already in the address book.</source>
+        <translation> &quot;%1&quot; は既にアドレス帳に存在します。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Could not unlock wallet.</translation>
+        <translation>ウォレットをアンロックできません。</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>New key generation failed.</translation>
+        <translation>新しいキーの生成に失敗</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>A new data directory will be created.</translation>
+        <translation>新しいデータフォルダが生成されます。</translation>
     </message>
     <message>
         <source>name</source>
@@ -1166,26 +1232,26 @@ Address: %4
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Directory already exists. Add %1 if you intend to create a new directory here.</translation>
+        <translation>既にフォルダが存在します。もし新しいフォルダを作りたいなら、 %1 を追記してください。</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Path already exists, and is not a directory.</translation>
+        <translation>パスは既に存在し、フォルダではありません。</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Cannot create data directory here.</translation>
+        <translation>ここにはデータフォルダを作れません。</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>version</translation>
+        <translation>バージョン</translation>
     </message>
     <message>
         <source>CDI Core</source>
-        <translation>CDI Core</translation>
+        <translation>CDI コア</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -1193,11 +1259,11 @@ Address: %4
     </message>
     <message>
         <source>About CDI Core</source>
-        <translation>About CDI Core</translation>
+        <translation>CDI コアについて</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Command-line options</translation>
+        <translation>コマンドラインオプション</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -1205,78 +1271,78 @@ Address: %4
     </message>
     <message>
         <source>command-line options</source>
-        <translation>command-line options</translation>
+        <translation>コマンドラインオプション</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>UI Options:</translation>
+        <translation>UI オプション:</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>Choose data directory on startup (default: %u)</translation>
+        <translation>スタート時のデータフォルダを決めてください。 (デフォルト: %u)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>Show splash screen on startup (default: %u)</translation>
+        <translation>スプラッシュウィンドウを表示する (デフォルト: %u)</translation>
     </message>
     <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Set language, for example "de_DE" (default: system locale)</translation>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
+        <translation>言語を設定してください。&quot;de_DE&quot; (デフォルト:システムの言語)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Start minimized</translation>
+        <translation>最小化</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Set SSL root certificates for payment request (default: -system-)</translation>
+        <translation>支払いリクエストのために SSL のルート証明書をセットする(default: -system-)</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Welcome</translation>
+        <translation>ようこそ</translation>
     </message>
     <message>
         <source>Welcome to CDI Core.</source>
-        <translation>Welcome to CDI Core.</translation>
+        <translation>CDI コアへようこそ</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where CDI Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where CDI Core will store its data.</translation>
+        <translation>これが初期起動の場合、データフォルダの場所を選択できます。</translation>
     </message>
     <message>
         <source>CDI Core will download and store a copy of the CDI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>CDI Core will download and store a copy of the CDI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <translation>CDI コアはCDIのブロックチェーンデータをダウンロードします。データフォルダには少なくとも %1 GB程度の空き容量が必要です。ウォレットデータもこの場所へ保存されます。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Use the default data directory</translation>
+        <translation>デフォルトのデータフォルダを利用する</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Use a custom data directory:</translation>
+        <translation>カスタムデータフォルダを利用する:</translation>
     </message>
     <message>
         <source>CDI Core</source>
-        <translation>CDI Core</translation>
+        <translation>CDI コア</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Error: Specified data directory "%1" cannot be created.</translation>
+        <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
+        <translation>エラー: データフォルダ &quot;%1&quot; を作成できません。</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>%1 GB of free space available</translation>
+        <translation>%1 GB の空き容量があります。</translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(of %1 GB needed)</translation>
+        <translation>(そのうち %1 GB必要)</translation>
     </message>
 </context>
 <context>
@@ -1290,56 +1356,56 @@ Address: %4
         <translation>My Masternodes</translation>
     </message>
     <message>
-        <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</source>
-        <translation>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</translation>
+        <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see &quot;MISSING&quot; in &quot;Status&quot; field.</source>
+        <translation>注: マスターノードのステータスは不正確なことがあります。&lt;br /&gt;完全に同期を取った後に確認し、他のノードからも確認することをお勧めします。&lt;br /&gt;最初&quot;MISSING&quot;と表示されていても同期後に&quot;ENABLED&quot;になることがあります。</translation>
     </message>
     <message>
         <source>Alias</source>
-        <translation>Alias</translation>
+        <translation>エイリアス</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Address</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
         <source>Protocol</source>
-        <translation>Protocol</translation>
+        <translation>プロトコル</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>ステータス</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Active</translation>
+        <translation>動作状況</translation>
     </message>
     <message>
         <source>Last Seen (UTC)</source>
-        <translation>Last Seen (UTC)</translation>
+        <translation>最新確認時間(UTC)</translation>
     </message>
     <message>
         <source>Pubkey</source>
-        <translation>Pubkey</translation>
+        <translation>共通鍵</translation>
     </message>
     <message>
         <source>S&amp;tart alias</source>
-        <translation>S&amp;tart alias</translation>
+        <translation>&amp;エイリアスからスタート</translation>
     </message>
     <message>
         <source>Start &amp;all</source>
-        <translation>Start &amp;all</translation>
+        <translation>&amp;全てスタート</translation>
     </message>
     <message>
         <source>Start &amp;MISSING</source>
-        <translation>Start &amp;MISSING</translation>
+        <translation>&amp;MISSINGをスタート</translation>
     </message>
     <message>
         <source>&amp;Update status</source>
-        <translation>&amp;Update status</translation>
+        <translation>&amp;ステータスアップデート</translation>
     </message>
     <message>
         <source>Status will be updated automatically in (sec):</source>
-        <translation>Status will be updated automatically in (sec):</translation>
+        <translation>ステータスは自動的にアップデートされます。(秒):</translation>
     </message>
     <message>
         <source>0</source>
@@ -1347,39 +1413,39 @@ Address: %4
     </message>
     <message>
         <source>Start alias</source>
-        <translation>Start alias</translation>
+        <translation>エイリアスからスタート</translation>
     </message>
     <message>
         <source>Confirm masternode start</source>
-        <translation>Confirm masternode start</translation>
+        <translation>マスターノードの開始確認</translation>
     </message>
     <message>
         <source>Are you sure you want to start masternode %1?</source>
-        <translation>Are you sure you want to start masternode %1?</translation>
+        <translation>マスターノードを開始しますか %1?</translation>
     </message>
     <message>
         <source>Confirm all masternodes start</source>
-        <translation>Confirm all masternodes start</translation>
+        <translation>全マスターノードの開始確認</translation>
     </message>
     <message>
         <source>Are you sure you want to start ALL masternodes?</source>
-        <translation>Are you sure you want to start ALL masternodes?</translation>
+        <translation>全てのマスターノードを開始しますか？</translation>
     </message>
     <message>
         <source>Command is not available right now</source>
-        <translation>Command is not available right now</translation>
+        <translation>コマンドは現在使用できません。</translation>
     </message>
     <message>
-        <source>You can't use this command until masternode list is synced</source>
-        <translation>You can't use this command until masternode list is synced</translation>
+        <source>You can&apos;t use this command until masternode list is synced</source>
+        <translation>マスターノードリストの同期が完了するまでこのコマンドは使用できません。</translation>
     </message>
     <message>
         <source>Confirm missing masternodes start</source>
-        <translation>Confirm missing masternodes start</translation>
+        <translation>MISSING マスターノードの開始確認</translation>
     </message>
     <message>
         <source>Are you sure you want to start MISSING masternodes?</source>
-        <translation>Are you sure you want to start MISSING masternodes?</translation>
+        <translation>MISSINGマスターノードを開始しますか？</translation>
     </message>
 </context>
 <context>
@@ -1390,45 +1456,46 @@ Address: %4
     </message>
     <message>
         <source>Enter whole numbers 1 - 100</source>
-        <translation>Enter whole numbers 1 - 100</translation>
+        <translation>1 - 100 までの数字をどれか入力</translation>
     </message>
     <message>
         <source>Enter % to Give (1-100)</source>
-        <translation>Enter % to Give (1-100)</translation>
+        <translation> (1-100)% を入力</translation>
     </message>
     <message>
         <source>Enter Address to Send to</source>
-        <translation>Enter Address to Send to</translation>
+        <translation>送り先のアドレスを入力</translation>
     </message>
     <message>
         <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other CDI addresses after it matures.
 To Add: enter percentage to give and CDI address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other CDI addresses after it matures.
-To Add: enter percentage to give and CDI address to add to the MultiSend vector.
-To Delete: Enter address to delete and press delete.
-MultiSend will not be activated unless you have clicked Activate</translation>
+        <translation>MultiSendは最大100%までステーキング・マスターノード報酬を成熟後に他のアドレスへ自動で送金します。
+追加: 特定のアドレスへの送金設定を追加します。
+削除: 削除したい設定の送り先アドレスを記入し、設定から削除します。
+MultiSend は 有効化 ボタンを押さない限り有効になりません。
+</translation>
     </message>
     <message>
         <source>Add to MultiSend Vector</source>
-        <translation>Add to MultiSend Vector</translation>
+        <translation>MultiSend 設定に加える</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Add</translation>
+        <translation>追加</translation>
     </message>
     <message>
         <source>Deactivate MultiSend</source>
-        <translation>Deactivate MultiSend</translation>
+        <translation>MultiSend の無効化</translation>
     </message>
     <message>
         <source>Deactivate</source>
-        <translation>Deactivate</translation>
+        <translation>無効化</translation>
     </message>
     <message>
         <source>Choose an address from the address book</source>
-        <translation>Choose an address from the address book</translation>
+        <translation>アドレス帳からアドレスを選択してください</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1436,88 +1503,88 @@ MultiSend will not be activated unless you have clicked Activate</translation>
     </message>
     <message>
         <source>Percentage of stake to send</source>
-        <translation>Percentage of stake to send</translation>
+        <translation>ステークの何パーセントを送金</translation>
     </message>
     <message>
         <source>Percentage:</source>
-        <translation>Percentage:</translation>
+        <translation>パーセント:</translation>
     </message>
     <message>
         <source>Address to send portion of stake to</source>
-        <translation>Address to send portion of stake to</translation>
+        <translation>報酬の何パーセントを送金するか</translation>
     </message>
     <message>
         <source>Address:</source>
-        <translation>Address:</translation>
+        <translation>アドレス:</translation>
     </message>
     <message>
         <source>Delete Address From MultiSend Vector</source>
-        <translation>Delete Address From MultiSend Vector</translation>
+        <translation>MultiSend の設定からアドレスを削除</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Delete</translation>
+        <translation>削除</translation>
     </message>
     <message>
         <source>Activate MultiSend</source>
-        <translation>Activate MultiSend</translation>
+        <translation>MultiSend を有効化</translation>
     </message>
     <message>
         <source>Activate</source>
-        <translation>Activate</translation>
+        <translation>有効化</translation>
     </message>
     <message>
         <source>View MultiSend Vector</source>
-        <translation>View MultiSend Vector</translation>
+        <translation>MultiSend 設定を確認</translation>
     </message>
     <message>
         <source>View MultiSend</source>
-        <translation>View MultiSend</translation>
+        <translation>MultiSend を確認</translation>
     </message>
     <message>
         <source>Send For Stakes</source>
-        <translation>Send For Stakes</translation>
+        <translation>ステーキング報酬を送信</translation>
     </message>
     <message>
         <source>Send For Masternode Rewards</source>
-        <translation>Send For Masternode Rewards</translation>
+        <translation>マスターノード報酬を送信</translation>
     </message>
     <message>
         <source>The entered address:
 </source>
-        <translation>The entered address:
+        <translation>入力されたアドレス:
 </translation>
     </message>
     <message>
         <source> is invalid.
 Please check the address and try again.</source>
-        <translation> is invalid.
-Please check the address and try again.</translation>
+        <translation> は間違っています。
+アドレスを確認しもう一度お願いします。</translation>
     </message>
     <message>
         <source>The total amount of your MultiSend vector is over 100% of your stake reward
 </source>
-        <translation>The total amount of your MultiSend vector is over 100% of your stake reward
+        <translation>MultiSendの設定が合計で100%を超えています。
 </translation>
     </message>
     <message>
         <source>Please Enter 1 - 100 for percent.</source>
-        <translation>Please Enter 1 - 100 for percent.</translation>
+        <translation>1 - 100 までで入力してください</translation>
     </message>
     <message>
         <source>MultiSend Vector
 </source>
-        <translation>MultiSend Vector
+        <translation>MultiSend ベクトル
 </translation>
     </message>
     <message>
         <source>Removed </source>
-        <translation>Removed </translation>
+        <translation>除外</translation>
     </message>
     <message>
         <source>Could not locate address
 </source>
-        <translation>Could not locate address
+        <translation>アドレスを指定できませんでした
 </translation>
     </message>
 </context>
@@ -1576,27 +1643,27 @@ Please check the address and try again.</translation>
         <translation>Obfuscation Configuration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening CDI's configuration screen.</source>
-        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening CDI's configuration screen.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</source>
+        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening CDI's configuration screen.</source>
-        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening CDI's configuration screen.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</source>
+        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening CDI's configuration screen.</source>
-        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening CDI's configuration screen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</source>
+        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Open URI</translation>
+        <translation>URIを開く</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Open payment request from URI or file</translation>
+        <translation>支払いリクエストをURIかファイルから開く</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1604,26 +1671,26 @@ Please check the address and try again.</translation>
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Select payment request file</translation>
+        <translation>支払いリクエストファイルを選択</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Select payment request file to open</translation>
+        <translation>開きたい支払いリクエストファイルを選んでください</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>オプション</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Main</translation>
+        <translation>&amp;メイン</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Size of &amp;database cache</translation>
+        <translation>データベースキャッシュの&amp;サイズ</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1631,47 +1698,47 @@ Please check the address and try again.</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Number of script &amp;verification threads</translation>
+        <translation>スクリプトの&amp;承認に使うスレッド数</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt;0 = leave that many cores free)</translation>
+        <translation>(0 = auto, &lt;0 = 必要なだけ利用)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>W&amp;allet</translation>
+        <translation>&amp;ウォレット</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</translation>
+        <translation>未確認のお釣りの利用を無効にした場合、&lt;br/&gt;1確認されるまでお釣りを使用できません。&lt;br/&gt;</translation>
     </message>
     <message>
         <source>Automatically open the CDI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the CDI client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <translation>CDI クライアントの利用するポートを自動で開きます。ルーターがUPnPに対応していて、有効な場合のみ動作します。</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Accept connections from outside</translation>
+        <translation>外部からの接続を許可</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Allow incoming connections</translation>
+        <translation>ネットワークからの接続を許可します</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Connect through SOCKS5 proxy (default proxy):</translation>
+        <translation>&amp;SOCKS5 プロキシを通して接続する(デフォルトプロキシ):</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Expert</translation>
+        <translation>経験者向け</translation>
     </message>
     <message>
         <source>Automatically start CDI after logging in to the system.</source>
-        <translation>Automatically start CDI after logging in to the system.</translation>
+        <translation>ログイン後、cdi-qtが自動的に起動します。</translation>
     </message>
     <message>
         <source>&amp;Start CDI on system login</source>
-        <translation>&amp;Start CDI on system login</translation>
+        <translation>&amp;ログイン時にCDI-qtを起動する</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1682,8 +1749,8 @@ Please check the address and try again.</translation>
         <translation>Obfuscation rounds to use</translation>
     </message>
     <message>
-        <source>This amount acts as a threshold to turn off Obfuscation once it's reached.</source>
-        <translation>This amount acts as a threshold to turn off Obfuscation once it's reached.</translation>
+        <source>This amount acts as a threshold to turn off Obfuscation once it&apos;s reached.</source>
+        <translation>This amount acts as a threshold to turn off Obfuscation once it&apos;s reached.</translation>
     </message>
     <message>
         <source>Amount of CDI to keep anonymized</source>
@@ -1691,161 +1758,181 @@ Please check the address and try again.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Whether to show coin control features or not.</translation>
+        <translation>コインコントロール機能を有効するか選択できます。</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Enable coin &amp;control features</translation>
+        <translation>コインコントロール &amp;機能を有効化</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</translation>
+        <translation>自身の保有するマスターノードを表示するタブを表示します</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
-        <translation>Show Masternodes Tab</translation>
+        <translation>マスターノードタブの表示</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Spend unconfirmed change</translation>
+        <translation>&amp;未確認のお釣りの利用</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Network</translation>
+        <translation>&amp;ネットワーク</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting CDI.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting CDI.</translation>
+        <translation>ユーザーインターフェースの言語設定を変更できます。変更はウォレットの次の起動から有効になります。</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/cdi-project/cdi-project-translations</source>
-        <translation>Language missing or translation incomplete? Help contributing translations here:
+        <translation>不完全なところがございましたか？ぜひこちらよりご協力ください。:
 https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Map port using &amp;UPnP</translation>
+        <translation>UPnP&amp;を用いたポートマッピング</translation>
     </message>
     <message>
         <source>Connect to the CDI network through a SOCKS5 proxy.</source>
-        <translation>Connect to the CDI network through a SOCKS5 proxy.</translation>
+        <translation>SOCKS5 プロキシを通してCDIネットワークへ接続</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP:</translation>
+        <translation>プロキシ&amp;IP:</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>プロキシのIPアドレス(例 IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Port:</translation>
+        <translation>&amp;ポート:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port of the proxy (e.g. 9050)</translation>
+        <translation>プロキシのポート (例 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Window</translation>
+        <translation>&amp;ウィンドウ</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Show only a tray icon after minimizing the window.</translation>
+        <translation>ウィンドウを最小化したらトレーで表示します。</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimize to the tray instead of the taskbar</translation>
+        <translation>&amp;タスクバーに最小化せずトレーに移動</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</translation>
+        <translation>ウィンドウを閉じたらアプリを終了せずに最小化します。このオプションを有効にした場合、メニューから終了を選択した場合のみ終了します。</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimize on close</translation>
+        <translation>&amp;閉じた時に最小化</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Display</translation>
+        <translation>&amp;表示</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>User Interface &amp;language:</translation>
+        <translation>インターフェース &amp;の言語:</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>User Interface Theme:</translation>
+        <translation>UIのテーマ:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unit to show amounts in:</translation>
+        <translation>&amp;利用する単位:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Choose the default subdivision unit to show in the interface and when sending coins.</translation>
+        <translation>表示される単位を変更できます。</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>Decimal digits</translation>
+        <translation>小数点以下の表示数</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</translation>
+        <translation>サードパーティのURL (ブロックエクスプローラなど) を入力できます。 %s はトランザクションハッシュになります。トランザクションタブで連携を確認でき、複数URLは | で分割してください。</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>Third party transaction URLs</translation>
+        <translation>サードパーティのトランザクションURL</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Active command-line options that override above options:</translation>
+        <translation>現在適用されているコマンドラインオプション:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Reset all client options to default.</translation>
+        <translation>全てのオプションをリセット</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Reset Options</translation>
+        <translation>&amp;オプションリセット</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;はい</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Cancel</translation>
+        <translation>&amp;キャンセル</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>default</translation>
+        <translation>デフォルト</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>none</translation>
+        <translation>なし</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Confirm options reset</translation>
+        <translation>オプションリセットの確認</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Client restart required to activate changes.</translation>
+        <translation>変更の適用にはクライアントの再起動が必要です。</translation>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
-        <translation>Client will be shutdown, do you want to proceed?</translation>
+        <translation>クライアントは終了されます。続行してよろしいですか？</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>This change would require a client restart.</translation>
+        <translation>この変更はクライアントの再起動が必要です。</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>The supplied proxy address is invalid.</translation>
+        <translation>入力されたプロキシアドレスは正しくありません。</translation>
+    </message>
+    <message>
+        <source>Percentage of incoming CDI which get automatically converted to zCDI via Zerocoin Protocol (min: 10%)</source>
+        <translation>受け取られるCDIをzCDI(ゼロコインプロトコル)へ変換する比率(最小: 10%)</translation>
+    </message>
+    <message>
+        <source>Percentage of autominted zCDI</source>
+        <translation>zCDIの自動変換の比率</translation>
+    </message>
+    <message>
+        <source>Wait with automatic conversion to Zerocoin until enough CDI for this denomination is available</source>
+        <translation>選択したdenominationへ変換できるまでCDIの自動変換を中断する</translation>
+    </message>
+    <message>
+        <source>Preferred Automint zCDI Denomination</source>
+        <translation>自動変換するzCDIのdenomination</translation>
+    </message>
+    <message>
+        <source>I don&apos;t care</source>
+        <translation>十分理解した</translation>
     </message>
 </context>
 <context>
@@ -1856,71 +1943,71 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Available:</translation>
+        <translation>利用可能:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Your current spendable balance</translation>
+        <translation>あなたの現在利用可能な残高です</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Pending:</translation>
+        <translation>確認中:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</translation>
+        <translation>確認中・未確認のトランザクションの合計で、利用可能になっていない</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Immature:</translation>
+        <translation>未成熟:</translation>
     </message>
     <message>
         <source>Staked or masternode rewards that has not yet matured</source>
-        <translation>Staked or masternode rewards that has not yet matured</translation>
+        <translation>まだ未成熟なステーキング・マスターノード報酬</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Balances</translation>
+        <translation>残高</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CDI network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the CDI network after a connection is established, but this process has not completed yet.</translation>
+        <translation>表示されている情報は最新ではありません。ネットワークへ接続され次第ウォレットは同期されますが、まだ未完了です。</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Unconfirmed transactions to watch-only addresses</translation>
+        <translation>watch-onlyアドレスへの未確認のトランザクション</translation>
     </message>
     <message>
         <source>Staked or masternode rewards in watch-only addresses that has not yet matured</source>
-        <translation>Staked or masternode rewards in watch-only addresses that has not yet matured</translation>
+        <translation>watch-onlyアドレスへの未成熟なステーキング・マスターノード報酬</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Total:</translation>
+        <translation>合計:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Your current total balance</translation>
+        <translation>あなたの合計の残高</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Current total balance in watch-only addresses</translation>
+        <translation>watch-only アドレスの合計残高</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Watch-only:</translation>
+        <translation>チェックのみ:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Your current balance in watch-only addresses</translation>
+        <translation>watch-onlyアドレスの現在の残高</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Spendable:</translation>
+        <translation>利用可能:</translation>
     </message>
     <message>
         <source>Status:</source>
-        <translation>Status:</translation>
+        <translation>ステータス:</translation>
     </message>
     <message>
         <source>Obfuscation Balance:</source>
@@ -1932,15 +2019,15 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
-        <translation>Enabled/Disabled</translation>
+        <translation>有効/無効</translation>
     </message>
     <message>
         <source>Try to manually submit a Obfuscation request.</source>
         <translation>Try to manually submit a Obfuscation request.</translation>
     </message>
     <message>
-        <source>Reset the current status of Obfuscation (can interrupt Obfuscation if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Reset the current status of Obfuscation (can interrupt Obfuscation if it's in the process of Mixing, which can cost you money!)</translation>
+        <source>Reset the current status of Obfuscation (can interrupt Obfuscation if it&apos;s in the process of Mixing, which can cost you money!)</source>
+        <translation>Reset the current status of Obfuscation (can interrupt Obfuscation if it&apos;s in the process of Mixing, which can cost you money!)</translation>
     </message>
     <message>
         <source>Obfuscation</source>
@@ -1992,7 +2079,7 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation>Disabled</translation>
+        <translation>無効</translation>
     </message>
     <message>
         <source>No inputs detected</source>
@@ -2000,11 +2087,13 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message numerus="yes">
         <source>%n Rounds</source>
-        <translation><numerusform>%n Round</numerusform><numerusform>%n Rounds</numerusform></translation>
+        <translation>
+            <numerusform>%n Round</numerusform>
+        </translation>
     </message>
     <message>
-        <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</translation>
+        <source>Not enough compatible inputs to anonymize &lt;span style=&apos;color:red;&apos;&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style=&apos;color:red;&apos;&gt;%2&lt;/span&gt; instead</source>
+        <translation>Not enough compatible inputs to anonymize &lt;span style=&apos;color:red;&apos;&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style=&apos;color:red;&apos;&gt;%2&lt;/span&gt; instead</translation>
     </message>
     <message>
         <source>Overall progress</source>
@@ -2020,7 +2109,9 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message numerus="yes">
         <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation><numerusform>Denominated inputs have %5 of %n rounds on average</numerusform><numerusform>Denominated inputs have %5 of %n rounds on average</numerusform></translation>
+        <translation>
+            <numerusform>Denominated inputs have %5 of %n rounds on average</numerusform>
+        </translation>
     </message>
     <message>
         <source>Last Obfuscation message:
@@ -2033,8 +2124,8 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
         <translation>Obfuscation was successfully reset.</translation>
     </message>
     <message>
-        <source>If you don't want to see internal Obfuscation fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>If you don't want to see internal Obfuscation fees/transactions select "Most Common" as Type on the "Transactions" tab.</translation>
+        <source>If you don&apos;t want to see internal Obfuscation fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</source>
+        <translation>If you don&apos;t want to see internal Obfuscation fees/transactions select &quot;Most Common&quot; as Type on the &quot;Transactions&quot; tab.</translation>
     </message>
     <message>
         <source>Obfuscation requires at least %1 to use.</source>
@@ -2062,62 +2153,165 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation>Enabled</translation>
+        <translation>有効</translation>
     </message>
     <message>
         <source>N/A</source>
         <translation>N/A</translation>
+    </message>
+    <message>
+        <source>CDI Balances</source>
+        <translation>CDIの残高</translation>
+    </message>
+    <message>
+        <source>Combined Balances (including unconfirmed and immature coins)</source>
+        <translation>合計の残高(未確認・未成熟を含む)</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Combined Balances&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;合計の残高&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>Total Balance, including unconfirmed and immature coins.</source>
+        <translation>未確認・未成熟を含んだ全残高。</translation>
+    </message>
+    <message>
+        <source>CDI:</source>
+        <translation>CDI:</translation>
+    </message>
+    <message>
+        <source>zCDI:</source>
+        <translation>zCDI:</translation>
+    </message>
+    <message>
+        <source>Current percentage of zCDI.
+If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</source>
+        <translation>現在のzCDIの総所持数への比率。自動変換を有効にしている場合、その比率前後になっています。(デフォルト=10%)</translation>
+    </message>
+    <message>
+        <source>0 %</source>
+        <translation>0 %</translation>
+    </message>
+    <message>
+        <source>Locked CDI or Masternode collaterals. These are excluded from zCDI minting.</source>
+        <translation>ロックされたCDI・マスターノードの担保。zCDIの変換対象から除外されます。</translation>
+    </message>
+    <message>
+        <source>0.000 000 00 CDI</source>
+        <translation>0 CDI {0.000 000 00 ?}</translation>
+    </message>
+    <message>
+        <source>Locked:</source>
+        <translation>ロック済:</translation>
+    </message>
+    <message>
+        <source>Unlocked CDIs. These can be used for zCDI minting.</source>
+        <translation>未ロックのCDI。zCDIへの変換に利用可能です。</translation>
+    </message>
+    <message>
+        <source>Unlocked:</source>
+        <translation>未ロック:</translation>
+    </message>
+    <message>
+        <source>Zerocoin Balance</source>
+        <translation>ゼロコイン残高</translation>
+    </message>
+    <message>
+        <source>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
+These zCDI are spendable.</source>
+        <translation>成熟: 20確認と同じdenominationでの3変換が必要です。
+その後zCDIは使用可能になります。</translation>
+    </message>
+    <message>
+        <source>Mature:</source>
+        <translation>成熟:</translation>
+    </message>
+    <message>
+        <source>All available zCDI, unconfirmed and immature zCDI included.</source>
+        <translation>全zCDIの合計。未確認・未成熟のzCDIを含みます。</translation>
+    </message>
+    <message>
+        <source>Unconfirmed: less than 20 confirmations
+Immature: confirmed, but less than 3 mints of the same denomination after it was minted</source>
+        <translation>未確認: 20確認されていません
+未成熟: 20確認されましたが、同じdenominationで3回他の変換がありません</translation>
+    </message>
+    <message>
+        <source>Unconfirmed:</source>
+        <translation>未確認:</translation>
+    </message>
+    <message>
+        <source>Current percentage of zCDI.
+If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
+</source>
+        <translation>現在の所持数とzCDIの比率です。
+自動変換が有効であれば指定された比率程度になります (デフォルト = 10%)。
+</translation>
+    </message>
+    <message>
+        <source>AutoMint is currently enabled and set to </source>
+        <translation>自動変換は有効です </translation>
+    </message>
+    <message>
+        <source>To disable AutoMint delete set &apos;enablezeromint=1&apos; to &apos;enablezeromint=0&apos; in cdi.conf.</source>
+        <translation>自動変換を無効化するには、cdi.conf の中の &apos;enablezeromint=1&apos; を &apos;enablezeromint=0&apos; へ変えてください。</translation>
+    </message>
+    <message>
+        <source>AutoMint is currently disabled.
+To enable AutoMint add &apos;enablezeromint=1&apos; in cdi.conf</source>
+        <translation>自動変換は現在無効です。
+自動変換を有効化して、cdi.conf の中の &apos;enablezeromint=1&apos; を追記してください</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Payment request error</translation>
+        <translation>支払いリクエストエラー</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>URI handling</translation>
+        <translation>URI 編集</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Payment request fetch URL is invalid: %1</translation>
+        <translation>URLによる支払いリクエストは失敗しました: %1</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Payment request file handling</translation>
+        <translation>支払いリクエストファイルの編集</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Invalid payment address %1</translation>
+        <translation>支払いアドレスが間違えています。 %1</translation>
     </message>
     <message>
         <source>Cannot start cdi: click-to-pay handler</source>
-        <translation>Cannot start cdi: click-to-pay handler</translation>
+        <translation>cdi: クリックトゥペイに失敗</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid CDI address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid CDI address or malformed URI parameters.</translation>
+        <translation>URIの解析に失敗しました。CDIのアドレスが間違っているか、URIのパラメタに不備があります。</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Payment request file cannot be read! This can be caused by an invalid payment request file.</translation>
+        <translation>支払いリクエストを読み込めません。 リクエストファイルに不備があるようです。</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Payment request rejected</translation>
+        <translation>支払いリクエストは拒否されました。</translation>
     </message>
     <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>Payment request network doesn't match client network.</translation>
+        <source>Payment request network doesn&apos;t match client network.</source>
+        <translation>支払いリクエストネットワークがクライアントと合致しません。</translation>
     </message>
     <message>
         <source>Payment request has expired.</source>
-        <translation>Payment request has expired.</translation>
+        <translation>支払いリクエストは有効期限切れです。</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Payment request is not initialized.</translation>
+        <translation>支払いリクエストが初期化されていません。</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
@@ -2125,27 +2319,27 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Requested payment amount of %1 is too small (considered dust).</translation>
+        <translation>%1 の支払いリクエストは小さすぎます。</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Refund from %1</translation>
+        <translation>%1 からの返金</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</translation>
+        <translation>%1 の支払いリクエストは大きすぎます。(%2 バイト。 %3 バイトまで可).</translation>
     </message>
     <message>
         <source>Payment request DoS protection</source>
-        <translation>Payment request DoS protection</translation>
+        <translation>支払いリクエストのDoSプロテクション</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Error communicating with %1: %2</translation>
+        <translation>%1 への接続に失敗: %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Payment request cannot be parsed!</translation>
+        <translation>支払いリクエストを解析できません</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
@@ -2153,37 +2347,37 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Network request error</translation>
+        <translation>ネットワークのリクエストエラー</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Payment acknowledged</translation>
+        <translation>承認された支払い</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>Address/Hostname</source>
-        <translation>Address/Hostname</translation>
+        <translation>アドレス/ホストネーム</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Version</translation>
+        <translation>ウォレットバージョン</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Ping Time</translation>
+        <translation>ピング時間</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Amount</translation>
+        <translation>枚数</translation>
     </message>
     <message>
         <source>Enter a CDI address (e.g. %1)</source>
-        <translation>Enter a CDI address (e.g. %1)</translation>
+        <translation>CDIアドレスを入力してください。 (例: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2203,15 +2397,15 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>NETWORK</source>
-        <translation>NETWORK</translation>
+        <translation>ネットワーク</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>UNKNOWN</translation>
+        <translation>不明</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>None</translation>
+        <translation>なし</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -2221,47 +2415,75 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
         <source>%1 ms</source>
         <translation>%1 ms</translation>
     </message>
+    <message>
+        <source>BLOOM</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>CDI Core</source>
+        <translation>CDI コア</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation>エラー: データフォルダ &quot;%1&quot;は存在しません。</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>エラー: 設定ファイル %1 の解析ができません。 key=value のような形で入力してください。</translation>
+    </message>
+    <message>
+        <source>Error: Invalid combination of -regtest and -testnet.</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Error reading masternode configuration file: %1</source>
+        <translation>マスターノード設定ファイル(masternode.conf)の読み込みでエラーが発生しました %1</translation>
+    </message>
+    <message>
+        <source>CDI Core didn&apos;t yet exit safely...</source>
+        <translation>CDI コアは正常に停止していません...</translation>
+    </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Save Image...</translation>
+        <translation>&amp;画像の保存...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Copy Image</translation>
+        <translation>&amp;画像のコピー</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Save QR Code</translation>
+        <translation>QRコードの保存</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>PNG Image (*.png)</translation>
+        <translation>PNG イメージ(*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Tools window</source>
-        <translation>Tools window</translation>
+        <translation>ツールウィンドウ</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Information</translation>
+        <translation>&amp;情報</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>General</translation>
+        <translation>一般</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Name</translation>
+        <translation>名称</translation>
     </message>
     <message>
         <source>Client name</source>
-        <translation>Client name</translation>
+        <translation>クライアント名</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -2269,211 +2491,211 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Number of connections</translation>
+        <translation>接続数</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Open</translation>
+        <translation>&amp;開く</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Startup time</translation>
+        <translation>起動時間</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Network</translation>
+        <translation>ネットワーク</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Last block time</translation>
+        <translation>最新のブロックの時間</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Debug log file</translation>
+        <translation>デバッグログ</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
-        <translation>Using OpenSSL version</translation>
+        <translation>OpenSSLのバージョン</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation>Build date</translation>
+        <translation>ビルド日時</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Current number of blocks</translation>
+        <translation>現在のブロック数</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Client version</translation>
+        <translation>クライアントバージョン</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Using BerkeleyDB version</translation>
+        <translation>BerkeleyDBのバージョン</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Block chain</translation>
+        <translation>ブロックチェーン</translation>
     </message>
     <message>
         <source>Open the CDI debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the CDI debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <translation>データフォルダからCDIのデバッグログを開きます(時間がかかることがあります)。</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Number of Masternodes</translation>
+        <translation>マスターノードの数</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Console</translation>
+        <translation>&amp;コンソール</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Clear console</translation>
+        <translation>出力結果のクリア</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Network Traffic</translation>
+        <translation>&amp;トラフィック</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Clear</translation>
+        <translation>&amp;クリア</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Totals</translation>
+        <translation>合計</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Received</translation>
+        <translation>受信</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Sent</translation>
+        <translation>送信</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Peers</translation>
+        <translation>&amp;ピア</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Select a peer to view detailed information.</translation>
+        <translation>ピアを選択して詳細を確認できます。</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>Direction</translation>
+        <translation>送受信方向</translation>
     </message>
     <message>
         <source>Protocol</source>
-        <translation>Protocol</translation>
+        <translation>プロトコル</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Version</translation>
+        <translation>バージョン</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Services</translation>
+        <translation>サービス</translation>
     </message>
     <message>
         <source>Starting Height</source>
-        <translation>Starting Height</translation>
+        <translation>同期開始時のブロック数</translation>
     </message>
     <message>
         <source>Sync Height</source>
-        <translation>Sync Height</translation>
+        <translation>同期しているブロック数</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Ban Score</translation>
+        <translation>バンスコア</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Connection Time</translation>
+        <translation>接続継続時間</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Last Send</translation>
+        <translation>最新の送信</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Last Receive</translation>
+        <translation>最新の受信</translation>
     </message>
     <message>
         <source>Bytes Sent</source>
-        <translation>Bytes Sent</translation>
+        <translation>送信したバイト数</translation>
     </message>
     <message>
         <source>Bytes Received</source>
-        <translation>Bytes Received</translation>
+        <translation>受信したバイト数</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Ping Time</translation>
+        <translation>ピング時間</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>&amp;Wallet Repair</translation>
+        <translation>&amp;ウォレット修復</translation>
     </message>
     <message>
         <source>Wallet In Use:</source>
-        <translation>Wallet In Use:</translation>
+        <translation>利用中のウォレットの場所:</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Salvage wallet</translation>
+        <translation>ウォレットの復旧</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>Attempt to recover private keys from a corrupt wallet.dat.</translation>
+        <translation>破損したwallet.datのプライベートキーを復元できるか試します。</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>Rescan blockchain files</translation>
+        <translation>ブロックチェーンの再スキャン</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions.</source>
-        <translation>Rescan the block chain for missing wallet transactions.</translation>
+        <translation>ブロックチェーンを再スキャンし表示されていないトランザクションを回復します。</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>Recover transactions 1</translation>
+        <translation>トランザクションの復元 1</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>Recover transactions from blockchain (keep meta-data, e.g. account owner).</translation>
+        <translation>ブロックチェーンからトランザクションを復元します (meta-dataを保ったまま)。</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>Recover transactions 2</translation>
+        <translation>トランザクションの復元 2</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (drop meta-data).</source>
-        <translation>Recover transactions from blockchain (drop meta-data).</translation>
+        <translation>ブロックチェーンからトランザクションを復元します (meta-dataは再ダウンロード)。</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>Upgrade wallet format</translation>
+        <translation>ウォレットデータの形式をアップグレード</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>Rebuild block chain index from current blk000??.dat files.</translation>
+        <translation>現在のblk000~.datからブロックチェーンの整理をします。</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</translation>
+        <translation>下のボタンを押すと横に記載されているコマンドラインオプションを追加してウォレットを起動します。ブロックチェーンデータの破損・トランザクションの抜けを修復します。</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>Wallet repair options.</translation>
+        <translation>ウォレットの修復オプション</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</translation>
+        <translation>wallet.datの形式を更新します。 (注意:クライアントの更新ではありません)</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>Rebuild index</translation>
+        <translation>ブロックチェーンの整理</translation>
     </message>
     <message>
         <source>In:</source>
@@ -2485,15 +2707,15 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Welcome to the CDI RPC console.</source>
-        <translation>Welcome to the CDI RPC console.</translation>
+        <translation>CDI RPC コンソールへようこそ！</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</translation>
+        <translation>上下キーで履歴を確認できます。また&lt;b&gt;Ctrl-L&lt;/b&gt;で履歴を削除できます。</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</translation>
+        <translation>&lt;b&gt;help&lt;/b&gt; と入力することで可能なコマンドを確認できます。</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2521,133 +2743,165 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>Inbound</translation>
+        <translation>内向き</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Outbound</translation>
+        <translation>外向き</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Unknown</translation>
+        <translation>不明</translation>
     </message>
     <message>
         <source>Fetching...</source>
         <translation>Fetching...</translation>
+    </message>
+    <message>
+        <source>Delete local Blockchain Folders</source>
+        <translation>ブロックチェーンデータを削除</translation>
+    </message>
+    <message>
+        <source>-resync:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Deletes all local blockchain folders so the wallet synchronizes from scratch.</source>
+        <translation>全ブロックチェーンデータを削除し、再同期します。</translation>
+    </message>
+    <message>
+        <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>ブロックチェーンデータを削除し、再度ブロックチェーンデータを同期します。&lt;br /&gt;&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>This needs quite some time and downloads a lot of data.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>ある程度の量のデータをダウンロードするので時間がかかります。&lt;br /&gt;&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>Your transactions and funds will be visible again after the download has completed.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>あなたのトランザクションと資金はダウンロード完了後に再度確認できるようになります。&lt;br /&gt;&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>Do you want to continue?.&lt;br /&gt;</source>
+        <translation>続行しますか？&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>Confirm resync Blockchain</source>
+        <translation>ブロックチェーンの再同期確認</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</translation>
+        <translation>既にあるアドレスを用いて受け取りをします。&lt;br&gt;セキュリティ・匿名性の問題がありますので、再利用は既存の支払いリクエストのみにしてください。</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>R&amp;euse an existing receiving address (not recommended)</translation>
+        <translation>&amp;既存の受け取りアドレスを再利用する (非推奨)</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Message:</translation>
+        <translation>&amp;メッセージ:</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>An optional label to associate with the new receiving address.</translation>
+        <translation>新しい受け取りアドレスに紐づく追加のラベル</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the CDI network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the CDI network.</translation>
+        <translation>支払いリクエストに紐づくメッセージで、リクエストを開いた際に表示されます。 注:支払い時に表示されるメッセージではありません。</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the CDI network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the CDI network.</translation>
+        <translation>支払いリクエストに紐づくメッセージで、リクエストを開いた際に表示されます。 &lt;br&gt;注:支払い時に表示されるメッセージではありません。</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</translation>
+        <translation>支払いのリクエストのためにこのフォームを使用してください。全ての入力欄は&lt;b&gt;オプション&lt;/b&gt;です。</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>&amp;ラベル:</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>An optional amount to request. Leave this empty or zero to not request a specific amount.</translation>
+        <translation>リクエストしたい枚数です。0でも、特定の枚数でもかまいません。</translation>
     </message>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Amount:</translation>
+        <translation>&amp;枚数:</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Request payment</translation>
+        <translation>&amp;支払いのリクエスト</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Clear all fields of the form.</translation>
+        <translation>フォームに入力されたすべてをクリアします。</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Clear</translation>
+        <translation>クリア</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Requested payments history</translation>
+        <translation>支払いリクエスト履歴</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Show the selected request (does the same as double clicking an entry)</translation>
+        <translation>選択したリクエストの詳細を表示</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Show</translation>
+        <translation>表示</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Remove the selected entries from the list</translation>
+        <translation>選択したリクエストをリストから削除</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Remove</translation>
+        <translation>削除</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copy label</translation>
+        <translation>ラベルのコピー</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Copy message</translation>
+        <translation>メッセージのコピー</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copy amount</translation>
+        <translation>枚数のコピー</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR Code</translation>
+        <translation>QRコード</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>Copy &amp;URI</translation>
+        <translation>URIのコピー</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Copy &amp;Address</translation>
+        <translation>アドレスのコピー</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Save Image...</translation>
+        <translation>イメージの保存</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Request payment to %1</translation>
+        <translation>%1 へ支払いのリクエストを送る</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Payment information</translation>
+        <translation>支払い情報</translation>
     </message>
     <message>
         <source>URI</source>
@@ -2655,105 +2909,105 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Address</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Amount</translation>
+        <translation>枚数</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>ラベル</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Message</translation>
+        <translation>メッセージ</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resulting URI too long, try to reduce the text for label / message.</translation>
+        <translation>URIが長すぎます。ラベル/メッセージを短くしてください。</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Error encoding URI into QR Code.</translation>
+        <translation>URIをQRに変換エラー</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation>日付</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>ラベル</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Message</translation>
+        <translation>メッセージ</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Amount</translation>
+        <translation>枚数</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(no label)</translation>
+        <translation>(ラベルなし)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(no message)</translation>
+        <translation>(メッセージなし)</translation>
     </message>
     <message>
         <source>(no amount)</source>
-        <translation>(no amount)</translation>
+        <translation>(枚数なし)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Send Coins</translation>
+        <translation>コインの送金</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Coin Control Features</translation>
+        <translation>コインコントロール</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Inputs...</translation>
+        <translation>インプット</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>automatically selected</translation>
+        <translation>自動選択</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Insufficient funds!</translation>
+        <translation>残高が不足しています</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Quantity:</translation>
+        <translation>個数:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bytes:</translation>
+        <translation>バイト数:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Amount:</translation>
+        <translation>枚数:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Priority:</translation>
+        <translation>優先度:</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>medium</translation>
+        <translation>中</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Fee:</translation>
+        <translation>手数料:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -2761,35 +3015,35 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>no</translation>
+        <translation>なし</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>After Fee:</translation>
+        <translation>手数料差し引き後:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Change:</translation>
+        <translation>お釣り:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</translation>
+        <translation>有効化されていて、お釣りのアドレスが空欄か間違っていた場合、新しいアドレスを生成してお釣りを送金します。</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Custom change address</translation>
+        <translation>お釣りアドレスを指定</translation>
     </message>
     <message>
         <source>Split UTXO</source>
-        <translation>Split UTXO</translation>
+        <translation>UTXOで分割</translation>
     </message>
     <message>
         <source># of outputs</source>
-        <translation># of outputs</translation>
+        <translation>分割数</translation>
     </message>
     <message>
         <source>UTXO Size:</source>
-        <translation>UTXO Size:</translation>
+        <translation>分割ごと枚数:</translation>
     </message>
     <message>
         <source>0 CDI</source>
@@ -2797,19 +3051,19 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Transaction Fee:</translation>
+        <translation>トランザクション手数料:</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Choose...</translation>
+        <translation>選択...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>collapse fee-settings</translation>
+        <translation>手数料設定が間違っています。</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Minimize</translation>
+        <translation>最小化</translation>
     </message>
     <message>
         <source>Obfuscation</source>
@@ -2817,35 +3071,35 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>per kilobyte</translation>
+        <translation>KBごと</translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>total at least</translation>
+        <translation>全体で最小化</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(read the tooltip)</translation>
+        <translation>(ツールチップを確認)</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Custom:</translation>
+        <translation>カスタム:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Smart fee not initialized yet. This usually takes a few blocks...)</translation>
+        <translation>(スマート手数料は初期化されていません。数ブロック程かかります。)</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
-        <translation>Confirmation time:</translation>
+        <translation>確認時間:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCDIs in fee,&lt;br /&gt;while "at least" pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCDIs in fee,&lt;br /&gt;while "at least" pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCDIs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCDIs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCDIs in fee,&lt;br /&gt;while "total at least" pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCDIs in fee,&lt;br /&gt;while "total at least" pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCDIs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCDIs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for CDI transactions than the network can process.</source>
@@ -2853,47 +3107,47 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>normal</translation>
+        <translation>通常</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>fast</translation>
+        <translation>高速</translation>
     </message>
     <message>
         <source>Recommended</source>
-        <translation>Recommended</translation>
+        <translation>推奨</translation>
     </message>
     <message>
         <source>Send as zero-fee transaction if possible</source>
-        <translation>Send as zero-fee transaction if possible</translation>
+        <translation>可能であれば手数料0で送金する</translation>
     </message>
     <message>
         <source>(confirmation may take longer)</source>
-        <translation>(confirmation may take longer)</translation>
+        <translation>(確認に時間がかかるかもしれません)</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Confirm the send action</translation>
+        <translation>送金処理の確認</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>S&amp;end</translation>
+        <translation>&amp;送金</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Clear all fields of the form.</translation>
+        <translation>フォームをすべてクリア</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Clear &amp;All</translation>
+        <translation>全て&amp;クリア</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Send to multiple recipients at once</translation>
+        <translation>一度に複数人へ送金</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Add &amp;Recipient</translation>
+        <translation>送金相手を&amp;追加</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -2901,47 +3155,47 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Balance:</translation>
+        <translation>残高:</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Copy quantity</translation>
+        <translation>個数のコピー</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copy amount</translation>
+        <translation>枚数のコピー</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Copy fee</translation>
+        <translation>手数料のコピー</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Copy after fee</translation>
+        <translation>手数料差し引き後をコピー</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Copy bytes</translation>
+        <translation>バイト数をコピー</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Copy priority</translation>
+        <translation>優先度をコピー</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Copy dust</translation>
+        <translation>dustをコピー</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Copy change</translation>
+        <translation>お釣りをコピー</translation>
     </message>
     <message>
         <source>The split block tool does not work when sending to outside addresses. Try again.</source>
-        <translation>The split block tool does not work when sending to outside addresses. Try again.</translation>
+        <translation>外部アドレスへ送金する際は分割は動作しません。もう一度お試しください。</translation>
     </message>
     <message>
         <source>The split block tool does not work with multiple addresses. Try again.</source>
-        <translation>The split block tool does not work with multiple addresses. Try again.</translation>
+        <translation>複数のアドレスへ送金する際は分割は動作しません。もう一度お試しください。</translation>
     </message>
     <message>
         <source>using</source>
@@ -2949,15 +3203,15 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>anonymous funds</source>
-        <translation>anonymous funds</translation>
+        <translation>匿名化資産</translation>
     </message>
     <message>
         <source>Warning: Invalid CDI address</source>
-        <translation>Warning: Invalid CDI address</translation>
+        <translation>警告: CDIアドレスが正しくありません。</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
-        <translation>any available funds (not recommended)</translation>
+        <translation>全ての可能な資産 (非推奨)</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2965,35 +3219,37 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 to %2</translation>
+        <translation>%1 から %2</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Are you sure you want to send?</translation>
+        <translation>送金してよろしいですか？</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>are added as transaction fee</translation>
+        <translation>トランザクション手数料として追加されます</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
+        <translation>合計枚数 = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Confirm send coins</translation>
+        <translation>送金確認</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
-        <translation>A fee %1 times higher than %2 per kB is considered an insanely high fee.</translation>
+        <translation> %2 per kB に対し %1 倍高い手数料は異常です。</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Estimated to begin confirmation within %n block.</numerusform><numerusform>Estimated to begin confirmation within %n blocks.</numerusform></translation>
+        <translation>
+            <numerusform>%n ブロック以内に確認が開始されます。</numerusform>
+        </translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>The recipient address is not valid, please recheck.</translation>
+        <translation>受け取りアドレスが間違っています。ご確認ください。</translation>
     </message>
     <message>
         <source>(obfuscation requires this amount to be rounded up to the nearest %1).</source>
@@ -3001,70 +3257,94 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source> split into %1 outputs using the UTXO splitter.</source>
-        <translation> split into %1 outputs using the UTXO splitter.</translation>
+        <translation>UTXOスプリッタ―で %1 個のアウトプットに分割します。</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;(%2 中の %1 が表示されています)&lt;/b&gt;</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>The amount to pay must be larger than 0.</translation>
+        <translation>支払い量は0より大きくなければいけません。</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>The amount exceeds your balance.</translation>
+        <translation>あなたの残高を越えています。</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>The total exceeds your balance when the %1 transaction fee is included.</translation>
+        <translation> %1 トランザクション手数料を考慮すると、あなたの残高を越えています。</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Duplicate address found, can only send to each address once per send operation.</translation>
+        <translation>同一アドレスが見つかりました。１送金において同じアドレスは１度のみ選択できます。</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>Transaction creation failed!</translation>
+        <translation>トランザクションの生成に失敗</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
+        <translation>トランザクションは拒否されました。 一部のコインが既に支払いに利用されているなどの二重支払いが原因かもしれません。</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Error: The wallet was unlocked only to anonymize coins.</translation>
+        <translation>エラー: ウォレットはコインの匿名化にのみアンロックされています。</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
-        <translation>Pay only the minimum fee of %1</translation>
+        <translation>%1 の最小の手数料のみ支払い</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Warning: Unknown change address</translation>
+        <translation>警告: 不明なお釣りアドレス</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(no label)</translation>
+        <translation>(ラベルなし)</translation>
+    </message>
+    <message>
+        <source>Open Coin Control...</source>
+        <translation>コインコントロールを開く...</translation>
+    </message>
+    <message>
+        <source>Coins automatically selected</source>
+        <translation>コインは自動で選択されます</translation>
+    </message>
+    <message>
+        <source>Anonymized CDI</source>
+        <translation>匿名化されたCDI</translation>
+    </message>
+    <message>
+        <source>SwiftX</source>
+        <translation>SwiftX</translation>
+    </message>
+    <message>
+        <source>and SwiftX</source>
+        <translation>とSwiftX</translation>
+    </message>
+    <message>
+        <source>Error: The wallet was unlocked only to anonymize coins. Unlock canceled.</source>
+        <translation>エラー: ウォレットはコインの匿名化のみに対してアンロックされています。</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>This is a normal payment.</source>
-        <translation>This is a normal payment.</translation>
+        <translation>これは通常の支払いです。</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Pay &amp;To:</translation>
+        <translation>支払い先&amp;:</translation>
     </message>
     <message>
         <source>The CDI address to send the payment to</source>
-        <translation>The CDI address to send the payment to</translation>
+        <translation>支払い先のCDI アドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Choose previously used address</translation>
+        <translation>以前利用したアドレスを選択</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -3072,7 +3352,7 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Paste address from clipboard</translation>
+        <translation>クリップボードからアドレスをペースト</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -3080,81 +3360,81 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Remove this entry</translation>
+        <translation>この入力を消去</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>&amp;ラベル:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Enter a label for this address to add it to the list of used addresses</translation>
+        <translation>使用したことのあるアドレスリストへ追加するため、ラベルを入力してください。</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>A&amp;mount:</translation>
+        <translation>&amp;枚数:</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Message:</translation>
+        <translation>メッセージ:</translation>
     </message>
     <message>
         <source>A message that was attached to the CDI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the CDI network.</source>
-        <translation>A message that was attached to the CDI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the CDI network.</translation>
+        <translation>CDI: URI に紐づくメッセージです。 注:支払い時に表示されるメッセージではありません。</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
-        <translation>This is an unverified payment request.</translation>
+        <translation>未確認の支払いリクエストです。</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Pay To:</translation>
+        <translation>支払い先:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Memo:</translation>
+        <translation>メモ:</translation>
     </message>
     <message>
         <source>This is a verified payment request.</source>
-        <translation>This is a verified payment request.</translation>
+        <translation>確認済みの支払いリクエストです。</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Enter a label for this address to add it to your address book</translation>
+        <translation>アドレス帳へ追加するため、ラベルを入力してください。</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>CDI Core is shutting down...</source>
-        <translation>CDI Core is shutting down...</translation>
+        <translation>CDI コアは停止中です...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Do not shut down the computer until this window disappears.</translation>
+        <translation>このウィンドウが閉じるまでコンピュータをシャットダウンしないでください。</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Signatures - Sign / Verify a Message</translation>
+        <translation>シグネチャ - メッセージの 署名 / 確認</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Sign Message</translation>
+        <translation>&amp;メッセージの署名</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
+        <translation>アドレスの所有を証明するためにメッセージを署名できます。フィッシング攻撃などを避けるために、よくわからないものには署名せず、完全に同意したものにのみ署名してください。</translation>
     </message>
     <message>
         <source>The CDI address to sign the message with</source>
-        <translation>The CDI address to sign the message with</translation>
+        <translation>メッセージを署名するCDIアドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Choose previously used address</translation>
+        <translation>以前利用したアドレスを選択</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -3162,7 +3442,7 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Paste address from clipboard</translation>
+        <translation>クリップボードからアドレスをペースト</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -3170,134 +3450,138 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Enter the message you want to sign here</translation>
+        <translation>署名したいメッセージを入力</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Signature</translation>
+        <translation>シグネチャ</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Copy the current signature to the system clipboard</translation>
+        <translation>現在のシグネチャをクリップボードへコピー</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this CDI address</source>
-        <translation>Sign the message to prove you own this CDI address</translation>
+        <translation>このCDIアドレスの所有の証明のためメッセージを署名する</translation>
     </message>
     <message>
         <source>The CDI address the message was signed with</source>
-        <translation>The CDI address the message was signed with</translation>
+        <translation>メッセージの署名に使われたCDI アドレス</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified CDI address</source>
-        <translation>Verify the message to ensure it was signed with the specified CDI address</translation>
+        <translation>特定のCDIアドレスにより署名されたメッセージを確認する</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Sign &amp;Message</translation>
+        <translation>メッセージを&amp;署名する</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Reset all sign message fields</translation>
+        <translation>署名されたメッセージ欄をクリア</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Clear &amp;All</translation>
+        <translation>クリア&amp;</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verify Message</translation>
+        <translation>&amp;メッセージの確認</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</translation>
+        <translation>署名のアドレス・メッセージ(正確に入力してください)と署名を入力してメッセージを確認できます。</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Verify &amp;Message</translation>
+        <translation>メッセージ&amp;を確認</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Reset all verify message fields</translation>
+        <translation>確認されたメッセージをクリア</translation>
     </message>
     <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>Click "Sign Message" to generate signature</translation>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
+        <translation>&quot;メッセージを署名&quot;をクリックしてシグネチャを生成</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>The entered address is invalid.</translation>
+        <translation>入力したアドレスは間違っています。</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Please check the address and try again.</translation>
+        <translation>アドレスを確認しもう一度お試しください。</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>The entered address does not refer to a key.</translation>
+        <translation>入力されたアドレスはキーと紐づいていません。</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Wallet unlock was cancelled.</translation>
+        <translation>ウォレットのアンロックは中断されました。</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Private key for the entered address is not available.</translation>
+        <translation>入力したアドレスのプライベートキーは利用できません。</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Message signing failed.</translation>
+        <translation>メッセージの署名に失敗しました。</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Message signed.</translation>
+        <translation>メッセージを署名しました。</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>The signature could not be decoded.</translation>
+        <translation>シグネチャは復号化できません。</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Please check the signature and try again.</translation>
+        <translation>シグネチャを確認しもう一度お試しください。</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>The signature did not match the message digest.</translation>
+        <translation>シグネチャはメッセージの文字数と一致しません。</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Message verification failed.</translation>
+        <translation>メッセージの確認に失敗しました。</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Message verified.</translation>
+        <translation>メッセージを確認しました。</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>CDI Core</source>
-        <translation>CDI Core</translation>
+        <translation>CDI コア</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Version %1</translation>
+        <translation>バージョン %1</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>The Bitcoin Core developers</translation>
+        <translation>Bitcoin コア開発者チーム</translation>
     </message>
     <message>
         <source>The Dash Core developers</source>
-        <translation>The Dash Core developers</translation>
+        <translation>Dash コア開発者チーム</translation>
     </message>
     <message>
         <source>The CDI Core developers</source>
-        <translation>The CDI Core developers</translation>
+        <translation>CDI コア開発者チーム</translation>
     </message>
     <message>
         <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <translation>[テストネット]</translation>
+    </message>
+    <message>
+        <source>The PIVX Core developers</source>
+        <translation>PIVX コア開発者チーム</translation>
     </message>
 </context>
 <context>
@@ -3311,99 +3595,103 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Open for %n more block</numerusform><numerusform>Open for %n more blocks</numerusform></translation>
+        <translation>
+            <numerusform>あと%n ブロック開く</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Open until %1</translation>
+        <translation>%1 まで開く</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>conflicted</translation>
+        <translation>矛盾</translation>
     </message>
     <message>
         <source>%1/offline (verified via swifttx)</source>
-        <translation>%1/offline (verified via swifttx)</translation>
+        <translation>%1/オフライン (swifttxにより確認)</translation>
     </message>
     <message>
         <source>%1/confirmed (verified via swifttx)</source>
-        <translation>%1/confirmed (verified via swifttx)</translation>
+        <translation>%1/確認済み (swifttxにより確認)</translation>
     </message>
     <message>
         <source>%1 confirmations (verified via swifttx)</source>
-        <translation>%1 confirmations (verified via swifttx)</translation>
+        <translation>%1 確認 (swifttxにより確認)</translation>
     </message>
     <message>
         <source>%1/offline</source>
-        <translation>%1/offline</translation>
+        <translation>%1/オフライン</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/unconfirmed</translation>
+        <translation>%1/未確認</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 confirmations</translation>
+        <translation>%1 確認</translation>
     </message>
     <message>
         <source>%1/offline (SwiftTX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1/offline (SwiftTX verification in progress - %2 of %3 signatures)</translation>
+        <translation>%1/オフライン (SwiftTX verification in progress - %2 of %3 signatures)</translation>
     </message>
     <message>
         <source>%1/confirmed (SwiftTX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1/confirmed (SwiftTX verification in progress - %2 of %3 signatures )</translation>
+        <translation>%1/確認済み (SwiftTX verification in progress - %2 of %3 signatures )</translation>
     </message>
     <message>
         <source>%1 confirmations (SwiftTX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 confirmations (SwiftTX verification in progress - %2 of %3 signatures)</translation>
+        <translation>%1 確認 (SwiftTX verification in progress - %2 of %3 signatures)</translation>
     </message>
     <message>
         <source>%1/offline (SwiftTX verification failed)</source>
-        <translation>%1/offline (SwiftTX verification failed)</translation>
+        <translation>%1/オフライン (SwiftTX verification failed)</translation>
     </message>
     <message>
         <source>%1/confirmed (SwiftTX verification failed)</source>
-        <translation>%1/confirmed (SwiftTX verification failed)</translation>
+        <translation>%1/確認済み (SwiftTX verification failed)</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>ステータス</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, has not been successfully broadcast yet</translation>
+        <translation>まだ完全に送信されていません</translation>
     </message>
     <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, broadcast through %n node</numerusform><numerusform>, broadcast through %n nodes</numerusform></translation>
+        <source>, broadcast through %n node</source>
+        <translation>
+            <numerusform>%n 個のノードへ送信済み</numerusform>
+        </translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation>日付</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Source</translation>
+        <translation>ソース</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Generated</translation>
+        <translation>生成された</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>From</translation>
+        <translation>から</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>unknown</translation>
+        <translation>未知の</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>To</translation>
+        <translation>へ</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>own address</translation>
+        <translation>自身のアドレス</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3411,7 +3699,7 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>label</translation>
+        <translation>ラベル</translation>
     </message>
     <message>
         <source>Credit</source>
@@ -3419,19 +3707,21 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>matures in %n more block</numerusform><numerusform>matures in %n more blocks</numerusform></translation>
+        <translation>
+            <numerusform>%n ブロックで成熟します</numerusform>
+        </translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>not accepted</translation>
+        <translation>承認されませんでした</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Debit</translation>
+        <translation>実枚数</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Total debit</translation>
+        <translation>合計実枚数</translation>
     </message>
     <message>
         <source>Total credit</source>
@@ -3439,133 +3729,173 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Transaction fee</translation>
+        <translation>トランザクション手数料</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Net amount</translation>
+        <translation>合計枚数</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Message</translation>
+        <translation>メッセージ</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Comment</translation>
+        <translation>コメント</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>Transaction ID</translation>
+        <translation>トランザクションハッシュ</translation>
     </message>
     <message>
         <source>Output index</source>
-        <translation>Output index</translation>
+        <translation>アウトプットインデックス</translation>
     </message>
     <message>
         <source>Merchant</source>
         <translation>Merchant</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>生成されたコインは%1 ブロックしなければ利用できません。あなたがこのブロックを生成した場合、他のノードに送信されブロックチェーンへ追加されます。もし追加が失敗した場合、このトランザクションは&quot;承認されませんでした&quot;に代わり、利用できなくなります。これは他の方とのブロックの生成のタイミングの衝突です。</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Debug information</translation>
+        <translation>デバッグ情報</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Transaction</translation>
+        <translation>トランザクション</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Inputs</translation>
+        <translation>インプット</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Amount</translation>
+        <translation>枚数</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>true</translation>
+        <translation>真</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>false</translation>
+        <translation>偽</translation>
+    </message>
+    <message>
+        <source>%1/offline (verified via SwiftX)</source>
+        <translation>%1/オフライン(SwiftXにより承認)</translation>
+    </message>
+    <message>
+        <source>%1/confirmed (verified via SwiftX)</source>
+        <translation>%1/確認済み(SwiftXにより承認)</translation>
+    </message>
+    <message>
+        <source>%1 confirmations (verified via SwiftX)</source>
+        <translation>%1 確認(SwiftXにより承認)</translation>
+    </message>
+    <message>
+        <source>%1/offline (SwiftX verification in progress - %2 of %3 signatures)</source>
+        <translation>%1/オフライン(SwiftXでの認証中 - %3 中 %2)</translation>
+    </message>
+    <message>
+        <source>%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )</source>
+        <translation>%1 /確認済み(SwiftXでの認証中 - %3 中 %2)</translation>
+    </message>
+    <message>
+        <source>%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)</source>
+        <translation>%1 確認(SwiftXでの認証中 - %3 中 %2)</translation>
+    </message>
+    <message>
+        <source>%1/offline (SwiftX verification failed)</source>
+        <translation>%1/オフライン(SwiftXで承認に失敗)</translation>
+    </message>
+    <message>
+        <source>%1/confirmed (SwiftX verification failed)</source>
+        <translation>%1 /確認済み(SwiftXで承認に失敗)</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation>
+            <numerusform>,%n ノードに送信しました</numerusform>
+        </translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>Transaction details</source>
-        <translation>Transaction details</translation>
+        <translation>トランザクションの詳細</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>This pane shows a detailed description of the transaction</translation>
+        <translation>トランザクションの詳細情報が確認できます</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation>日付</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>形式</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Address</translation>
+        <translation>アドレス</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Open for %n more block</numerusform><numerusform>Open for %n more blocks</numerusform></translation>
+        <translation>
+            <numerusform>後%n ブロック開く</numerusform>
+        </translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Open until %1</translation>
+        <translation>%1 まで開く</translation>
     </message>
     <message>
         <source>Offline</source>
-        <translation>Offline</translation>
+        <translation>オフライン</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Unconfirmed</translation>
+        <translation>未確認</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Confirming (%1 of %2 recommended confirmations)</translation>
+        <translation>確認中 (%2 確認中 %1 確認されました)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Confirmed (%1 confirmations)</translation>
+        <translation>確認済み (%1 確認)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>Conflicted</translation>
+        <translation>矛盾</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Immature (%1 confirmations, will be available after %2)</translation>
+        <translation>未成熟 (%1 確認, %2 確認後に利用できます)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>This block was not received by any other nodes and will probably not be accepted!</translation>
+        <translation>このブロックは他のノードに受信されなかったため、承認されません。</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Received with</translation>
+        <translation>受け取り</translation>
     </message>
     <message>
         <source>Masternode Reward</source>
-        <translation>Masternode Reward</translation>
+        <translation>マスターノード報酬</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Received from</translation>
+        <translation>受け取り</translation>
     </message>
     <message>
         <source>Received via Obfuscation</source>
@@ -3589,27 +3919,27 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Sent to</translation>
+        <translation>送金</translation>
     </message>
     <message>
         <source>Orphan Block - Generated but not accepted. This does not impact your holdings.</source>
-        <translation>Orphan Block - Generated but not accepted. This does not impact your holdings.</translation>
+        <translation>孤立ブロック - 生成したが承認されませんでした。残高には影響しません。</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Payment to yourself</translation>
+        <translation>自身への支払い</translation>
     </message>
     <message>
         <source>Minted</source>
-        <translation>Minted</translation>
+        <translation>ステーク</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Mined</translation>
+        <translation>マイニング</translation>
     </message>
     <message>
         <source>Obfuscated</source>
-        <translation>Obfuscated</translation>
+        <translation>難読化</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3621,74 +3951,98 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transaction status. Hover over this field to show number of confirmations.</translation>
+        <translation>トランザクションのステータス。カーソルを合わせることで確認数を見れます。</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Date and time that the transaction was received.</translation>
+        <translation>トランザクションを受信した日時</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Type of transaction.</translation>
+        <translation>トランザクションの形式</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Whether or not a watch-only address is involved in this transaction.</translation>
+        <translation>watch-onlyアドレスがこのトランザクションに含まれているか否か</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Destination address of transaction.</translation>
+        <translation>トランザクションの送り先アドレス</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Amount removed from or added to balance.</translation>
+        <translation>枚数は残高から増減されます。</translation>
+    </message>
+    <message>
+        <source>Converted Phr to zPhr</source>
+        <translation>CDIをzCDIへ変換</translation>
+    </message>
+    <message>
+        <source>Spent zPhr</source>
+        <translation>zCDIを送金</translation>
+    </message>
+    <message>
+        <source>Received Phr from zPhr</source>
+        <translation>zCDIによる受け取り</translation>
+    </message>
+    <message>
+        <source>Minted Change as zPhr from zPhr Spend</source>
+        <translation>zCDIの送金のお釣りをzCDIに変換</translation>
+    </message>
+    <message>
+        <source>Converted zPhr to Phr</source>
+        <translation>zCDIからCDIへ変換</translation>
+    </message>
+    <message>
+        <source>zPhr Accumulator</source>
+        <translation>zCDIアキュムレータ</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>All</translation>
+        <translation>全て</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Today</translation>
+        <translation>今日</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>This week</translation>
+        <translation>今週</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>This month</translation>
+        <translation>今月</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Last month</translation>
+        <translation>先月</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>This year</translation>
+        <translation>今年</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Range...</translation>
+        <translation>範囲指定</translation>
     </message>
     <message>
         <source>Most Common</source>
-        <translation>Most Common</translation>
+        <translation>一般の</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Received with</translation>
+        <translation>受け取り</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Sent to</translation>
+        <translation>送金</translation>
     </message>
     <message>
         <source>Obfuscated</source>
-        <translation>Obfuscated</translation>
+        <translation>難読化</translation>
     </message>
     <message>
         <source>Obfuscation Make Collateral Inputs</source>
@@ -3708,67 +4062,67 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>To yourself</translation>
+        <translation>自身への送金</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Mined</translation>
+        <translation>マイン</translation>
     </message>
     <message>
         <source>Minted</source>
-        <translation>Minted</translation>
+        <translation>ステーク</translation>
     </message>
     <message>
         <source>Masternode Reward</source>
-        <translation>Masternode Reward</translation>
+        <translation>マスターノード報酬</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Other</translation>
+        <translation>その他</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Enter address or label to search</translation>
+        <translation>アドレス/ラベルを入力して検索</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Min amount</translation>
+        <translation>最小枚数</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Copy address</translation>
+        <translation>アドレスのコピー</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copy label</translation>
+        <translation>ラベルのコピー</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copy amount</translation>
+        <translation>枚数のコピー</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Copy transaction ID</translation>
+        <translation>トランザクションハッシュのコピー</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Edit label</translation>
+        <translation>ラベルの編集</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Show transaction details</translation>
+        <translation>トランザクションの詳細の確認</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Export Transaction History</translation>
+        <translation>トランザクション履歴のエクスポート</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Comma separated file (*.csv)</translation>
+        <translation>(*.csv)へ保存</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Confirmed</translation>
+        <translation>確認済み</translation>
     </message>
     <message>
         <source>Watch-only</source>
@@ -3776,19 +4130,19 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation>日付</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>形式</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>ラベル</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Address</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
         <source>ID</source>
@@ -3796,98 +4150,122 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Exporting Failed</translation>
+        <translation>エクスポートに失敗</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>There was an error trying to save the transaction history to %1.</translation>
+        <translation>%1 へトランザクション履歴を保存する際にエラーがありました。</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Exporting Successful</translation>
+        <translation>エクスポートに成功</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>The transaction history was successfully saved to %1.</translation>
+        <translation>%1 へトランザクション履歴を保存しました。</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Range:</translation>
+        <translation>範囲:</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>to</translation>
+        <translation>から</translation>
+    </message>
+    <message>
+        <source>Received Phr from zPhr</source>
+        <translation>zCDIからCDIへの受け取り</translation>
+    </message>
+    <message>
+        <source>Zerocoin Mint</source>
+        <translation>ゼロコインへの変換</translation>
+    </message>
+    <message>
+        <source>Zerocoin Spend</source>
+        <translation>ゼロコインの送金</translation>
+    </message>
+    <message>
+        <source>Zerocoin Spend, Change in zPhr</source>
+        <translation>ゼロコインの送金,お釣りをzCDIで受け取り</translation>
+    </message>
+    <message>
+        <source>Zerocoin Spend to Self</source>
+        <translation>ゼロコインを自身へ送金</translation>
     </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Unit to show amounts in. Click to select another unit.</translation>
+        <translation>枚数の表示に使う単位です。クリックして他の単位を選択できます。</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>No wallet has been loaded.</translation>
+        <translation>ウォレットデータは読み込まれていません。</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Send Coins</translation>
+        <translation>コインの送金</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 CDI.</source>
-        <translation>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 CDI.</translation>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 CDI.</source>
+        <translation>SwiftTXはあまり高額の送金は対応してません。%1 CDIが上限です。</translation>
+    </message>
+    <message>
+        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 CDI.</source>
+        <translation>SwiftTXはあまり高額の送金は対応してません。%1 CDIが上限です。</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Export</translation>
+        <translation>&amp;エクスポート</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Export the data in the current tab to a file</translation>
+        <translation>今開いているタブの情報をファイルにエクスポートします</translation>
     </message>
     <message>
         <source>Selected amount:</source>
-        <translation>Selected amount:</translation>
+        <translation>選択した枚数:</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Backup Wallet</translation>
+        <translation>ウォレットのバックアップ</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Wallet Data (*.dat)</translation>
+        <translation>ウォレットデータ (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Backup Failed</translation>
+        <translation>バックアップに失敗</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>There was an error trying to save the wallet data to %1.</translation>
+        <translation>%1 へウォレットデータを保存する際にエラーが発生しました。</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Backup Successful</translation>
+        <translation>バックアップ成功</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>The wallet data was successfully saved to %1.</translation>
+        <translation>%1 へウォレットデータは保存されました。</translation>
     </message>
 </context>
 <context>
     <name>cdi-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
+        <translation>(1 = トランザクションメタデータを保持, 2 = メタデータを再ダウンロード)</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
@@ -3895,7 +4273,7 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
-        <translation>An error occurred while setting up the RPC address %s port %u for listening: %s</translation>
+        <translation>RPCアドレス %s ポート %u を用いて %sでlistenする際にエラーが起きました。</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -3911,11 +4289,11 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. CDI Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. CDI Core is probably already running.</translation>
+        <translation>%s のデータフォルダをロックできません。 CDI コアは既に実行されています。</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</translation>
+        <translation>budgetの投票でのファイナライズの振る舞いの変更: mode=auto: 特定のファイナライズされたbudgetのみに投票する (string, default: auto)</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -3958,8 +4336,8 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
         <translation>Error: Listening for incoming connections failed (listen returned error %s)</translation>
     </message>
     <message>
-        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</translation>
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -4002,8 +4380,8 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
         <translation>In this mode -genproclimit controls how many blocks are generated immediately.</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</translation>
     </message>
     <message>
         <source>Keep the specified amount available for spending at all times (default: 0)</source>
@@ -4082,7 +4460,8 @@ https://www.transifex.com/cdi-project/cdi-project-translations</translation>
         <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use cdid, or the -server option to cdi-qt, you must set an rpcpassword in the configuration file:
+        <source>
+To use cdid, or the -server option to cdi-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=cdirpc
@@ -4091,23 +4470,24 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CDI Alert&quot; admin@foo.com
 </source>
-        <translation>To use cdid, or the -server option to cdi-qt, you must set an rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=cdirpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
+        <translation>
+        cdid, cdi-qt にserverオプションを付ける場合、以下の設定が必要になります。:
+        %s
+        cdi.confにRPCユーザー名,パスワードを入力してください。:
+        rpcuser=cdirpc
+        rpcpassword=%s
+        (覚える必要はなく、cdi.confに記載すれば大丈夫です。)
+        ユーザーネームとパスワードは同じにしてはいけません。
+        cdi.confが存在しなければ作成します。
+        It is also recommended to set alertnotify so you are notified of problems;
+        for example: alertnotify=echo %%s | mail -s &quot;CDI Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. CDI Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. CDI Core is probably already running.</translation>
+        <translation>%s をbind出来ませんでした。CDIコアは既に動作しているようです。</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4134,8 +4514,8 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong CDI Core will not work properly.</source>
-        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong CDI Core will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CDI Core will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CDI Core will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4163,27 +4543,27 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
+        <translation>設定ファイルにおいてmasternodeprivkey を設定してください。詳しくはガイドを確認ください。</translation>
     </message>
     <message>
         <source>(11771 could be used only on mainnet)</source>
-        <translation>(11771 could be used only on mainnet)</translation>
+        <translation>(メインネットでは11771のみを用いてください)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(default: %s)</translation>
+        <translation>(デフォルト: %s)</translation>
     </message>
     <message>
         <source>(default: 1)</source>
-        <translation>(default: 1)</translation>
+        <translation>(デフォルト: 1)</translation>
     </message>
     <message>
         <source>(must be 11771 for mainnet)</source>
-        <translation>(must be 11771 for mainnet)</translation>
+        <translation>(メインネットでは11771のみ)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Accept command line and JSON-RPC commands</translation>
+        <translation>コマンドラインのコマンドとJSON-RPCコマンドが入力できます</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
@@ -4219,35 +4599,35 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Block creation options:</translation>
+        <translation>ブロックの生成オプション:</translation>
     </message>
     <message>
-        <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Can't denominate: no compatible inputs left.</translation>
+        <source>Can&apos;t denominate: no compatible inputs left.</source>
+        <translation>Can&apos;t denominate: no compatible inputs left.</translation>
     </message>
     <message>
-        <source>Can't find random Masternode.</source>
-        <translation>Can't find random Masternode.</translation>
+        <source>Can&apos;t find random Masternode.</source>
+        <translation>Can&apos;t find random Masternode.</translation>
     </message>
     <message>
-        <source>Can't mix while sync in progress.</source>
-        <translation>Can't mix while sync in progress.</translation>
+        <source>Can&apos;t mix while sync in progress.</source>
+        <translation>Can&apos;t mix while sync in progress.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
         <translation>Cannot downgrade wallet</translation>
     </message>
     <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Cannot resolve -bind address: '%s'</translation>
+        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
+        <translation>Cannot resolve -bind address: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Cannot resolve -externalip address: '%s'</translation>
+        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
+        <translation>Cannot resolve -externalip address: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Cannot resolve -whitebind address: '%s'</translation>
+        <source>Cannot resolve -whitebind address: &apos;%s&apos;</source>
+        <translation>Cannot resolve -whitebind address: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
@@ -4275,19 +4655,19 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
+        <translation>Copyright (C) 2009-%i Bitcoin コア開発者チーム</translation>
     </message>
     <message>
         <source>Copyright (C) 2014-%i The Dash Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
+        <translation>Copyright (C) 2014-%i Dash コア開発者チーム</translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The CDI Core Developers</source>
-        <translation>Copyright (C) 2015-%i The CDI Core Developers</translation>
+        <translation>Copyright (C) 2015-%i CDI コア開発者チーム</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Corrupted block database detected</translation>
+        <translation>ブロックデータベースが破損しています</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -4295,11 +4675,11 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
-        <translation>Could not parse masternode.conf</translation>
+        <translation>masternode.confに不正な形式が含まれています</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Debugging/Testing options:</translation>
+        <translation>デバッグ/テスト オプション:</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
@@ -4307,7 +4687,7 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Discover own IP address (default: 1 when listening and no -externalip)</translation>
+        <translation>自身のIPアドレスを確認する (デフォルト: 1 when listening and no -externalip)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
@@ -4315,15 +4695,15 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Do you want to rebuild the block database now?</translation>
+        <translation>今すぐブロックのデータベースを再構築しますか？</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Done loading</translation>
+        <translation>読み込み完了</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Enable the client to act as a masternode (0-1, default: %u)</translation>
+        <translation>このクライアントはマスターノードとして動作するか (0-1, デフォルト: %u)</translation>
     </message>
     <message>
         <source>Entries are full.</source>
@@ -4331,67 +4711,67 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Error connecting to Masternode.</source>
-        <translation>Error connecting to Masternode.</translation>
+        <translation>マスターノードとの接続にエラーが発生しました。</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Error initializing block database</translation>
+        <translation>ブロックデータベースの初期化に失敗</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Error initializing wallet database environment %s!</translation>
+        <translation>ウォレットのデータベース環境の初期化にエラーが発生しました。%s</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Error loading block database</translation>
+        <translation>ブロックデータベースの読み込みにエラー発生</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation>Error loading wallet.dat</translation>
+        <translation>wallet.datの読み込みにエラー発生</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Error loading wallet.dat: Wallet corrupted</translation>
+        <translation>wallet.datの読み込みにエラー発生: ウォレットが破損しています</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of CDI Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of CDI Core</translation>
+        <translation>Ewallet.datの読み込みにエラー発生: ウォレットデータの読み込みに新しいバージョンのCDI コアが必要です</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Error opening block database</translation>
+        <translation>ブロックデータベースの展開にエラー発生</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Error reading from database, shutting down.</translation>
+        <translation>データベースの読み込みにエラー発生。終了します。</translation>
     </message>
     <message>
         <source>Error recovering public key.</source>
-        <translation>Error recovering public key.</translation>
+        <translation>共通鍵の復元にエラーが発生しました。</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
-        <translation>Error: A fatal internal error occured, see debug.log for details</translation>
+        <translation>エラー: 致命的な内部エラーが発生しました。debug.logを確認してください。</translation>
     </message>
     <message>
-        <source>Error: Can't select current denominated inputs</source>
-        <translation>Error: Can't select current denominated inputs</translation>
+        <source>Error: Can&apos;t select current denominated inputs</source>
+        <translation>Error: Can&apos;t select current denominated inputs</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Error: Disk space is low!</translation>
+        <translation>エラー: 空き容量が少ないです!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
-        <translation>Error: Unsupported argument -tor found, use -onion.</translation>
+        <translation>エラー: サポートされていないオプションです。 -tor ではなく -onion を使ってください。</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Error: Wallet locked, unable to create transaction!</translation>
+        <translation>エラー: ウォレットはロックされているため、トランザクションを作れません。</translation>
     </message>
     <message>
         <source>Error: You already have pending entries in the Obfuscation pool</source>
@@ -4399,11 +4779,11 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Failed to listen on any port. Use -listen=0 if you want this.</translation>
+        <translation>ポートでのlistenが失敗しました。 -listen=0 オプションを使用してください。</translation>
     </message>
     <message>
         <source>Failed to read block</source>
-        <translation>Failed to read block</translation>
+        <translation>ブロックの読み込みに失敗</translation>
     </message>
     <message>
         <source>Fee (in CDI/kB) to add to transactions you send (default: %s)</source>
@@ -4411,7 +4791,7 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Finalizing transaction.</source>
-        <translation>Finalizing transaction.</translation>
+        <translation>トランザクションをファイナライズしています。</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -4439,11 +4819,11 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Importing...</translation>
+        <translation>インポート</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Imports blocks from external blk000??.dat file</translation>
+        <translation>ブロックデータを外部の blk000??.dat から読み込みます</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
@@ -4451,59 +4831,59 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Incompatible mode.</source>
-        <translation>Incompatible mode.</translation>
+        <translation>不正なモード</translation>
     </message>
     <message>
         <source>Incompatible version.</source>
-        <translation>Incompatible version.</translation>
+        <translation>不正なバージョン</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Incorrect or no genesis block found. Wrong datadir for network?</translation>
+        <translation>不正確かジェネシスブロックが見つかりません。データフォルダが違うかもしれません。</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Information</translation>
+        <translation>情報</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. CDI Core is shutting down.</source>
-        <translation>Initialization sanity check failed. CDI Core is shutting down.</translation>
+        <translation>初期サニティチェックが失敗しました。CDIコアは終了します。</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
-        <translation>Input is not valid.</translation>
+        <translation>インプットが間違っています。</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
-        <translation>Insufficient funds.</translation>
+        <translation>残高不足です。</translation>
     </message>
     <message>
-        <source>Invalid -onion address: '%s'</source>
-        <translation>Invalid -onion address: '%s'</translation>
+        <source>Invalid -onion address: &apos;%s&apos;</source>
+        <translation>間違った -onion アドレス: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Invalid -proxy address: '%s'</translation>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation>間違った -proxy アドレス: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>間違った枚数が指定されています。 -maxtxfee=&lt;枚数&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</source>
+        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
@@ -4511,23 +4891,23 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
-        <translation>Invalid masternodeprivkey. Please see documenation.</translation>
+        <translation>masternodeprivkeyが間違っています。確認してください。</translation>
     </message>
     <message>
-        <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Invalid netmask specified in -whitelist: '%s'</translation>
+        <source>Invalid netmask specified in -whitelist: &apos;%s&apos;</source>
+        <translation>Invalid netmask specified in -whitelist: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
-        <translation>Invalid port detected in masternode.conf</translation>
+        <translation>masternode.confで間違ったポート設定が確認されました。</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
-        <translation>Invalid private key.</translation>
+        <translation>プライベートキーが間違っています。</translation>
     </message>
     <message>
         <source>Invalid script detected.</source>
-        <translation>Invalid script detected.</translation>
+        <translation>不正なスクリプトが検知されました。</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
@@ -4611,31 +4991,31 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Loading addresses...</translation>
+        <translation>アドレスを読み込み中...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Loading block index...</translation>
+        <translation>ブロックインデックスを読み込み中...</translation>
     </message>
     <message>
         <source>Loading budget cache...</source>
-        <translation>Loading budget cache...</translation>
+        <translation>budgetキャッシュを読み込み中...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
-        <translation>Loading masternode cache...</translation>
+        <translation>マスターノードキャッシュを読み込み中...</translation>
     </message>
     <message>
         <source>Loading masternode payment cache...</source>
-        <translation>Loading masternode payment cache...</translation>
+        <translation>マスターノードペイメントキャッシュを読み込み中...</translation>
     </message>
     <message>
         <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Loading wallet... (%3.2f %%)</translation>
+        <translation>ウォレットを読み込み中... (%3.2f %%)</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Loading wallet...</translation>
+        <translation>ウォレットを読み込み中...</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
@@ -4643,7 +5023,7 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Lock masternodes from masternode configuration file (default: %u)</translation>
+        <translation>マスターノード設定ファイルからマスターノードをロック (デフォルト: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
@@ -4651,15 +5031,15 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Masternode options:</source>
-        <translation>Masternode options:</translation>
+        <translation>マスターノードオプション:</translation>
     </message>
     <message>
         <source>Masternode queue is full.</source>
-        <translation>Masternode queue is full.</translation>
+        <translation>マスターノードキューはいっぱいです。</translation>
     </message>
     <message>
         <source>Masternode:</source>
-        <translation>Masternode:</translation>
+        <translation>マスターノード:</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -4678,16 +5058,16 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
         <translation>Mixing in progress...</translation>
     </message>
     <message>
-        <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Need to specify a port with -whitebind: '%s'</translation>
+        <source>Need to specify a port with -whitebind: &apos;%s&apos;</source>
+        <translation>Need to specify a port with -whitebind: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
-        <translation>No Masternodes detected.</translation>
+        <translation>マスターノードが検知されませんでした。</translation>
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>No compatible Masternode found.</translation>
+        <translation>利用可能なマスターノードは検知されませんでした。</translation>
     </message>
     <message>
         <source>No funds detected in need of denominating.</source>
@@ -4715,11 +5095,11 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Not in the Masternode list.</source>
-        <translation>Not in the Masternode list.</translation>
+        <translation>マスターノード一覧の内に入っていません。</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
-        <translation>Number of automatic wallet backups (default: 10)</translation>
+        <translation>ウォレットの自動バックアップ数 (デフォルト: 10)</translation>
     </message>
     <message>
         <source>Obfuscation is idle.</source>
@@ -4747,11 +5127,11 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Options:</source>
-        <translation>Options:</translation>
+        <translation>オプション:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Password for JSON-RPC connections</translation>
+        <translation>JSON-RPC接続のパスワード</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
@@ -4759,7 +5139,7 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Print version and exit</translation>
+        <translation>バージョンを表示し終了</translation>
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
@@ -4767,7 +5147,7 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>RPC server options:</translation>
+        <translation>RPCサーバーオプション:</translation>
     </message>
     <message>
         <source>RPC support for HTTP persistent connections (default: %d)</source>
@@ -4783,7 +5163,7 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Rebuild block chain index from current blk000??.dat files</translation>
+        <translation>現在の blk000??.dat からブロックチェーンを再構築</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
@@ -4803,7 +5183,7 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Rescanning...</translation>
+        <translation>再スキャン中...</translation>
     </message>
     <message>
         <source>Run a thread to flush wallet periodically (default: %u)</source>
@@ -4811,11 +5191,11 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Run in the background as a daemon and accept commands</translation>
+        <translation>バックグラウンドで実行しデーモンとしてコマンドを実行する</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Send transactions as zero-fee transactions if possible (default: %u)</translation>
+        <translation>可能であれば手数料0で送金する(デフォルト: %u)</translation>
     </message>
     <message>
         <source>Server certificate file (default: %s)</source>
@@ -4823,15 +5203,15 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Server private key (default: %s)</source>
-        <translation>Server private key (default: %s)</translation>
+        <translation>サーバープライベートキー(デフォルト: %s)</translation>
     </message>
     <message>
         <source>Session not complete!</source>
-        <translation>Session not complete!</translation>
+        <translation>セッションは完了していません！</translation>
     </message>
     <message>
         <source>Session timed out.</source>
-        <translation>Session timed out.</translation>
+        <translation>セッションはタイムアウトしました。</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -4855,7 +5235,7 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Set the masternode private key</source>
-        <translation>Set the masternode private key</translation>
+        <translation>マスターノードプライベートキーをセット</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
@@ -4875,15 +5255,15 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Signing failed.</source>
-        <translation>Signing failed.</translation>
+        <translation>署名に失敗</translation>
     </message>
     <message>
         <source>Signing timed out.</source>
-        <translation>Signing timed out.</translation>
+        <translation>署名はタイムアウトしました。</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Signing transaction failed</translation>
+        <translation>署名のトランザクションは失敗</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
@@ -4899,7 +5279,7 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Specify masternode configuration file (default: %s)</translation>
+        <translation>カスタムマスターノード設定ファイル (デフォルト: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -4919,7 +5299,7 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Staking options:</source>
-        <translation>Staking options:</translation>
+        <translation>ステーキングオプション:</translation>
     </message>
     <message>
         <source>Stop running after importing blocks from disk (default: %u)</source>
@@ -4943,39 +5323,39 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Synchronization failed</source>
-        <translation>Synchronization failed</translation>
+        <translation>同期に失敗</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
-        <translation>Synchronization finished</translation>
+        <translation>同期完了</translation>
     </message>
     <message>
         <source>Synchronization pending...</source>
-        <translation>Synchronization pending...</translation>
+        <translation>同期中...</translation>
     </message>
     <message>
         <source>Synchronizing budgets...</source>
-        <translation>Synchronizing budgets...</translation>
+        <translation>budgetの同期中...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>
-        <translation>Synchronizing masternode winners...</translation>
+        <translation>マスターノードのウィナーを同期中...</translation>
     </message>
     <message>
         <source>Synchronizing masternodes...</source>
-        <translation>Synchronizing masternodes...</translation>
+        <translation>マスターノードの同期中...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
-        <translation>Synchronizing sporks...</translation>
+        <translation>sporkを同期中...</translation>
     </message>
     <message>
         <source>This help message</source>
-        <translation>This help message</translation>
+        <translation>ヘルプメッセージ</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>This is experimental software.</translation>
+        <translation>これは試験的なソフトウェアです。</translation>
     </message>
     <message>
         <source>This is intended for regression testing tools and app development.</source>
@@ -4983,7 +5363,7 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>This is not a Masternode.</source>
-        <translation>This is not a Masternode.</translation>
+        <translation>マスターノードではありません。</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
@@ -4991,35 +5371,35 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Transaction amount too small</translation>
+        <translation>トランザクション枚数が小さすぎます</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
-        <translation>Transaction amounts must be positive</translation>
+        <translation>トランザクション枚数は正でなければいけません</translation>
     </message>
     <message>
         <source>Transaction created successfully.</source>
-        <translation>Transaction created successfully.</translation>
+        <translation>トランザクションの生成に成功。</translation>
     </message>
     <message>
         <source>Transaction fees are too high.</source>
-        <translation>Transaction fees are too high.</translation>
+        <translation>トランザクションの手数料が高すぎます。</translation>
     </message>
     <message>
         <source>Transaction not valid.</source>
-        <translation>Transaction not valid.</translation>
+        <translation>トランザクションが不正です。</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transaction too large for fee policy</translation>
+        <translation>トランザクションは手数料ポリシーに比べ大きすぎます</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transaction too large</translation>
+        <translation>トランザクションが大きすぎます。</translation>
     </message>
     <message>
         <source>Transmitting final transaction.</source>
-        <translation>Transmitting final transaction.</translation>
+        <translation>トランザクションを送信中。</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
@@ -5030,8 +5410,8 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
         <translation>Unable to sign spork message, wrong key?</translation>
     </message>
     <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Unknown network specified in -onlynet: '%s'</translation>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>Unknown network specified in -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Unknown state: id = %u</source>
@@ -5039,7 +5419,7 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Upgrade wallet to latest format</translation>
+        <translation>ウォレットを最新の形式へ更新</translation>
     </message>
     <message>
         <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
@@ -5047,23 +5427,23 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Use OpenSSL (https) for JSON-RPC connections</translation>
+        <translation>JSON-RPC 接続のためOpenSSLを用いる</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Use UPnP to map the listening port (default: %u)</translation>
+        <translation>UPnPを用いてlistenポートをマッピングする (デフォルト: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Use UPnP to map the listening port (default: 1 when listening)</translation>
+        <translation>UPnPを用いてlistenポートをマッピングする (デフォルト: 1 listen していれば)</translation>
     </message>
     <message>
         <source>Use the test network</source>
-        <translation>Use the test network</translation>
+        <translation>テストネットワークを利用する</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Username for JSON-RPC connections</translation>
+        <translation>JSON-RPC接続のユーザーネーム</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
@@ -5071,51 +5451,51 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Verifying blocks...</translation>
+        <translation>ブロックを確認中...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Verifying wallet...</translation>
+        <translation>ウォレットを確認中...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Wallet %s resides outside data directory %s</translation>
+        <translation>ウォレットデータ %s はデータフォルダの外 %s にあります。</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Wallet is locked.</translation>
+        <translation>ウォレットはロックされています。</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart CDI Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart CDI Core to complete</translation>
+        <translation>ウォレットは再書き込みが必要です。CDI コアを再起動してください。</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Wallet options:</translation>
+        <translation>ウォレットオプション:</translation>
     </message>
     <message>
         <source>Wallet window title</source>
-        <translation>Wallet window title</translation>
+        <translation>ウォレットウィンドウ</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Warning</translation>
+        <translation>警告</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Warning: This version is obsolete, upgrade required!</translation>
+        <translation>警告: このバージョンは非常に古いです。アップデートしてください！</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</translation>
+        <translation>警告: サポートされていないオプション -benchmark があります。 -debug=bench を使ってください。</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Warning: Unsupported argument -debugnet ignored, use -debug=net.</translation>
+        <translation>警告: サポートされていないオプション -debugnet ignored があります。 -debug=net を使ってください。</translation>
     </message>
     <message>
         <source>Will retry...</source>
-        <translation>Will retry...</translation>
+        <translation>リトライします...</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
@@ -5143,7 +5523,664 @@ for example: alertnotify=echo %%s | mail -s "CDI Alert" admin@foo.com
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat corrupt, salvage failed</translation>
+        <translation>wallet.datは破損しています。復元に失敗しました。</translation>
+    </message>
+    <message>
+        <source> mints deleted
+</source>
+        <translation> 変換は消去されました
+</translation>
+    </message>
+    <message>
+        <source> mints updated, </source>
+        <translation> 変換は更新されました </translation>
+    </message>
+    <message>
+        <source> unconfirmed transactions removed
+</source>
+        <translation> 未確認のトランザクションが削除されました
+</translation>
+    </message>
+    <message>
+        <source>Calculated accumulator checkpoint is not what is recorded by block index</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Disable all CDI specific functionality (Masternodes, Obfuscation, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>CDIの全特徴を無効化する(マスターノード/匿名化/SwiftX/Budget) (0-1, デフォルト: %u)</translation>
+    </message>
+    <message>
+        <source>Enable automatic wallet backups triggered after each zPhr minting (0-1, default: %u)</source>
+        <translation>zCDIへの変換後自動でウォレットをバックアップする( 0-1, デフォルト: %u)</translation>
+    </message>
+    <message>
+        <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>エラー: トランザクションは拒否されました。トランザクションの一部のコインが既に使用されているなどの二重支払いの可能性があります。</translation>
+    </message>
+    <message>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Insufficient or insufficient confirmed funds, you might need to wait a few minutes and try again.</source>
+        <translation>所持金が不足しているか、確認がされていません。数分お待ちいただいてからもう一度お試しください。</translation>
+    </message>
+    <message>
+        <source>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</source>
+        <translation>ゼロコインへの自動変換の際に優先するdenomination(1/5/10/50/100/500/1000/5000) 0であれば優先なし デフォルト: %u)</translation>
+    </message>
+    <message>
+        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>To use cdid, or the -server option to cdi-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=cdirpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s &quot;CDI Alert&quot; admin@foo.com
+</source>
+        <translation>cdid, cdi-qt -server を利用する場合rpcの設定が必要です。:
+%s
+ランダムなパスワードの利用を推奨します。
+rpcuser=cdirpc
+rpcpassword=%s
+パスワードを覚える必要はありませんが、
+ユーザー名と同じパスワードは禁止されます。
+もしファイルが存在しない場合、自動的に生成されます。
+以下を追加することで、問題が発生したときにメールでアラートを出すこともできます。
+for example: alertnotify=echo %%s | mail -s &quot;CDI Alert&quot; admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Automatically create Tor hidden service (default: %d)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Calculating missing accumulators...</source>
+        <translation>ロストしたアキュムレータを計算しています...</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
+        <translation>Copyright (C) 2015-%i PIVX コア開発者チーム</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2017-%i The CDI Core Developers</source>
+        <translation>Copyright (C) 2015-%i CDI コア開発者チーム {2017-?}</translation>
+    </message>
+    <message>
+        <source>Delete blockchain folders and resync from scratch</source>
+        <translation>ブロックチェーンデータを削除し、再同期を行う</translation>
+    </message>
+    <message>
+        <source>Disable OS notifications for incoming transactions (default: %u)</source>
+        <translation>入金トランザクションの際のOSの通知を無効化する( デフォルト: %u)</translation>
+    </message>
+    <message>
+        <source>Enable automatic Zerocoin minting (0-1, default: %u)</source>
+        <translation>ゼロコインの自動変換を有効化する(0-1, デフォルト: %u)</translation>
+    </message>
+    <message>
+        <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Enable publish raw transaction (locked via SwiftX) in &lt;address&gt;</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Failed to read block index</source>
+        <translation>ブロックインデックスの読み込みに失敗</translation>
+    </message>
+    <message>
+        <source>Failed to write block index</source>
+        <translation>ブロックインデックスの書き込みに失敗</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>残高不足</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address or hostname: &apos;%s&apos;</source>
+        <translation>-onion アドレスかホストネーム &apos;%s&apos; が間違っています</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address or hostname: &apos;%s&apos;</source>
+        <translation>-proxy アドレスかホストネーム &apos;%s&apos; が間違っています</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>不正な枚数</translation>
+    </message>
+    <message>
+        <source>Less than 3 mints added, unable to create spend</source>
+        <translation>3回の変換がなされていないので、利用できません</translation>
+    </message>
+    <message>
+        <source>Loading sporks...</source>
+        <translation>sporksを読み込み中...</translation>
+    </message>
+    <message>
+        <source>Percentage of automatically minted Zerocoin  (10-100, default: %u)</source>
+        <translation>ゼロコインへの自動変換の比率(10-100 まで デフォルト: %u)</translation>
+    </message>
+    <message>
+        <source>Preparing for resync...</source>
+        <translation>再同期の準備中...</translation>
+    </message>
+    <message>
+        <source>Recalculating coin supply may take 30-60 minutes...</source>
+        <translation>供給量を再計算しています。30-60分ほどかかるかもしれません...</translation>
+    </message>
+    <message>
+        <source>Recalculating supply statistics may take 30-60 minutes...</source>
+        <translation>供給量の統計データを再計算しています。30-60分ほどかかるかもしれません...</translation>
+    </message>
+    <message>
+        <source>ResetMintZerocoin finished: </source>
+        <translation>ResetMintZerocoin が完了しました: </translation>
+    </message>
+    <message>
+        <source>ResetSpentZerocoin finished: </source>
+        <translation>ResetSpentZerocoin が完了しました: </translation>
+    </message>
+    <message>
+        <source>Set the Maximum reorg depth (default: %u)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>SwiftX options:</source>
+        <translation>SwiftX のオプション:</translation>
+    </message>
+    <message>
+        <source>Tor control port password (default: empty)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Tor control port to use if onion listening enabled (default: %s)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Use a custom max chain reorganization depth (default: %u)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Zerocoin options:</source>
+        <translation>ゼロコインオプション:</translation>
+    </message>
+    <message>
+        <source>failed to validate zerocoin</source>
+        <translation>ゼロコインの検証に失敗</translation>
+    </message>
+</context>
+<context>
+    <name>zcdicontroldialog</name>
+    <message>
+        <source>Select zPhr to Spend</source>
+        <translation>送金したいzCDIを選択</translation>
+    </message>
+    <message>
+        <source>Quantity</source>
+        <translation>個数</translation>
+    </message>
+    <message>
+        <source>Select/Deselect All</source>
+        <translation>全選択/全選択解除</translation>
+    </message>
+    <message>
+        <source>Is Spendable</source>
+        <translation>利用可能か</translation>
+    </message>
+</context>
+<context>
+    <name>PrivacyDialog</name>
+    <message>
+        <source>CDI which were anonymized via Zerocin Protocol</source>
+        <translation>ゼロコインプロトコルにより匿名化されるCDI</translation>
+    </message>
+    <message>
+        <source>Zerocoin CDI (zCDI)</source>
+        <translation>ゼロコイン CDI (zCDI)</translation>
+    </message>
+    <message>
+        <source>Zerocoin Actions:</source>
+        <translation>ゼロコインの操作:</translation>
+    </message>
+    <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CDI network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示されている情報は古いものかもしれません。CDIネットワークに接続後自動的に同期が行われますが、まだ同期は完了していません。</translation>
+    </message>
+    <message>
+        <source>Enter an amount of Phr to convert to zPhr</source>
+        <translation>zCDIへ変換したいCDIの枚数を入力</translation>
+    </message>
+    <message>
+        <source>Mint Zerocoin</source>
+        <translation>ゼロコインへ変換</translation>
+    </message>
+    <message>
+        <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
+        <translation>変換可能なコインは確認済みでロックされておらず、マスターノードの担保でもないコインです。</translation>
+    </message>
+    <message>
+        <source>Available for Minting:</source>
+        <translation>変換可能な枚数:</translation>
+    </message>
+    <message>
+        <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
+        <translation>ゼロコインウォレットデータベースをリセットしてください。ブロックチェーンに保存されていないトランザクションを削除してください。</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>リセット</translation>
+    </message>
+    <message>
+        <source>Coin Control...</source>
+        <translation>コインコントロール...</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>個数:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>枚数:</translation>
+    </message>
+    <message>
+        <source>Rescan the complete blockchain for  Zerocoin mints and their meta-data.</source>
+        <translation>ゼロコインへの変換・メタデータのためにブロックチェーンを再スキャンしてください。</translation>
+    </message>
+    <message>
+        <source>ReScan</source>
+        <translation>再スキャン</translation>
+    </message>
+    <message>
+        <source>Status and/or Mesages from the last Mint Action.</source>
+        <translation>ステータス・直前の変換アクションでのメッセージログ。</translation>
+    </message>
+    <message>
+        <source>zPhr Control</source>
+        <translation>zCDI コントロール</translation>
+    </message>
+    <message>
+        <source>zPhr Selected:</source>
+        <translation>選択された zCDI:</translation>
+    </message>
+    <message>
+        <source>Quantity Selected:</source>
+        <translation>選択された個数:</translation>
+    </message>
+    <message>
+        <source>Spend Zerocoin. Without &apos;Pay To:&apos; address creates payments to yourself.</source>
+        <translation>ゼロコインを送金。&apos;支払い先&apos;に無記入だった場合、新しくアドレスを生成し自身へ送金します。</translation>
+    </message>
+    <message>
+        <source>Spend Zerocoin</source>
+        <translation>ゼロコインを送金</translation>
+    </message>
+    <message>
+        <source>Available (mature and spendable) zCDI for spending</source>
+        <translation>利用できるzCDI</translation>
+    </message>
+    <message>
+        <source>Available Balance:</source>
+        <translation>利用可能な残高:</translation>
+    </message>
+    <message>
+        <source>Available (mature and spendable) zCDI for spending
+
+zCDI are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>zCDIは20確認と同じdenominationでの3変換がされたのちに利用可能になります</translation>
+    </message>
+    <message>
+        <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
+        <translation>ゼロコイントランザクションのセキュリティレベルです。高ければよりセキュリティは良くなりますが、時間とリソースを必要とします。</translation>
+    </message>
+    <message>
+        <source>Security Level:</source>
+        <translation>セキュリティレベル:</translation>
+    </message>
+    <message>
+        <source>Security Level 1 - 100 (default: 42)</source>
+        <translation>1-100 までのセキュリティレベル (デフォルト: 42)</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>支払い先:</translation>
+    </message>
+    <message>
+        <source>The CDI address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>支払い先CDIアドレスです。空欄の際は自身への送金になります。</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>以前利用したアドレスを選択</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>クリップボードからアドレスをペースト</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;ラベル:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>使用したことのあるアドレスリストへ追加するため、ラベルを入力してください</translation>
+    </message>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>&amp;枚数:</translation>
+    </message>
+    <message>
+        <source>Convert Change to Zerocoin (might cost additional fees)</source>
+        <translation>お釣りをzCDIへ変換(追加で手数料がかかります)</translation>
+    </message>
+    <message>
+        <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
+        <translation>チェックを入れた場合、利用するdenominationの数を最小化するのではなく、お釣りを最小化します。</translation>
+    </message>
+    <message>
+        <source>Minimize Change</source>
+        <translation>お釣りの最小化</translation>
+    </message>
+    <message>
+        <source>Zerocoin Stats:</source>
+        <translation>ゼロコインのステータス:</translation>
+    </message>
+    <message>
+        <source>Information about the available Zerocoin funds.</source>
+        <translation>利用できるゼロコイン残高の情報.</translation>
+    </message>
+    <message>
+        <source>Total Balance including unconfirmed and immature zCDI</source>
+        <translation>未確認・未成熟なzCDIも含んだ全残高</translation>
+    </message>
+    <message>
+        <source>Total Zerocoin  Balance:</source>
+        <translation>全ゼロコイン残高:</translation>
+    </message>
+    <message>
+        <source>Denominations with value 1:</source>
+        <translation>1 zCDI の塊(denomination):</translation>
+    </message>
+    <message>
+        <source>Denom. with value 1:</source>
+        <translation>1 zCDI のdenom.:</translation>
+    </message>
+    <message>
+        <source>Unconfirmed: less than 20 confirmations
+Immature: confirmed, but less than 2 mints of the same denomination after it was minted</source>
+        <translation>未確認: 20確認以下
+        未成熟: 確認済みだがネットワークで2回以上同じdenominationで変換されていない</translation>
+    </message>
+    <message>
+        <source>Denominations with value 5:</source>
+        <translation>5 zCDI の塊(denomination):</translation>
+    </message>
+    <message>
+        <source>Denom. with value 5:</source>
+        <translation>5 zCDI のdenom.:</translation>
+    </message>
+    <message>
+        <source>Denominations with value 10:</source>
+        <translation>10 zCDI の塊(denomination):</translation>
+    </message>
+    <message>
+        <source>Denom. with value 10:</source>
+        <translation>10 zCDI のdenom.:</translation>
+    </message>
+    <message>
+        <source>Denominations with value 50:</source>
+        <translation>50 zCDI の塊(denomination):</translation>
+    </message>
+    <message>
+        <source>Denom. with value 50:</source>
+        <translation>50 zCDI のdenom.:</translation>
+    </message>
+    <message>
+        <source>Denominations with value 100:</source>
+        <translation>100 zCDI の塊(denomination):</translation>
+    </message>
+    <message>
+        <source>Denom. with value 100:</source>
+        <translation>100 zCDI のdenom.:</translation>
+    </message>
+    <message>
+        <source>Denominations with value 500:</source>
+        <translation>500 zCDI の塊(denomination):</translation>
+    </message>
+    <message>
+        <source>Denom. with value 500:</source>
+        <translation>500 zCDI のdenom.:</translation>
+    </message>
+    <message>
+        <source>Denominations with value 1000:</source>
+        <translation>1000 zCDI の塊(denomination):</translation>
+    </message>
+    <message>
+        <source>Denom. with value 1000:</source>
+        <translation>1000 zCDI のdenom.:</translation>
+    </message>
+    <message>
+        <source>Denominations with value 5000:</source>
+        <translation>5000 zCDI の塊(denomination):</translation>
+    </message>
+    <message>
+        <source>Denom. with value 5000:</source>
+        <translation>5000 zCDI のdenom.:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>優先度:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>手数料:</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>Dust:</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>いいえ</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>バイト数:</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>残高が不足しています！</translation>
+    </message>
+    <message>
+        <source>Coins automatically selected</source>
+        <translation>コインは自動的に選択されます</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>中</translation>
+    </message>
+    <message>
+        <source>Coin Control Features</source>
+        <translation>コインコントロール機能</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>有効化されていて、お釣りのアドレスが空欄か間違っていた場合、新しいアドレスを生成してお釣りを送金します。</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>カスタムお釣りアドレス</translation>
+    </message>
+    <message>
+        <source>Amount After Fee:</source>
+        <translation>手数料差し引き後の枚数:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>お釣り:</translation>
+    </message>
+</context>
+<context>
+    <name>MultisigDialog</name>
+    <message>
+        <source>Multisignature Address Interactions</source>
+        <translation>マルチシグネチャアドレスの利用</translation>
+    </message>
+    <message>
+        <source>Create MultiSignature &amp;Address</source>
+        <translation>&amp;マルチシグネチャアドレスの生成</translation>
+    </message>
+    <message>
+        <source>How many people must sign to verify a transaction</source>
+        <translation>トランザクションを承認するために何人の人間が署名しなければならないか</translation>
+    </message>
+    <message>
+        <source>Enter the minimum number of signatures required to sign transactions</source>
+        <translation>トランザクションの承認に必要なシグネチャの最小数</translation>
+    </message>
+    <message>
+        <source>Address Label:</source>
+        <translation>アドレスのラベル:</translation>
+    </message>
+    <message>
+        <source>Add another address that could sign to verify a transaction from the multisig address.</source>
+        <translation>トランザクションを証明する際の署名に使えるアドレスを追加する</translation>
+    </message>
+    <message>
+        <source>&amp;Add Address / Key</source>
+        <translation>&amp;アドレス/キーの追加</translation>
+    </message>
+    <message>
+        <source>Local addresses or public keys that can sign:</source>
+        <translation>署名に使うアドレスかパブリックキー:</translation>
+    </message>
+    <message>
+        <source>Create a new multisig address</source>
+        <translation>マルチシグネチャアドレスを作成する</translation>
+    </message>
+    <message>
+        <source>C&amp;reate</source>
+        <translation>&amp;生成</translation>
+    </message>
+    <message>
+        <source>Status:</source>
+        <translation>ステータス:</translation>
+    </message>
+    <message>
+        <source>Use below to quickly import an address by its redeem. Don&apos;t forget to add a label before clicking import!
+Keep in mind, the wallet will rescan the blockchain to find transactions containing the new address.
+Please be patient after clicking import.</source>
+        <translation>下記のredeemを使用して、アドレスをインポートします。クリックする前にラベルを入力してください！
+インポート後ブロックチェーンデータを参照し新しいアドレスについてのトランザクションを読み込みますので時間がかかります。
+しばらくお待ちください。</translation>
+    </message>
+    <message>
+        <source>&amp;Import Redeem</source>
+        <translation>&amp;Redeemをインポート</translation>
+    </message>
+    <message>
+        <source>&amp;Create MultiSignature Tx</source>
+        <translation>&amp;マルチシグネチャ Txの生成</translation>
+    </message>
+    <message>
+        <source>Coin Control</source>
+        <translation>コインコントロール</translation>
+    </message>
+    <message>
+        <source>Inputs:</source>
+        <translation>インプット:</translation>
+    </message>
+    <message>
+        <source>Quantity Selected:</source>
+        <translation>選択された個数:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>枚数:</translation>
+    </message>
+    <message>
+        <source>Add an input to fund the outputs</source>
+        <translation>送金に使うインプットを追加する</translation>
+    </message>
+    <message>
+        <source>Add a Raw Input</source>
+        <translation>インプットの追加</translation>
+    </message>
+    <message>
+        <source>Address / Amount:</source>
+        <translation>アドレス / 枚数:</translation>
+    </message>
+    <message>
+        <source>Add destinations to send CDI to</source>
+        <translation>CDIを送る宛先を追加</translation>
+    </message>
+    <message>
+        <source>Add &amp;Destination</source>
+        <translation>&amp;宛先を追加</translation>
+    </message>
+    <message>
+        <source>Create a transaction object using the given inputs to the given outputs</source>
+        <translation>与えられたインプットからアウトプットへ向かうトランザクションを生成</translation>
+    </message>
+    <message>
+        <source>Cr&amp;eate</source>
+        <translation>&amp;生成</translation>
+    </message>
+    <message>
+        <source>&amp;Sign MultiSignature Tx</source>
+        <translation>&amp;マルチシグネチャ Txの署名</translation>
+    </message>
+    <message>
+        <source>Transaction Hex:</source>
+        <translation>トランザクションの Hex:</translation>
+    </message>
+    <message>
+        <source>Sign the transaction from this wallet or from provided private keys</source>
+        <translation>このウォレットかプライベートキーでトランザクションを署名</translation>
+    </message>
+    <message>
+        <source>S&amp;ign</source>
+        <translation>&amp;署名</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DISABLED until transaction has been signed enough times.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;トランザクションは指定回数署名されるまで無効です&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>Co&amp;mmit</source>
+        <translation>&amp;コミット</translation>
+    </message>
+    <message>
+        <source>Add private keys to sign the transaction with</source>
+        <translation>トランザクションを署名するプライベートキーを追加する</translation>
+    </message>
+    <message>
+        <source>Add Private &amp;Key</source>
+        <translation>&amp;プライベートキーの追加</translation>
+    </message>
+    <message>
+        <source>Sign with only private keys (Not Recommened)</source>
+        <translation>プライベートキーのみで署名(非推奨)</translation>
     </message>
 </context>
 </TS>

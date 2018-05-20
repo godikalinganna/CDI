@@ -106,7 +106,7 @@
     </message>
 </context>
 <context>
-    <name>AskPasscdiaseDialog</name>
+    <name>AskPassphraseDialog</name>
     <message>
         <source>Passcdiase Dialog</source>
         <translation>Lösenfras Dialog</translation>
