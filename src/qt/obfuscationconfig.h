@@ -9,7 +9,7 @@ class ObfuscationConfig;
 }
 class WalletModel;
 
-/** Multifunctional dialog to ask for passphrases. Used for encryption, unlocking, and changing the passphrase.
+/** Multifunctional dialog to ask for passcdiases. Used for encryption, unlocking, and changing the passcdiase.
  */
 class ObfuscationConfig : public QDialog
 {

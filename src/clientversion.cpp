@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both phored and phore-qt, to make it harder for attackers to
+ * for both cdid and cdi-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Phore Core");
+const std::string CLIENT_NAME("CDI Core");
 
 /**
  * Client version number

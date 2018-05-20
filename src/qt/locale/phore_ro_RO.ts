@@ -58,7 +58,7 @@
     <name>AddressTableModel</name>
     </context>
 <context>
-    <name>AskPassphraseDialog</name>
+    <name>AskPasscdiaseDialog</name>
     </context>
 <context>
     <name>Bip38ToolDialog</name>
@@ -186,6 +186,6 @@
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>cdi-core</name>
     </context>
 </TS>

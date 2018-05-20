@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Phore addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your CDI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Phore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your CDI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -143,26 +143,26 @@
     </message>
 </context>
 <context>
-    <name>AskPassphraseDialog</name>
+    <name>AskPasscdiaseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
-        <source>Passphrase Dialog</source>
-        <translation>Passphrase Dialog</translation>
+        <location filename="../forms/askpasscdiasedialog.ui" line="+26"/>
+        <source>Passcdiase Dialog</source>
+        <translation>Passcdiase Dialog</translation>
     </message>
     <message>
         <location line="+30"/>
-        <source>Enter passphrase</source>
-        <translation>Enter passphrase</translation>
+        <source>Enter passcdiase</source>
+        <translation>Enter passcdiase</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>New passphrase</source>
-        <translation>New passphrase</translation>
+        <source>New passcdiase</source>
+        <translation>New passcdiase</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Repeat new passphrase</source>
-        <translation>Repeat new passphrase</translation>
+        <source>Repeat new passcdiase</source>
+        <translation>Repeat new passcdiase</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -175,9 +175,9 @@
         <translation>For anonymization and staking only</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+44"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
+        <location filename="../askpasscdiasedialog.cpp" line="+44"/>
+        <source>Enter the new passcdiase to the wallet.&lt;br/&gt;Please use a passcdiase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Enter the new passcdiase to the wallet.&lt;br/&gt;Please use a passcdiase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -186,8 +186,8 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>This operation needs your wallet passphrase to unlock the wallet.</translation>
+        <source>This operation needs your wallet passcdiase to unlock the wallet.</source>
+        <translation>This operation needs your wallet passcdiase to unlock the wallet.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -196,8 +196,8 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>This operation needs your wallet passphrase to decrypt the wallet.</translation>
+        <source>This operation needs your wallet passcdiase to decrypt the wallet.</source>
+        <translation>This operation needs your wallet passcdiase to decrypt the wallet.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -206,13 +206,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Change passphrase</source>
-        <translation>Change passphrase</translation>
+        <source>Change passcdiase</source>
+        <translation>Change passcdiase</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Enter the old and new passphrase to the wallet.</translation>
+        <source>Enter the old and new passcdiase to the wallet.</source>
+        <translation>Enter the old and new passcdiase to the wallet.</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
+        <source>CDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CDIs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PHR&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passcdiase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -261,8 +261,8 @@
     <message>
         <location line="+5"/>
         <location line="+35"/>
-        <source>The supplied passphrases do not match.</source>
-        <translation>The supplied passphrases do not match.</translation>
+        <source>The supplied passcdiases do not match.</source>
+        <translation>The supplied passcdiases do not match.</translation>
     </message>
     <message>
         <location line="-26"/>
@@ -273,8 +273,8 @@
         <location line="+1"/>
         <location line="+8"/>
         <location line="+13"/>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>The passphrase entered for the wallet decryption was incorrect.</translation>
+        <source>The passcdiase entered for the wallet decryption was incorrect.</source>
+        <translation>The passcdiase entered for the wallet decryption was incorrect.</translation>
     </message>
     <message>
         <location line="-14"/>
@@ -283,8 +283,8 @@
     </message>
     <message>
         <location line="+10"/>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation>Wallet passphrase was successfully changed.</translation>
+        <source>Wallet passcdiase was successfully changed.</source>
+        <translation>Wallet passcdiase was successfully changed.</translation>
     </message>
     <message>
         <location line="+43"/>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter a Phore Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a CDI Address that you would like to encrypt using BIP 38. Enter a passcdiase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -318,7 +318,7 @@
     </message>
     <message>
         <location line="-355"/>
-        <source>The Phore address to sign the message with</source>
+        <source>The CDI address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -344,7 +344,7 @@
     <message>
         <location line="+14"/>
         <location line="+185"/>
-        <source>Passphrase: </source>
+        <source>Passcdiase: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Phore address</source>
+        <source>Sign the message to prove you own this CDI address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -386,17 +386,17 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking &apos;Import Address&apos; will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passcdiase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking &apos;Import Address&apos; will add this private key to the wallet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>The Phore address the message was signed with</source>
+        <source>The CDI address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
+        <source>Verify the message to ensure it was signed with the specified CDI address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -426,7 +426,7 @@
     </message>
     <message>
         <location line="+90"/>
-        <source>The entered passphrase is invalid. </source>
+        <source>The entered passcdiase is invalid. </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -468,7 +468,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Please check the key and passphrase and try again.</source>
+        <source>Please check the key and passcdiase and try again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zPHR</source>
+        <source>Privacy Actions for zCDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -607,13 +607,13 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Change Passphrase...</translation>
+        <source>&amp;Change Passcdiase...</source>
+        <translation>&amp;Change Passcdiase...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>Change the passphrase used for wallet encryption</translation>
+        <source>Change the passcdiase used for wallet encryption</source>
+        <translation>Change the passcdiase used for wallet encryption</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -776,17 +776,17 @@
     <message>
         <location line="-413"/>
         <location line="+858"/>
-        <source>Phore Core</source>
+        <source>CDI Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-675"/>
-        <source>Send coins to a Phore address</source>
+        <source>Send coins to a CDI address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and phore: URIs)</source>
+        <source>Request payments (generates QR codes and cdi: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -806,27 +806,27 @@
     </message>
     <message>
         <location line="+31"/>
-        <source>&amp;About Phore Core</source>
+        <source>&amp;About CDI Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Phore Core</source>
+        <source>Show information about CDI Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for Phore</source>
+        <source>Modify configuration options for CDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your Phore addresses to prove you own them</source>
+        <source>Sign messages with your CDI addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Phore addresses</source>
+        <source>Verify messages to ensure they were signed with specified CDI addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -836,7 +836,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Encrypt and decrypt private keys using a passphrase</source>
+        <source>Encrypt and decrypt private keys using a passcdiase</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -866,7 +866,7 @@
     </message>
     <message>
         <location line="+10"/>
-        <source>Open a Phore: URI or payment request</source>
+        <source>Open a CDI: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -881,17 +881,17 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the Phore Core help message to get a list with possible Phore command-line options</source>
+        <source>Show the CDI Core help message to get a list with possible CDI command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+204"/>
-        <source>Phore Core client</source>
+        <source>CDI Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+197"/>
-        <source>%n active connection(s) to Phore network</source>
+        <source>%n active connection(s) to CDI network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1097,7 +1097,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+476"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (phore.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (cdi.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1461,7 +1461,7 @@ Address: %4
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid Phore address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid CDI address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1517,7 +1517,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>Phore Core</source>
+        <source>CDI Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1528,7 +1528,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>About Phore Core</source>
+        <source>About CDI Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1586,17 +1586,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Phore Core.</source>
+        <source>Welcome to CDI Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Phore Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where CDI Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Phore Core will download and store a copy of the Phore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>CDI Core will download and store a copy of the CDI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1611,7 +1611,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-        <source>Phore Core</source>
+        <source>CDI Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1787,8 +1787,8 @@ Address: %4
     </message>
     <message>
         <location line="+16"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Phore addresses after it matures.
-To Add: enter percentage to give and Phore address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other CDI addresses after it matures.
+To Add: enter percentage to give and CDI address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -1953,12 +1953,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PHR</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PHR</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1968,12 +1968,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 PHR to anonymize 10000 PHR</source>
+        <source>This option is the quickest and will cost about ~0.025 CDI to anonymize 10000 CDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 PHR to anonymize 10000 PHR</source>
+        <source>This option is moderately fast and will cost about 0.05 CDI to anonymize 10000 CDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1983,7 +1983,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 PHR per 10000 PHR you anonymize.</source>
+        <source>0.1 CDI per 10000 CDI you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1995,17 +1995,17 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-27"/>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Phore&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Phore&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Phore&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2081,7 +2081,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the Phore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the CDI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2106,12 +2106,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-176"/>
-        <source>Automatically start Phore after logging in to the system.</source>
+        <source>Automatically start CDI after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Phore on system login</source>
+        <source>&amp;Start CDI on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2146,13 +2146,13 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Phore.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting CDI.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/phore-project/phore-project-translations</source>
+https://www.transifex.com/cdi-project/cdi-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2162,28 +2162,28 @@ https://www.transifex.com/phore-project/phore-project-translations</source>
     </message>
     <message>
         <location line="-133"/>
-        <source>Percentage of incoming PHR which get automatically converted to zPHR via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming CDI which get automatically converted to zCDI via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zPHR</source>
+        <source>Percentage of autominted zCDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough PHR for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough CDI for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zPHR Denomination</source>
+        <source>Preferred Automint zCDI Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+114"/>
-        <source>Connect to the Phore network through a SOCKS5 proxy.</source>
+        <source>Connect to the CDI network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2348,7 +2348,7 @@ https://www.transifex.com/phore-project/phore-project-translations</source>
     </message>
     <message>
         <location line="+43"/>
-        <source>PHR Balances</source>
+        <source>CDI Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2387,7 +2387,7 @@ https://www.transifex.com/phore-project/phore-project-translations</source>
     <message>
         <location line="-153"/>
         <location line="+1393"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Phore network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CDI network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2449,17 +2449,17 @@ https://www.transifex.com/phore-project/phore-project-translations</source>
     </message>
     <message>
         <location line="+36"/>
-        <source>PHR:</source>
+        <source>CDI:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+35"/>
-        <source>zPHR:</source>
+        <source>zCDI:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Current percentage of zPHR.
+        <source>Current percentage of zCDI.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2472,7 +2472,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="-46"/>
         <location line="+13"/>
-        <source>Locked PHR or Masternode collaterals. These are excluded from zPHR minting.</source>
+        <source>Locked CDI or Masternode collaterals. These are excluded from zCDI minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2481,7 +2481,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+189"/>
         <location line="+31"/>
         <location line="+44"/>
-        <source>0.000 000 00 PHR</source>
+        <source>0.000 000 00 CDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2492,7 +2492,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="+7"/>
         <location line="+10"/>
-        <source>Unlocked PHRs. These can be used for zPHR minting.</source>
+        <source>Unlocked CDIs. These can be used for zCDI minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2509,7 +2509,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+14"/>
         <location line="+104"/>
         <source>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zPHR are spendable.</source>
+These zCDI are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2520,7 +2520,7 @@ These zPHR are spendable.</source>
     <message>
         <location line="+23"/>
         <location line="+35"/>
-        <source>All available zPHR, unconfirmed and immature zPHR included.</source>
+        <source>All available zCDI, unconfirmed and immature zCDI included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2550,7 +2550,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+93"/>
-        <source>Current percentage of zPHR.
+        <source>Current percentage of zCDI.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -2562,13 +2562,13 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     </message>
     <message>
         <location line="+1"/>
-        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in phore.conf.</source>
+        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in cdi.conf.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>AutoMint is currently disabled.
-To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in phore.conf</source>
+To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in cdi.conf</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2608,12 +2608,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start phore: click-to-pay handler</source>
+        <source>Cannot start cdi: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+114"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Phore address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid CDI address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2716,12 +2716,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <name>PrivacyDialog</name>
     <message>
         <location filename="../forms/privacydialog.ui" line="+55"/>
-        <source>PHR which were anonymized via Zerocin Protocol</source>
+        <source>CDI which were anonymized via Zerocin Protocol</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Zerocoin PHR (zPHR)</source>
+        <source>Zerocoin CDI (zCDI)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2731,7 +2731,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+10"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Phore network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CDI network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2756,7 +2756,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-349"/>
         <location line="+629"/>
-        <source>zPHR</source>
+        <source>zCDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2771,7 +2771,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+13"/>
-        <source>0.000 000 00 PHR</source>
+        <source>0.000 000 00 CDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2847,7 +2847,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zPHR for spending</source>
+        <source>Available (mature and spendable) zCDI for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2857,15 +2857,15 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zPHR for spending
+        <source>Available (mature and spendable) zCDI for spending
 
-zPHR are mature when they have more than 20 confirmations AND more than 3 mints of the same denomination after them were minted</source>
+zCDI are mature when they have more than 20 confirmations AND more than 3 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+417"/>
-        <source>0 zPHR</source>
+        <source>0 zCDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2890,7 +2890,7 @@ zPHR are mature when they have more than 20 confirmations AND more than 3 mints 
     </message>
     <message>
         <location line="+27"/>
-        <source>The Phore address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The CDI address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2956,7 +2956,7 @@ zPHR are mature when they have more than 20 confirmations AND more than 3 mints 
     <message>
         <location line="+62"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zPHR</source>
+        <source>Total Balance including unconfirmed and immature zCDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3167,12 +3167,12 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     <message>
         <location line="+88"/>
         <location line="+111"/>
-        <source>Zerocoin functionality is not enabled on the Phore network yet.</source>
+        <source>Zerocoin functionality is not enabled on the CDI network yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
+        <source>Error: Your wallet is locked. Please enter the wallet passcdiase first.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3192,7 +3192,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+0"/>
-        <source> zPHR in </source>
+        <source> zCDI in </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3234,7 +3234,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Invalid Phore Address</source>
+        <source>Invalid CDI Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3362,7 +3362,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a Phore address (e.g. %1)</source>
+        <source>Enter a CDI address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3557,7 +3557,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the Phore debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the CDI debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3784,7 +3784,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-36"/>
-        <source>Welcome to the Phore RPC console.</source>
+        <source>Welcome to the CDI RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3900,12 +3900,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Phore network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the CDI network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Phore network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the CDI network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4188,7 +4188,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>0 PHR</source>
+        <source>0 CDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4253,18 +4253,18 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+772"/>
-        <source>If the custom fee is set to 1000 uPHRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPHRs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uPHRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCDIs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uPHRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPHRs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uPHRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCDIs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Phore transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for CDI transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4324,7 +4324,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized PHR</source>
+        <source>Anonymized CDI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4400,7 +4400,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+622"/>
-        <source>Warning: Invalid Phore address</source>
+        <source>Warning: Invalid CDI address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4539,7 +4539,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+18"/>
-        <source>The Phore address to send the payment to</source>
+        <source>The CDI address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4593,7 +4593,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the Phore: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Phore network.</source>
+        <source>A message that was attached to the CDI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the CDI network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4628,7 +4628,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>Phore Core is shutting down...</source>
+        <source>CDI Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4656,7 +4656,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+18"/>
-        <source>The Phore address to sign the message with</source>
+        <source>The CDI address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4698,17 +4698,17 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Phore address</source>
+        <source>Sign the message to prove you own this CDI address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
-        <source>The Phore address the message was signed with</source>
+        <source>The CDI address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
+        <source>Verify the message to ensure it was signed with the specified CDI address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4823,7 +4823,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>Phore Core</source>
+        <source>CDI Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4843,7 +4843,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>The Phore Core developers</source>
+        <source>The CDI Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5611,7 +5611,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 PHR.</source>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 CDI.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5666,7 +5666,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
 <context>
     <name>ZPhrControlDialog</name>
     <message>
-        <location filename="../forms/zphrcontroldialog.ui" line="+20"/>
+        <location filename="../forms/zcdicontroldialog.ui" line="+20"/>
         <source>Select zPhr to Spend</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5698,9 +5698,9 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>phore-core</name>
+    <name>cdi-core</name>
     <message>
-        <location filename="../phorestrings.cpp" line="+15"/>
+        <location filename="../cdistrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -5736,7 +5736,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Cannot obtain a lock on data directory %s. Phore Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. CDI Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5761,7 +5761,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all Phore specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all CDI specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5811,12 +5811,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in PHR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in CDI/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in PHR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in CDI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5941,22 +5941,22 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+4"/>
-        <source>To use phored, or the -server option to phore-qt, you must set an rpcpassword in the configuration file:
+        <source>To use cdid, or the -server option to cdi-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=phorerpc
+rpcuser=cdirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CDI Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. Phore Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. CDI Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5966,12 +5966,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PHR.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 CDI.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PHR.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 CDI.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5991,7 +5991,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Phore Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CDI Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6186,7 +6186,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The Phore Core Developers</source>
+        <source>Copyright (C) 2015-%i The CDI Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6286,7 +6286,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Phore Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of CDI Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6351,7 +6351,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+2"/>
-        <source>Fee (in PHR/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in CDI/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6426,7 +6426,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Phore Core is shutting down.</source>
+        <source>Initialization sanity check failed. CDI Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7318,7 +7318,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Phore Core to complete</source>
+        <source>Wallet needed to be rewritten: restart CDI Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

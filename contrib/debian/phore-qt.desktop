@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Phore
-Comment=Phore P2P Cryptocurrency
-Comment[fr]=Phore, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Phore, eşten eşe kriptografik sanal para birimi
-Exec=phore-qt %u
+Name=CDI
+Comment=CDI P2P Cryptocurrency
+Comment[fr]=CDI, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CDI, eşten eşe kriptografik sanal para birimi
+Exec=cdi-qt %u
 Terminal=false
 Type=Application
-Icon=phore128
-MimeType=x-scheme-handler/phore;
+Icon=cdi128
+MimeType=x-scheme-handler/cdi;
 Categories=Office;Finance;

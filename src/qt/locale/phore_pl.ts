@@ -94,17 +94,17 @@
     </message>
 </context>
 <context>
-    <name>AskPassphraseDialog</name>
+    <name>AskPasscdiaseDialog</name>
     <message>
-        <source>Enter passphrase</source>
+        <source>Enter passcdiase</source>
         <translation>Wpisz hasło</translation>
     </message>
     <message>
-        <source>New passphrase</source>
+        <source>New passcdiase</source>
         <translation>Nowe hasło</translation>
     </message>
     <message>
-        <source>Repeat new passphrase</source>
+        <source>Repeat new passcdiase</source>
         <translation>Powtórz nowe hasło</translation>
     </message>
     <message>
@@ -116,7 +116,7 @@
         <translation>Zakoduj portfel</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <source>This operation needs your wallet passcdiase to unlock the wallet.</source>
         <translation>Ta operacja wymaga twojego hasła, by odblokować portfel</translation>
     </message>
     <message>
@@ -124,7 +124,7 @@
         <translation>Odblokuj portfel</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passcdiase to decrypt the wallet.</source>
         <translation>Ta operacja wymaga twojego hasła, by zakodować portfel</translation>
     </message>
     <message>
@@ -132,11 +132,11 @@
         <translation>Zakoduj portfel</translation>
     </message>
     <message>
-        <source>Change passphrase</source>
+        <source>Change passcdiase</source>
         <translation>Zmień hasło</translation>
     </message>
     <message>
-        <source>Enter the old and new passphrase to the wallet.</source>
+        <source>Enter the old and new passcdiase to the wallet.</source>
         <translation>Wpisz stare oraz nowe hasło do portfela</translation>
     </message>
     <message>
@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PHR&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE PHR!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passcdiase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE CDI!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -164,7 +164,7 @@
         <translation>Kodowanie portfela nieudane z powodu wewnętrznego błędu. Twój portfel nie został zakodowany</translation>
     </message>
     <message>
-        <source>The supplied passphrases do not match.</source>
+        <source>The supplied passcdiases do not match.</source>
         <translation>Podane hasła nie zgadzają się</translation>
     </message>
     <message>
@@ -172,7 +172,7 @@
         <translation>Odblokowanie portfela nieudane</translation>
     </message>
     <message>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <source>The passcdiase entered for the wallet decryption was incorrect.</source>
         <translation>Podane hasło do zakodowania portfela jest błędne</translation>
     </message>
     <message>
@@ -180,7 +180,7 @@
         <translation>Kodowanie portfela nieudane</translation>
     </message>
     <message>
-        <source>Wallet passphrase was successfully changed.</source>
+        <source>Wallet passcdiase was successfully changed.</source>
         <translation>Hasło do portfela zostało zmienione</translation>
     </message>
     <message>
@@ -219,7 +219,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passphrase: </source>
+        <source>Passcdiase: </source>
         <translation>Hasło:</translation>
     </message>
     <message>
@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Phore jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this CDI address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres CDI jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -255,7 +255,7 @@
         <translation>Adres importu</translation>
     </message>
     <message>
-        <source>The entered passphrase is invalid. </source>
+        <source>The entered passcdiase is invalid. </source>
         <translation>Podane hasło jest nieprawidłowe</translation>
     </message>
     <message>
@@ -287,7 +287,7 @@
         <translation>Błąd kodowania</translation>
     </message>
     <message>
-        <source>Please check the key and passphrase and try again.</source>
+        <source>Please check the key and passcdiase and try again.</source>
         <translation>Proszę sprawdzić klucz i hasło ponownie</translation>
     </message>
     <message>
@@ -394,11 +394,11 @@
         <translation>&amp;Kopia zapasowa portfela z innej lokacji</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passcdiase...</source>
         <translation>&amp;Zmień hasło</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passcdiase used for wallet encryption</source>
         <translation>Zmień hasło do zakodowania portfela</translation>
     </message>
     <message>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>&amp;Rdzeń Phore</translation>
+        <source>CDI Core</source>
+        <translation>&amp;Rdzeń CDI</translation>
     </message>
     <message>
-        <source>Send coins to a Phore address</source>
-        <translation>Wyślij monety do adresu Phore</translation>
+        <source>Send coins to a CDI address</source>
+        <translation>Wyślij monety do adresu CDI</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and phore: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i phore:URI)</translation>
+        <source>Request payments (generates QR codes and cdi: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i cdi:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,31 +538,31 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Phore Core</source>
+        <source>&amp;About CDI Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Phore Core</source>
+        <source>Show information about CDI Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Phore</source>
-        <translation>Modyfikuj opcje konfiguracji Phore</translation>
+        <source>Modify configuration options for CDI</source>
+        <translation>Modyfikuj opcje konfiguracji CDI</translation>
     </message>
     <message>
-        <source>Sign messages with your Phore addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami Phore, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your CDI addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami CDI, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Phore addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Phore</translation>
+        <source>Verify messages to ensure they were signed with specified CDI addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu CDI</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
         <translation>&amp;BIP 38 narzędzie</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passphrase</source>
+        <source>Encrypt and decrypt private keys using a passcdiase</source>
         <translation>Zakoduj i odkoduj prywatne klucze używając hasła</translation>
     </message>
     <message>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a Phore: URI or payment request</source>
-        <translation>OtwórzPHRX: URI i żądanie zapłaty</translation>
+        <source>Open a CDI: URI or payment request</source>
+        <translation>OtwórzCDIX: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Phore Core help message to get a list with possible Phore command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Phore, aby dostać listę możliwych opcji Phore command-line</translation>
+        <source>Show the CDI Core help message to get a list with possible CDI command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia CDI, aby dostać listę możliwych opcji CDI command-line</translation>
     </message>
     <message>
-        <source>Phore Core client</source>
-        <translation>Rdzeń Phore klient</translation>
+        <source>CDI Core client</source>
+        <translation>Rdzeń CDI klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -912,8 +912,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Phore Core</source>
-        <translation>&amp;Rdzeń Phore</translation>
+        <source>CDI Core</source>
+        <translation>&amp;Rdzeń CDI</translation>
     </message>
     </context>
 <context>
@@ -927,8 +927,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>&amp;Rdzeń Phore</translation>
+        <source>CDI Core</source>
+        <translation>&amp;Rdzeń CDI</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1188,12 +1188,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Phore after logging in to the system.</source>
-        <translation>Automatycznie uruchom Phore po zalogowaniu do systemu</translation>
+        <source>Automatically start CDI after logging in to the system.</source>
+        <translation>Automatycznie uruchom CDI po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Phore on system login</source>
-        <translation>&amp;Uruchom Phore podczas logowania do systemu</translation>
+        <source>&amp;Start CDI on system login</source>
+        <translation>&amp;Uruchom CDI podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1212,18 +1212,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Phore.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Phore</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CDI.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie CDI</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/phore-project/phore-project-translations</source>
+https://www.transifex.com/cdi-project/cdi-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/phore-project/phore-project-translations </translation>
+https://www.transifex.com/cdi-project/cdi-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the Phore network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Phore poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the CDI network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią CDI poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1461,8 +1461,8 @@ https://www.transifex.com/phore-project/phore-project-translations </translation
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a Phore address (e.g. %1)</source>
-        <translation>Wprowadź adres Phore (np. %1)</translation>
+        <source>Enter a CDI address (e.g. %1)</source>
+        <translation>Wprowadź adres CDI (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1900,8 +1900,8 @@ https://www.transifex.com/phore-project/phore-project-translations </translation
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Phore jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this CDI address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres CDI jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1935,8 +1935,8 @@ https://www.transifex.com/phore-project/phore-project-translations </translation
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Phore Core</source>
-        <translation>&amp;Rdzeń Phore</translation>
+        <source>CDI Core</source>
+        <translation>&amp;Rdzeń CDI</translation>
     </message>
     </context>
 <context>
@@ -2034,7 +2034,7 @@ https://www.transifex.com/phore-project/phore-project-translations </translation
     </message>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>cdi-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

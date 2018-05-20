@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  phored The Phore core server.
+#  cdid The CDI core server.
 #
 #
 # chkconfig: 345 80 20
-# description: phored
-# processname: phored
+# description: cdid
+# processname: cdid
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/phored, see below
-if [ -f /etc/sysconfig/phored ]; then
-        . /etc/sysconfig/phored
+# you can override defaults in /etc/sysconfig/cdid, see below
+if [ -f /etc/sysconfig/cdid ]; then
+        . /etc/sysconfig/cdid
 fi
 
 RETVAL=0
 
-prog=phored
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/phored
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/phored}
+prog=cdid
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/cdid
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/cdid}
 
-# phored defaults to /usr/bin/phored, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/phored}
+# cdid defaults to /usr/bin/cdid, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/cdid}
 
-# phored opts default to -disablewallet, override with BITCOIND_OPTS
+# cdid opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

@@ -17,7 +17,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/phoreproject/phore
+url=https://github.com/cdiproject/cdi
 proc=2
 mem=2000
 lxc=true
@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the phore, gitian-builder, gitian.sigs, and phore-detached-sigs.
+Run this script from the directory containing the cdi, gitian-builder, gitian.sigs, and cdi-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -39,7 +39,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/phoreproject/phore
+-u|--url	Specify the URL of the repository. Default is https://github.com/cdiproject/cdi
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -237,8 +237,8 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/phoreproject/gitian.sigs.git
-    git clone https://github.com/phoreproject/phore-detached-sigs.git
+    git clone https://github.com/cdiproject/gitian.sigs.git
+    git clone https://github.com/cdiproject/cdi-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -252,7 +252,7 @@ then
 fi
 
 # Set up build
-pushd ./phore
+pushd ./cdi
 git fetch
 git checkout ${COMMIT}
 popd
@@ -261,7 +261,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./phore-binaries/${VERSION}
+	mkdir -p ./cdi-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -271,7 +271,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../phore/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../cdi/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -279,9 +279,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit phore=${COMMIT} --url phore=${url} ../phore/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../phore/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/phore-*.tar.gz build/out/src/phore-*.tar.gz ../phore-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit cdi=${COMMIT} --url cdi=${url} ../cdi/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../cdi/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/cdi-*.tar.gz build/out/src/cdi-*.tar.gz ../cdi-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -289,10 +289,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit phore=${COMMIT} --url phore=${url} ../phore/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../phore/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/phore-*-win-unsigned.tar.gz inputs/phore-win-unsigned.tar.gz
-	    mv build/out/phore-*.zip build/out/phore-*.exe ../phore-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit cdi=${COMMIT} --url cdi=${url} ../cdi/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../cdi/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/cdi-*-win-unsigned.tar.gz inputs/cdi-win-unsigned.tar.gz
+	    mv build/out/cdi-*.zip build/out/cdi-*.exe ../cdi-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -300,10 +300,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit phore=${COMMIT} --url phore=${url} ../phore/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../phore/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/phore-*-osx-unsigned.tar.gz inputs/phore-osx-unsigned.tar.gz
-	    mv build/out/phore-*.tar.gz build/out/phore-*.dmg ../phore-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit cdi=${COMMIT} --url cdi=${url} ../cdi/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../cdi/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/cdi-*-osx-unsigned.tar.gz inputs/cdi-osx-unsigned.tar.gz
+	    mv build/out/cdi-*.tar.gz build/out/cdi-*.dmg ../cdi-binaries/${VERSION}
 	fi
 	# AArch64
 	if [[ $aarch64 = true ]]
@@ -311,9 +311,9 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} AArch64"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit phore=${COMMIT} --url phore=${url} ../phore/contrib/gitian-descriptors/gitian-aarch64.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../phore/contrib/gitian-descriptors/gitian-aarch64.yml
-	    mv build/out/phore-*.tar.gz build/out/src/phore-*.tar.gz ../phore-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit cdi=${COMMIT} --url cdi=${url} ../cdi/contrib/gitian-descriptors/gitian-aarch64.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../cdi/contrib/gitian-descriptors/gitian-aarch64.yml
+	    mv build/out/cdi-*.tar.gz build/out/src/cdi-*.tar.gz ../cdi-binaries/${VERSION}
 	popd
 
         if [[ $commitFiles = true ]]
@@ -340,32 +340,32 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../phore/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../cdi/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../phore/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../cdi/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../phore/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../cdi/contrib/gitian-descriptors/gitian-osx.yml
 	# AArch64
 	echo ""
 	echo "Verifying v${VERSION} AArch64"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../phore/contrib/gitian-descriptors/gitian-aarch64.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../cdi/contrib/gitian-descriptors/gitian-aarch64.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../phore/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../cdi/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../phore/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../cdi/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -380,10 +380,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../phore/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../phore/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/phore-*win64-setup.exe ../phore-binaries/${VERSION}
-	    mv build/out/phore-*win32-setup.exe ../phore-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../cdi/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../cdi/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/cdi-*win64-setup.exe ../cdi-binaries/${VERSION}
+	    mv build/out/cdi-*win32-setup.exe ../cdi-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -391,9 +391,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../phore/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../phore/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/phore-osx-signed.dmg ../phore-binaries/${VERSION}/phore-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../cdi/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../cdi/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/cdi-osx-signed.dmg ../cdi-binaries/${VERSION}/cdi-${VERSION}-osx.dmg
 	fi
 	popd
 

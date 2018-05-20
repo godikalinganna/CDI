@@ -64,11 +64,11 @@
         <translation>受信用アドレス</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your CDI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>これは支払い先アドレスです。送金の際には常に送金量・送金先アドレスを確認してください。</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your CDI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>受け取り用アドレスです。各トランザクション/受信 につき新しいアドレスを使うことをお勧めします。</translation>
     </message>
     <message>
@@ -116,21 +116,21 @@
     </message>
 </context>
 <context>
-    <name>AskPassphraseDialog</name>
+    <name>AskPasscdiaseDialog</name>
     <message>
-        <source>Passphrase Dialog</source>
+        <source>Passcdiase Dialog</source>
         <translation>パスワードダイアログ</translation>
     </message>
     <message>
-        <source>Enter passphrase</source>
+        <source>Enter passcdiase</source>
         <translation>パスワードを入力してください。</translation>
     </message>
     <message>
-        <source>New passphrase</source>
+        <source>New passcdiase</source>
         <translation>新しいパスワード</translation>
     </message>
     <message>
-        <source>Repeat new passphrase</source>
+        <source>Repeat new passcdiase</source>
         <translation>新しいパスワードの確認</translation>
     </message>
     <message>
@@ -142,7 +142,7 @@
         <translation>匿名化およびステーキングのみを有効化</translation>
     </message>
     <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passcdiase to the wallet.&lt;br/&gt;Please use a passcdiase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>新しいパスワードを入力してください。&lt;br/&gt;パスワード/フレーズは&lt;b&gt;10文字以上&lt;/b&gt;, もしくは &lt;b&gt;8単語以上&lt;/b&gt;.</translation>
     </message>
     <message>
@@ -150,7 +150,7 @@
         <translation>ウォレットを暗号化</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <source>This operation needs your wallet passcdiase to unlock the wallet.</source>
         <translation>この操作にはウォレットのパスワードを入力しウォレットの暗号化を解除する必要があります。</translation>
     </message>
     <message>
@@ -158,7 +158,7 @@
         <translation>ウォレットの暗号化を解除</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passcdiase to decrypt the wallet.</source>
         <translation>この操作では、ウォレットの復号化のためパスワードが必要です。</translation>
     </message>
     <message>
@@ -166,11 +166,11 @@
         <translation>ウォレットの復号化</translation>
     </message>
     <message>
-        <source>Change passphrase</source>
+        <source>Change passcdiase</source>
         <translation>パスワードの変更</translation>
     </message>
     <message>
-        <source>Enter the old and new passphrase to the wallet.</source>
+        <source>Enter the old and new passcdiase to the wallet.</source>
         <translation>古いパスワード・新しいパスワードを入力してください。</translation>
     </message>
     <message>
@@ -178,16 +178,16 @@
         <translation>ウォレットの再暗号化を行いました</translation>
     </message>
     <message>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>暗号化を完了するためウォレットを閉じます。暗号化されたため、パスワードがなければ攻撃者はPHRを送金できません。</translation>
+        <source>CDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CDIs from being stolen by malware infecting your computer.</source>
+        <translation>暗号化を完了するためウォレットを閉じます。暗号化されたため、パスワードがなければ攻撃者はCDIを送金できません。</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>ウォレットを暗号化しますか？</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PHR&lt;/b&gt;!</source>
-        <translation>注意 : もし暗号化した後パスワードを忘れた場合 &lt;b&gt;すべてのPHRを失います&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passcdiase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
+        <translation>注意 : もし暗号化した後パスワードを忘れた場合 &lt;b&gt;すべてのCDIを失います&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -206,7 +206,7 @@
         <translation>ウォレットの暗号化は内部エラーのため失敗しました。あなたのウォレットは暗号化されていません。</translation>
     </message>
     <message>
-        <source>The supplied passphrases do not match.</source>
+        <source>The supplied passcdiases do not match.</source>
         <translation>入力されたパスワードが一致していません</translation>
     </message>
     <message>
@@ -214,7 +214,7 @@
         <translation>ウォレットのアンロックに失敗しました</translation>
     </message>
     <message>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <source>The passcdiase entered for the wallet decryption was incorrect.</source>
         <translation>復号化のために入力されたパスワードが一致してません</translation>
     </message>
     <message>
@@ -222,7 +222,7 @@
         <translation>ウォレットの復号に失敗しました</translation>
     </message>
     <message>
-        <source>Wallet passphrase was successfully changed.</source>
+        <source>Wallet passcdiase was successfully changed.</source>
         <translation>ウォレットのパスワードの変更に成功しました</translation>
     </message>
     <message>
@@ -241,16 +241,16 @@
         <translation>&amp;BIP 38 暗号化</translation>
     </message>
     <message>
-        <source>Enter a Phore Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP38 を用いて暗号化したPhore アドレスを入力してください。パスワードを中段の入力欄に記入し、encrypt ボタンを押して暗号化されたプライベートキーを取得しましょう。</translation>
+        <source>Enter a CDI Address that you would like to encrypt using BIP 38. Enter a passcdiase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP38 を用いて暗号化したCDI アドレスを入力してください。パスワードを中段の入力欄に記入し、encrypt ボタンを押して暗号化されたプライベートキーを取得しましょう。</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>アドレス:</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>メッセージを署名したいPhore アドレス</translation>
+        <source>The CDI address to sign the message with</source>
+        <translation>メッセージを署名したいCDI アドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -269,7 +269,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passphrase: </source>
+        <source>Passcdiase: </source>
         <translation>パスワード : </translation>
     </message>
     <message>
@@ -281,8 +281,8 @@
         <translation>今表示されている署名をクリップボードへコピー</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Phore アドレスの所持を証明するためにこのメッセージを署名</translation>
+        <source>Sign the message to prove you own this CDI address</source>
+        <translation>CDI アドレスの所持を証明するためにこのメッセージを署名</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -301,16 +301,16 @@
         <translation>&amp;BIP 38 復号化</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking &apos;Import Address&apos; will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passcdiase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking &apos;Import Address&apos; will add this private key to the wallet.</source>
         <translation>BIP38 暗号化されたプライベートキーを一番上の欄に入力し、二番目の欄にパスワードを入力してください。プライベートキーを出力するため、復号化ボタンを押してください。アドレスのインポートをクリックしてウォレットに追加できます。</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>このPhoreアドレスのメッセージは次により署名されています</translation>
+        <source>The CDI address the message was signed with</source>
+        <translation>このCDIアドレスのメッセージは次により署名されています</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>メッセージが特定のPhoreアドレスにより署名されていることを確認してください。</translation>
+        <source>Verify the message to ensure it was signed with the specified CDI address</source>
+        <translation>メッセージが特定のCDIアドレスにより署名されていることを確認してください。</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -333,7 +333,7 @@
         <translation>&quot;キーの復号化&quot;をクリックしてキーを表示</translation>
     </message>
     <message>
-        <source>The entered passphrase is invalid. </source>
+        <source>The entered passcdiase is invalid. </source>
         <translation>入力されたパスワードは間違っています。 </translation>
     </message>
     <message>
@@ -365,7 +365,7 @@
         <translation>復号化に失敗しました。</translation>
     </message>
     <message>
-        <source>Please check the key and passphrase and try again.</source>
+        <source>Please check the key and passcdiase and try again.</source>
         <translation>キーとパスワードを確認し、もう一度試してください。</translation>
     </message>
     <message>
@@ -472,11 +472,11 @@
         <translation>ウォレットデータを他の場所へ保存します</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passcdiase...</source>
         <translation>&amp;パスワードの変更</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passcdiase used for wallet encryption</source>
         <translation>ウォレットの暗号化にしようしていたパスワードを変更します</translation>
     </message>
     <message>
@@ -606,16 +606,16 @@
         <translation>ツールバー</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore コア</translation>
+        <source>CDI Core</source>
+        <translation>CDI コア</translation>
     </message>
     <message>
-        <source>Send coins to a Phore address</source>
-        <translation>Phore addressへ送金する</translation>
+        <source>Send coins to a CDI address</source>
+        <translation>CDI addressへ送金する</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and phore: URIs)</source>
-        <translation>支払いを作成する (QRコード または phore: URIを作成)</translation>
+        <source>Request payments (generates QR codes and cdi: URIs)</source>
+        <translation>支払いを作成する (QRコード または cdi: URIを作成)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -626,31 +626,31 @@
         <translation>マスターノードを参照</translation>
     </message>
     <message>
-        <source>&amp;About Phore Core</source>
-        <translation>&amp;Phore コアについて</translation>
+        <source>&amp;About CDI Core</source>
+        <translation>&amp;CDI コアについて</translation>
     </message>
     <message>
-        <source>Show information about Phore Core</source>
-        <translation>Phore コアの情報をみる</translation>
+        <source>Show information about CDI Core</source>
+        <translation>CDI コアの情報をみる</translation>
     </message>
     <message>
-        <source>Modify configuration options for Phore</source>
-        <translation>Phoreのオプションを編集する</translation>
+        <source>Modify configuration options for CDI</source>
+        <translation>CDIのオプションを編集する</translation>
     </message>
     <message>
-        <source>Sign messages with your Phore addresses to prove you own them</source>
+        <source>Sign messages with your CDI addresses to prove you own them</source>
         <translation>あなたがそのアドレスを所有していることをメッセージの署名を用いて証明する</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Phore addresses</source>
-        <translation>メッセージが特定のPhoreアドレスにより署名されていることを確認する</translation>
+        <source>Verify messages to ensure they were signed with specified CDI addresses</source>
+        <translation>メッセージが特定のCDIアドレスにより署名されていることを確認する</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
         <translation>&amp;BIP38 ツール</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passphrase</source>
+        <source>Encrypt and decrypt private keys using a passcdiase</source>
         <translation>パスワードを用いて暗号化・復号化する</translation>
     </message>
     <message>
@@ -674,8 +674,8 @@
         <translation>マスターノードの設定ファイルを開く</translation>
     </message>
     <message>
-        <source>Open a Phore: URI or payment request</source>
-        <translation>Phore: URI か支払いリクエストを開く</translation>
+        <source>Open a CDI: URI or payment request</source>
+        <translation>CDI: URI か支払いリクエストを開く</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -686,15 +686,15 @@
         <translation>ブロックエクスプローラ</translation>
     </message>
     <message>
-        <source>Show the Phore Core help message to get a list with possible Phore command-line options</source>
-        <translation>Phore コアのヘルプメッセージを表示してコマンドラインオプションを確認する</translation>
+        <source>Show the CDI Core help message to get a list with possible CDI command-line options</source>
+        <translation>CDI コアのヘルプメッセージを表示してコマンドラインオプションを確認する</translation>
     </message>
     <message>
-        <source>Phore Core client</source>
-        <translation>Phore コア クライアント</translation>
+        <source>CDI Core client</source>
+        <translation>CDI コア クライアント</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Phore network</source>
+        <source>%n active connection(s) to CDI network</source>
         <translation>
             <numerusform>%n 個のアクティブなノードが存在します</numerusform>
         </translation>
@@ -836,8 +836,8 @@ Address: %4
         <translation>&amp;匿名化</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPHR</source>
-        <translation>zPHRによる匿名化</translation>
+        <source>Privacy Actions for zCDI</source>
+        <translation>zCDIによる匿名化</translation>
     </message>
     <message>
         <source>&amp;Multisignature creation...</source>
@@ -868,8 +868,8 @@ Address: %4
         <translation>%1 前です。ブロックをスキャン中 %2</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Phore can no longer continue safely and will quit.</source>
-        <translation>致命的なエラーが発生しました。Phoreは終了します。</translation>
+        <source>A fatal error occurred. CDI can no longer continue safely and will quit.</source>
+        <translation>致命的なエラーが発生しました。CDIは終了します。</translation>
     </message>
     <message>
         <source>High Sierra not supported with this build</source>
@@ -895,8 +895,8 @@ Address: %4
         <translation>テキスト</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (phore.conf).</source>
-        <translation>すべてのトランザクションが確認できるわけではありません。全て確認したい場合、txindex=1 とウォレット設定ファイルへ追加してください (phore.conf)。</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (cdi.conf).</source>
+        <translation>すべてのトランザクションが確認できるわけではありません。全て確認したい場合、txindex=1 とウォレット設定ファイルへ追加してください (cdi.conf)。</translation>
     </message>
 </context>
 <context>
@@ -1204,8 +1204,8 @@ Address: %4
         <translation>送金アドレスを編集</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Phore address.</source>
-        <translation>入力したアドレス &quot;%1&quot; は正しいPhoreアドレスではありません </translation>
+        <source>The entered address &quot;%1&quot; is not a valid CDI address.</source>
+        <translation>入力したアドレス &quot;%1&quot; は正しいCDIアドレスではありません </translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
@@ -1250,16 +1250,16 @@ Address: %4
         <translation>バージョン</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore コア</translation>
+        <source>CDI Core</source>
+        <translation>CDI コア</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Phore Core</source>
-        <translation>Phore コアについて</translation>
+        <source>About CDI Core</source>
+        <translation>CDI コアについて</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1305,16 +1305,16 @@ Address: %4
         <translation>ようこそ</translation>
     </message>
     <message>
-        <source>Welcome to Phore Core.</source>
-        <translation>Phore コアへようこそ</translation>
+        <source>Welcome to CDI Core.</source>
+        <translation>CDI コアへようこそ</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Phore Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where CDI Core will store its data.</source>
         <translation>これが初期起動の場合、データフォルダの場所を選択できます。</translation>
     </message>
     <message>
-        <source>Phore Core will download and store a copy of the Phore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Phore コアはPhoreのブロックチェーンデータをダウンロードします。データフォルダには少なくとも %1 GB程度の空き容量が必要です。ウォレットデータもこの場所へ保存されます。</translation>
+        <source>CDI Core will download and store a copy of the CDI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>CDI コアはCDIのブロックチェーンデータをダウンロードします。データフォルダには少なくとも %1 GB程度の空き容量が必要です。ウォレットデータもこの場所へ保存されます。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1325,8 +1325,8 @@ Address: %4
         <translation>カスタムデータフォルダを利用する:</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore コア</translation>
+        <source>CDI Core</source>
+        <translation>CDI コア</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
@@ -1467,8 +1467,8 @@ Address: %4
         <translation>送り先のアドレスを入力</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Phore addresses after it matures.
-To Add: enter percentage to give and Phore address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other CDI addresses after it matures.
+To Add: enter percentage to give and CDI address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation>MultiSendは最大100%までステーキング・マスターノード報酬を成熟後に他のアドレスへ自動で送金します。
@@ -1611,48 +1611,48 @@ Please check the address and try again.</source>
         <translation>Please select a privacy level.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PHR</source>
-        <translation>Use 2 separate masternodes to mix funds up to 10000 PHR</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CDI</source>
+        <translation>Use 2 separate masternodes to mix funds up to 10000 CDI</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PHR</source>
-        <translation>Use 8 separate masternodes to mix funds up to 10000 PHR</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CDI</source>
+        <translation>Use 8 separate masternodes to mix funds up to 10000 CDI</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 separate masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PHR to anonymize 10000 PHR</source>
-        <translation>This option is the quickest and will cost about ~0.025 PHR to anonymize 10000 PHR</translation>
+        <source>This option is the quickest and will cost about ~0.025 CDI to anonymize 10000 CDI</source>
+        <translation>This option is the quickest and will cost about ~0.025 CDI to anonymize 10000 CDI</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PHR to anonymize 10000 PHR</source>
-        <translation>This option is moderately fast and will cost about 0.05 PHR to anonymize 10000 PHR</translation>
+        <source>This option is moderately fast and will cost about 0.05 CDI to anonymize 10000 CDI</source>
+        <translation>This option is moderately fast and will cost about 0.05 CDI to anonymize 10000 CDI</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>This is the slowest and most secure option. Using maximum anonymity will cost</translation>
     </message>
     <message>
-        <source>0.1 PHR per 10000 PHR you anonymize.</source>
-        <translation>0.1 PHR per 10000 PHR you anonymize.</translation>
+        <source>0.1 CDI per 10000 CDI you anonymize.</source>
+        <translation>0.1 CDI per 10000 CDI you anonymize.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Obfuscation Configuration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Phore&apos;s configuration screen.</source>
-        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Phore&apos;s configuration screen.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</source>
+        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Phore&apos;s configuration screen.</source>
-        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Phore&apos;s configuration screen.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</source>
+        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Phore&apos;s configuration screen.</source>
-        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Phore&apos;s configuration screen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</source>
+        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening CDI&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1713,8 +1713,8 @@ Please check the address and try again.</source>
         <translation>未確認のお釣りの利用を無効にした場合、&lt;br/&gt;1確認されるまでお釣りを使用できません。&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>Automatically open the Phore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Phore クライアントの利用するポートを自動で開きます。ルーターがUPnPに対応していて、有効な場合のみ動作します。</translation>
+        <source>Automatically open the CDI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>CDI クライアントの利用するポートを自動で開きます。ルーターがUPnPに対応していて、有効な場合のみ動作します。</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1733,12 +1733,12 @@ Please check the address and try again.</source>
         <translation>経験者向け</translation>
     </message>
     <message>
-        <source>Automatically start Phore after logging in to the system.</source>
-        <translation>ログイン後、phore-qtが自動的に起動します。</translation>
+        <source>Automatically start CDI after logging in to the system.</source>
+        <translation>ログイン後、cdi-qtが自動的に起動します。</translation>
     </message>
     <message>
-        <source>&amp;Start Phore on system login</source>
-        <translation>&amp;ログイン時にPhore-qtを起動する</translation>
+        <source>&amp;Start CDI on system login</source>
+        <translation>&amp;ログイン時にCDI-qtを起動する</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1753,8 +1753,8 @@ Please check the address and try again.</source>
         <translation>This amount acts as a threshold to turn off Obfuscation once it&apos;s reached.</translation>
     </message>
     <message>
-        <source>Amount of Phore to keep anonymized</source>
-        <translation>Amount of Phore to keep anonymized</translation>
+        <source>Amount of CDI to keep anonymized</source>
+        <translation>Amount of CDI to keep anonymized</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1781,22 +1781,22 @@ Please check the address and try again.</source>
         <translation>&amp;ネットワーク</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Phore.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting CDI.</source>
         <translation>ユーザーインターフェースの言語設定を変更できます。変更はウォレットの次の起動から有効になります。</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/phore-project/phore-project-translations</source>
+https://www.transifex.com/cdi-project/cdi-project-translations</source>
         <translation>不完全なところがございましたか？ぜひこちらよりご協力ください。:
-https://www.transifex.com/phore-project/phore-project-translations</translation>
+https://www.transifex.com/cdi-project/cdi-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>UPnP&amp;を用いたポートマッピング</translation>
     </message>
     <message>
-        <source>Connect to the Phore network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 プロキシを通してPhoreネットワークへ接続</translation>
+        <source>Connect to the CDI network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 プロキシを通してCDIネットワークへ接続</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1915,20 +1915,20 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>入力されたプロキシアドレスは正しくありません。</translation>
     </message>
     <message>
-        <source>Percentage of incoming PHR which get automatically converted to zPHR via Zerocoin Protocol (min: 10%)</source>
-        <translation>受け取られるPHRをzPHR(ゼロコインプロトコル)へ変換する比率(最小: 10%)</translation>
+        <source>Percentage of incoming CDI which get automatically converted to zCDI via Zerocoin Protocol (min: 10%)</source>
+        <translation>受け取られるCDIをzCDI(ゼロコインプロトコル)へ変換する比率(最小: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPHR</source>
-        <translation>zPHRの自動変換の比率</translation>
+        <source>Percentage of autominted zCDI</source>
+        <translation>zCDIの自動変換の比率</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PHR for this denomination is available</source>
-        <translation>選択したdenominationへ変換できるまでPHRの自動変換を中断する</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough CDI for this denomination is available</source>
+        <translation>選択したdenominationへ変換できるまでCDIの自動変換を中断する</translation>
     </message>
     <message>
-        <source>Preferred Automint zPHR Denomination</source>
-        <translation>自動変換するzPHRのdenomination</translation>
+        <source>Preferred Automint zCDI Denomination</source>
+        <translation>自動変換するzCDIのdenomination</translation>
     </message>
     <message>
         <source>I don&apos;t care</source>
@@ -1970,7 +1970,7 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>残高</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Phore network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CDI network after a connection is established, but this process has not completed yet.</source>
         <translation>表示されている情報は最新ではありません。ネットワークへ接続され次第ウォレットは同期されますが、まだ未完了です。</translation>
     </message>
     <message>
@@ -2014,8 +2014,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>Obfuscation Balance:</translation>
     </message>
     <message>
-        <source>0 PHR / 0 Rounds</source>
-        <translation>0 PHR / 0 Rounds</translation>
+        <source>0 CDI / 0 Rounds</source>
+        <translation>0 CDI / 0 Rounds</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2160,8 +2160,8 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>N/A</translation>
     </message>
     <message>
-        <source>PHR Balances</source>
-        <translation>PHRの残高</translation>
+        <source>CDI Balances</source>
+        <translation>CDIの残高</translation>
     </message>
     <message>
         <source>Combined Balances (including unconfirmed and immature coins)</source>
@@ -2176,37 +2176,37 @@ https://www.transifex.com/phore-project/phore-project-translations</translation>
         <translation>未確認・未成熟を含んだ全残高。</translation>
     </message>
     <message>
-        <source>PHR:</source>
-        <translation>PHR:</translation>
+        <source>CDI:</source>
+        <translation>CDI:</translation>
     </message>
     <message>
-        <source>zPHR:</source>
-        <translation>zPHR:</translation>
+        <source>zCDI:</source>
+        <translation>zCDI:</translation>
     </message>
     <message>
-        <source>Current percentage of zPHR.
+        <source>Current percentage of zCDI.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</source>
-        <translation>現在のzPHRの総所持数への比率。自動変換を有効にしている場合、その比率前後になっています。(デフォルト=10%)</translation>
+        <translation>現在のzCDIの総所持数への比率。自動変換を有効にしている場合、その比率前後になっています。(デフォルト=10%)</translation>
     </message>
     <message>
         <source>0 %</source>
         <translation>0 %</translation>
     </message>
     <message>
-        <source>Locked PHR or Masternode collaterals. These are excluded from zPHR minting.</source>
-        <translation>ロックされたPHR・マスターノードの担保。zPHRの変換対象から除外されます。</translation>
+        <source>Locked CDI or Masternode collaterals. These are excluded from zCDI minting.</source>
+        <translation>ロックされたCDI・マスターノードの担保。zCDIの変換対象から除外されます。</translation>
     </message>
     <message>
-        <source>0.000 000 00 PHR</source>
-        <translation>0 PHR {0.000 000 00 ?}</translation>
+        <source>0.000 000 00 CDI</source>
+        <translation>0 CDI {0.000 000 00 ?}</translation>
     </message>
     <message>
         <source>Locked:</source>
         <translation>ロック済:</translation>
     </message>
     <message>
-        <source>Unlocked PHRs. These can be used for zPHR minting.</source>
-        <translation>未ロックのPHR。zPHRへの変換に利用可能です。</translation>
+        <source>Unlocked CDIs. These can be used for zCDI minting.</source>
+        <translation>未ロックのCDI。zCDIへの変換に利用可能です。</translation>
     </message>
     <message>
         <source>Unlocked:</source>
@@ -2218,17 +2218,17 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zPHR are spendable.</source>
+These zCDI are spendable.</source>
         <translation>成熟: 20確認と同じdenominationでの3変換が必要です。
-その後zPHRは使用可能になります。</translation>
+その後zCDIは使用可能になります。</translation>
     </message>
     <message>
         <source>Mature:</source>
         <translation>成熟:</translation>
     </message>
     <message>
-        <source>All available zPHR, unconfirmed and immature zPHR included.</source>
-        <translation>全zPHRの合計。未確認・未成熟のzPHRを含みます。</translation>
+        <source>All available zCDI, unconfirmed and immature zCDI included.</source>
+        <translation>全zCDIの合計。未確認・未成熟のzCDIを含みます。</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2241,10 +2241,10 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
         <translation>未確認:</translation>
     </message>
     <message>
-        <source>Current percentage of zPHR.
+        <source>Current percentage of zCDI.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>現在の所持数とzPHRの比率です。
+        <translation>現在の所持数とzCDIの比率です。
 自動変換が有効であれば指定された比率程度になります (デフォルト = 10%)。
 </translation>
     </message>
@@ -2253,14 +2253,14 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <translation>自動変換は有効です </translation>
     </message>
     <message>
-        <source>To disable AutoMint delete set &apos;enablezeromint=1&apos; to &apos;enablezeromint=0&apos; in phore.conf.</source>
-        <translation>自動変換を無効化するには、phore.conf の中の &apos;enablezeromint=1&apos; を &apos;enablezeromint=0&apos; へ変えてください。</translation>
+        <source>To disable AutoMint delete set &apos;enablezeromint=1&apos; to &apos;enablezeromint=0&apos; in cdi.conf.</source>
+        <translation>自動変換を無効化するには、cdi.conf の中の &apos;enablezeromint=1&apos; を &apos;enablezeromint=0&apos; へ変えてください。</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
+To enable AutoMint add &apos;enablezeromint=1&apos; in cdi.conf</source>
         <translation>自動変換は現在無効です。
-自動変換を有効化して、phore.conf の中の &apos;enablezeromint=1&apos; を追記してください</translation>
+自動変換を有効化して、cdi.conf の中の &apos;enablezeromint=1&apos; を追記してください</translation>
     </message>
 </context>
 <context>
@@ -2286,12 +2286,12 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>支払いアドレスが間違えています。 %1</translation>
     </message>
     <message>
-        <source>Cannot start phore: click-to-pay handler</source>
-        <translation>phore: クリックトゥペイに失敗</translation>
+        <source>Cannot start cdi: click-to-pay handler</source>
+        <translation>cdi: クリックトゥペイに失敗</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Phore address or malformed URI parameters.</source>
-        <translation>URIの解析に失敗しました。Phoreのアドレスが間違っているか、URIのパラメタに不備があります。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid CDI address or malformed URI parameters.</source>
+        <translation>URIの解析に失敗しました。CDIのアドレスが間違っているか、URIのパラメタに不備があります。</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2376,8 +2376,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>枚数</translation>
     </message>
     <message>
-        <source>Enter a Phore address (e.g. %1)</source>
-        <translation>Phoreアドレスを入力してください。 (例: %1)</translation>
+        <source>Enter a CDI address (e.g. %1)</source>
+        <translation>CDIアドレスを入力してください。 (例: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2420,8 +2420,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation></translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore コア</translation>
+        <source>CDI Core</source>
+        <translation>CDI コア</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -2440,8 +2440,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>マスターノード設定ファイル(masternode.conf)の読み込みでエラーが発生しました %1</translation>
     </message>
     <message>
-        <source>Phore Core didn&apos;t yet exit safely...</source>
-        <translation>Phore コアは正常に停止していません...</translation>
+        <source>CDI Core didn&apos;t yet exit safely...</source>
+        <translation>CDI コアは正常に停止していません...</translation>
     </message>
 </context>
 <context>
@@ -2538,8 +2538,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>ブロックチェーン</translation>
     </message>
     <message>
-        <source>Open the Phore debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>データフォルダからPhoreのデバッグログを開きます(時間がかかることがあります)。</translation>
+        <source>Open the CDI debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>データフォルダからCDIのデバッグログを開きます(時間がかかることがあります)。</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2706,8 +2706,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the Phore RPC console.</source>
-        <translation>Phore RPC コンソールへようこそ！</translation>
+        <source>Welcome to the CDI RPC console.</source>
+        <translation>CDI RPC コンソールへようこそ！</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2809,11 +2809,11 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>新しい受け取りアドレスに紐づく追加のラベル</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Phore network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the CDI network.</source>
         <translation>支払いリクエストに紐づくメッセージで、リクエストを開いた際に表示されます。 注:支払い時に表示されるメッセージではありません。</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Phore network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the CDI network.</source>
         <translation>支払いリクエストに紐づくメッセージで、リクエストを開いた際に表示されます。 &lt;br&gt;注:支払い時に表示されるメッセージではありません。</translation>
     </message>
     <message>
@@ -3046,8 +3046,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>分割ごと枚数:</translation>
     </message>
     <message>
-        <source>0 PHR</source>
-        <translation>0 PHR</translation>
+        <source>0 CDI</source>
+        <translation>0 CDI</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3094,16 +3094,16 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>確認時間:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPHRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPHRs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uPHRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uPHRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPHRs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uPHRs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCDIs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCDIs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPHRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPHRs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uPHRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uPHRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPHRs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uPHRs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCDIs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uCDIs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uCDIs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uCDIs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Phore transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Phore transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for CDI transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for CDI transactions than the network can process.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3206,8 +3206,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>匿名化資産</translation>
     </message>
     <message>
-        <source>Warning: Invalid Phore address</source>
-        <translation>警告: Phoreアドレスが正しくありません。</translation>
+        <source>Warning: Invalid CDI address</source>
+        <translation>警告: CDIアドレスが正しくありません。</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3312,8 +3312,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>コインは自動で選択されます</translation>
     </message>
     <message>
-        <source>Anonymized PHR</source>
-        <translation>匿名化されたPHR</translation>
+        <source>Anonymized CDI</source>
+        <translation>匿名化されたCDI</translation>
     </message>
     <message>
         <source>SwiftX</source>
@@ -3339,8 +3339,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>支払い先&amp;:</translation>
     </message>
     <message>
-        <source>The Phore address to send the payment to</source>
-        <translation>支払い先のPhore アドレス</translation>
+        <source>The CDI address to send the payment to</source>
+        <translation>支払い先のCDI アドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3379,8 +3379,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>メッセージ:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Phore: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Phore network.</source>
-        <translation>Phore: URI に紐づくメッセージです。 注:支払い時に表示されるメッセージではありません。</translation>
+        <source>A message that was attached to the CDI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the CDI network.</source>
+        <translation>CDI: URI に紐づくメッセージです。 注:支払い時に表示されるメッセージではありません。</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3406,8 +3406,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Phore Core is shutting down...</source>
-        <translation>Phore コアは停止中です...</translation>
+        <source>CDI Core is shutting down...</source>
+        <translation>CDI コアは停止中です...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3429,8 +3429,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>アドレスの所有を証明するためにメッセージを署名できます。フィッシング攻撃などを避けるために、よくわからないものには署名せず、完全に同意したものにのみ署名してください。</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>メッセージを署名するPhoreアドレス</translation>
+        <source>The CDI address to sign the message with</source>
+        <translation>メッセージを署名するCDIアドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3461,16 +3461,16 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>現在のシグネチャをクリップボードへコピー</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>このPhoreアドレスの所有の証明のためメッセージを署名する</translation>
+        <source>Sign the message to prove you own this CDI address</source>
+        <translation>このCDIアドレスの所有の証明のためメッセージを署名する</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>メッセージの署名に使われたPhore アドレス</translation>
+        <source>The CDI address the message was signed with</source>
+        <translation>メッセージの署名に使われたCDI アドレス</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>特定のPhoreアドレスにより署名されたメッセージを確認する</translation>
+        <source>Verify the message to ensure it was signed with the specified CDI address</source>
+        <translation>特定のCDIアドレスにより署名されたメッセージを確認する</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3556,8 +3556,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore コア</translation>
+        <source>CDI Core</source>
+        <translation>CDI コア</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3572,8 +3572,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>Dash コア開発者チーム</translation>
     </message>
     <message>
-        <source>The Phore Core developers</source>
-        <translation>Phore コア開発者チーム</translation>
+        <source>The CDI Core developers</source>
+        <translation>CDI コア開発者チーム</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3975,27 +3975,27 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
     </message>
     <message>
         <source>Converted Phr to zPhr</source>
-        <translation>PHRをzPHRへ変換</translation>
+        <translation>CDIをzCDIへ変換</translation>
     </message>
     <message>
         <source>Spent zPhr</source>
-        <translation>zPHRを送金</translation>
+        <translation>zCDIを送金</translation>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>zPHRによる受け取り</translation>
+        <translation>zCDIによる受け取り</translation>
     </message>
     <message>
         <source>Minted Change as zPhr from zPhr Spend</source>
-        <translation>zPHRの送金のお釣りをzPHRに変換</translation>
+        <translation>zCDIの送金のお釣りをzCDIに変換</translation>
     </message>
     <message>
         <source>Converted zPhr to Phr</source>
-        <translation>zPHRからPHRへ変換</translation>
+        <translation>zCDIからCDIへ変換</translation>
     </message>
     <message>
         <source>zPhr Accumulator</source>
-        <translation>zPHRアキュムレータ</translation>
+        <translation>zCDIアキュムレータ</translation>
     </message>
 </context>
 <context>
@@ -4174,7 +4174,7 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>zPHRからPHRへの受け取り</translation>
+        <translation>zCDIからCDIへの受け取り</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4186,7 +4186,7 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zPhr</source>
-        <translation>ゼロコインの送金,お釣りをzPHRで受け取り</translation>
+        <translation>ゼロコインの送金,お釣りをzCDIで受け取り</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4214,12 +4214,12 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>コインの送金</translation>
     </message>
     <message>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 PHR.</source>
-        <translation>SwiftTXはあまり高額の送金は対応してません。%1 PHRが上限です。</translation>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 CDI.</source>
+        <translation>SwiftTXはあまり高額の送金は対応してません。%1 CDIが上限です。</translation>
     </message>
     <message>
-        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 PHR.</source>
-        <translation>SwiftTXはあまり高額の送金は対応してません。%1 PHRが上限です。</translation>
+        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 CDI.</source>
+        <translation>SwiftTXはあまり高額の送金は対応してません。%1 CDIが上限です。</translation>
     </message>
 </context>
 <context>
@@ -4262,7 +4262,7 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
     </message>
 </context>
 <context>
-    <name>phore-core</name>
+    <name>cdi-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = トランザクションメタデータを保持, 2 = メタデータを再ダウンロード)</translation>
@@ -4288,8 +4288,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Phore Core is probably already running.</source>
-        <translation>%s のデータフォルダをロックできません。 Phore コアは既に実行されています。</translation>
+        <source>Cannot obtain a lock on data directory %s. CDI Core is probably already running.</source>
+        <translation>%s のデータフォルダをロックできません。 CDI コアは既に実行されています。</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4308,8 +4308,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</translation>
     </message>
     <message>
-        <source>Disable all Phore specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all Phore specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all CDI specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all CDI specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4352,12 +4352,12 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <source>Fees (in PHR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in PHR/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in CDI/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in CDI/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PHR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in PHR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in CDI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in CDI/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4461,45 +4461,45 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in phore.conf</source>
     </message>
     <message>
         <source>
-To use phored, or the -server option to phore-qt, you must set an rpcpassword in the configuration file:
+To use cdid, or the -server option to cdi-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=phorerpc
+rpcuser=cdirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CDI Alert&quot; admin@foo.com
 </source>
         <translation>
-        phored, phore-qt にserverオプションを付ける場合、以下の設定が必要になります。:
+        cdid, cdi-qt にserverオプションを付ける場合、以下の設定が必要になります。:
         %s
-        phore.confにRPCユーザー名,パスワードを入力してください。:
-        rpcuser=phorerpc
+        cdi.confにRPCユーザー名,パスワードを入力してください。:
+        rpcuser=cdirpc
         rpcpassword=%s
-        (覚える必要はなく、phore.confに記載すれば大丈夫です。)
+        (覚える必要はなく、cdi.confに記載すれば大丈夫です。)
         ユーザーネームとパスワードは同じにしてはいけません。
-        phore.confが存在しなければ作成します。
+        cdi.confが存在しなければ作成します。
         It is also recommended to set alertnotify so you are notified of problems;
-        for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.com
+        for example: alertnotify=echo %%s | mail -s &quot;CDI Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Phore Core is probably already running.</source>
-        <translation>%s をbind出来ませんでした。Phoreコアは既に動作しているようです。</translation>
+        <source>Unable to bind to %s on this computer. CDI Core is probably already running.</source>
+        <translation>%s をbind出来ませんでした。CDIコアは既に動作しているようです。</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Unable to locate enough Obfuscation denominated funds for this transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PHR.</source>
-        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PHR.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 CDI.</source>
+        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 CDI.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PHR.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 10000 PHR.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 CDI.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 10000 CDI.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4514,8 +4514,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Phore Core will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Phore Core will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CDI Core will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CDI Core will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4662,8 +4662,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
         <translation>Copyright (C) 2014-%i Dash コア開発者チーム</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Phore Core Developers</source>
-        <translation>Copyright (C) 2015-%i Phore コア開発者チーム</translation>
+        <source>Copyright (C) 2015-%i The CDI Core Developers</source>
+        <translation>Copyright (C) 2015-%i CDI コア開発者チーム</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4734,8 +4734,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
         <translation>wallet.datの読み込みにエラー発生: ウォレットが破損しています</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Phore Core</source>
-        <translation>Ewallet.datの読み込みにエラー発生: ウォレットデータの読み込みに新しいバージョンのPhore コアが必要です</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CDI Core</source>
+        <translation>Ewallet.datの読み込みにエラー発生: ウォレットデータの読み込みに新しいバージョンのCDI コアが必要です</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4786,8 +4786,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
         <translation>ブロックの読み込みに失敗</translation>
     </message>
     <message>
-        <source>Fee (in PHR/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in PHR/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in CDI/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in CDI/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4846,8 +4846,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
         <translation>情報</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Phore Core is shutting down.</source>
-        <translation>初期サニティチェックが失敗しました。Phoreコアは終了します。</translation>
+        <source>Initialization sanity check failed. CDI Core is shutting down.</source>
+        <translation>初期サニティチェックが失敗しました。CDIコアは終了します。</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4958,8 +4958,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
         <translation>Enable staking functionality (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Keep N PHR anonymized (default: %u)</source>
-        <translation>Keep N PHR anonymized (default: %u)</translation>
+        <source>Keep N CDI anonymized (default: %u)</source>
+        <translation>Keep N CDI anonymized (default: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -5466,8 +5466,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
         <translation>ウォレットはロックされています。</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Phore Core to complete</source>
-        <translation>ウォレットは再書き込みが必要です。Phore コアを再起動してください。</translation>
+        <source>Wallet needed to be rewritten: restart CDI Core to complete</source>
+        <translation>ウォレットは再書き込みが必要です。CDI コアを再起動してください。</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -5546,12 +5546,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
         <translation></translation>
     </message>
     <message>
-        <source>Disable all Phore specific functionality (Masternodes, Obfuscation, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Phoreの全特徴を無効化する(マスターノード/匿名化/SwiftX/Budget) (0-1, デフォルト: %u)</translation>
+        <source>Disable all CDI specific functionality (Masternodes, Obfuscation, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>CDIの全特徴を無効化する(マスターノード/匿名化/SwiftX/Budget) (0-1, デフォルト: %u)</translation>
     </message>
     <message>
         <source>Enable automatic wallet backups triggered after each zPhr minting (0-1, default: %u)</source>
-        <translation>zPHRへの変換後自動でウォレットをバックアップする( 0-1, デフォルト: %u)</translation>
+        <translation>zCDIへの変換後自動でウォレットをバックアップする( 0-1, デフォルト: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5586,27 +5586,27 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
         <translation></translation>
     </message>
     <message>
-        <source>To use phored, or the -server option to phore-qt, you must set an rpcpassword in the configuration file:
+        <source>To use cdid, or the -server option to cdi-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=phorerpc
+rpcuser=cdirpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CDI Alert&quot; admin@foo.com
 </source>
-        <translation>phored, phore-qt -server を利用する場合rpcの設定が必要です。:
+        <translation>cdid, cdi-qt -server を利用する場合rpcの設定が必要です。:
 %s
 ランダムなパスワードの利用を推奨します。
-rpcuser=phorerpc
+rpcuser=cdirpc
 rpcpassword=%s
 パスワードを覚える必要はありませんが、
 ユーザー名と同じパスワードは禁止されます。
 もしファイルが存在しない場合、自動的に生成されます。
 以下を追加することで、問題が発生したときにメールでアラートを出すこともできます。
-for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CDI Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -5622,8 +5622,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
         <translation>Copyright (C) 2015-%i PIVX コア開発者チーム</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Phore Core Developers</source>
-        <translation>Copyright (C) 2015-%i Phore コア開発者チーム {2017-?}</translation>
+        <source>Copyright (C) 2017-%i The CDI Core Developers</source>
+        <translation>Copyright (C) 2015-%i CDI コア開発者チーム {2017-?}</translation>
     </message>
     <message>
         <source>Delete blockchain folders and resync from scratch</source>
@@ -5731,10 +5731,10 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
 </context>
 <context>
-    <name>zphrcontroldialog</name>
+    <name>zcdicontroldialog</name>
     <message>
         <source>Select zPhr to Spend</source>
-        <translation>送金したいzPHRを選択</translation>
+        <translation>送金したいzCDIを選択</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -5752,24 +5752,24 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>PHR which were anonymized via Zerocin Protocol</source>
-        <translation>ゼロコインプロトコルにより匿名化されるPHR</translation>
+        <source>CDI which were anonymized via Zerocin Protocol</source>
+        <translation>ゼロコインプロトコルにより匿名化されるCDI</translation>
     </message>
     <message>
-        <source>Zerocoin PHR (zPHR)</source>
-        <translation>ゼロコイン PHR (zPHR)</translation>
+        <source>Zerocoin CDI (zCDI)</source>
+        <translation>ゼロコイン CDI (zCDI)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>ゼロコインの操作:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Phore network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示されている情報は古いものかもしれません。Phoreネットワークに接続後自動的に同期が行われますが、まだ同期は完了していません。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CDI network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示されている情報は古いものかもしれません。CDIネットワークに接続後自動的に同期が行われますが、まだ同期は完了していません。</translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>zPHRへ変換したいPHRの枚数を入力</translation>
+        <translation>zCDIへ変換したいCDIの枚数を入力</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -5817,11 +5817,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
     </message>
     <message>
         <source>zPhr Control</source>
-        <translation>zPHR コントロール</translation>
+        <translation>zCDI コントロール</translation>
     </message>
     <message>
         <source>zPhr Selected:</source>
-        <translation>選択された zPHR:</translation>
+        <translation>選択された zCDI:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -5836,18 +5836,18 @@ for example: alertnotify=echo %%s | mail -s &quot;Phore Alert&quot; admin@foo.co
         <translation>ゼロコインを送金</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPHR for spending</source>
-        <translation>利用できるzPHR</translation>
+        <source>Available (mature and spendable) zCDI for spending</source>
+        <translation>利用できるzCDI</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>利用可能な残高:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPHR for spending
+        <source>Available (mature and spendable) zCDI for spending
 
-zPHR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>zPHRは20確認と同じdenominationでの3変換がされたのちに利用可能になります</translation>
+zCDI are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>zCDIは20確認と同じdenominationでの3変換がされたのちに利用可能になります</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -5866,8 +5866,8 @@ zPHR are mature when they have more than 20 confirmations AND more than 2 mints 
         <translation>支払い先:</translation>
     </message>
     <message>
-        <source>The Phore address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>支払い先Phoreアドレスです。空欄の際は自身への送金になります。</translation>
+        <source>The CDI address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>支払い先CDIアドレスです。空欄の際は自身への送金になります。</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -5891,7 +5891,7 @@ zPHR are mature when they have more than 20 confirmations AND more than 2 mints 
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>お釣りをzPHRへ変換(追加で手数料がかかります)</translation>
+        <translation>お釣りをzCDIへ変換(追加で手数料がかかります)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -5910,8 +5910,8 @@ zPHR are mature when they have more than 20 confirmations AND more than 2 mints 
         <translation>利用できるゼロコイン残高の情報.</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPHR</source>
-        <translation>未確認・未成熟なzPHRも含んだ全残高</translation>
+        <source>Total Balance including unconfirmed and immature zCDI</source>
+        <translation>未確認・未成熟なzCDIも含んだ全残高</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -5919,11 +5919,11 @@ zPHR are mature when they have more than 20 confirmations AND more than 2 mints 
     </message>
     <message>
         <source>Denominations with value 1:</source>
-        <translation>1 zPHR の塊(denomination):</translation>
+        <translation>1 zCDI の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 1:</source>
-        <translation>1 zPHR のdenom.:</translation>
+        <translation>1 zCDI のdenom.:</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -5933,59 +5933,59 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
     </message>
     <message>
         <source>Denominations with value 5:</source>
-        <translation>5 zPHR の塊(denomination):</translation>
+        <translation>5 zCDI の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 5:</source>
-        <translation>5 zPHR のdenom.:</translation>
+        <translation>5 zCDI のdenom.:</translation>
     </message>
     <message>
         <source>Denominations with value 10:</source>
-        <translation>10 zPHR の塊(denomination):</translation>
+        <translation>10 zCDI の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 10:</source>
-        <translation>10 zPHR のdenom.:</translation>
+        <translation>10 zCDI のdenom.:</translation>
     </message>
     <message>
         <source>Denominations with value 50:</source>
-        <translation>50 zPHR の塊(denomination):</translation>
+        <translation>50 zCDI の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 50:</source>
-        <translation>50 zPHR のdenom.:</translation>
+        <translation>50 zCDI のdenom.:</translation>
     </message>
     <message>
         <source>Denominations with value 100:</source>
-        <translation>100 zPHR の塊(denomination):</translation>
+        <translation>100 zCDI の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 100:</source>
-        <translation>100 zPHR のdenom.:</translation>
+        <translation>100 zCDI のdenom.:</translation>
     </message>
     <message>
         <source>Denominations with value 500:</source>
-        <translation>500 zPHR の塊(denomination):</translation>
+        <translation>500 zCDI の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 500:</source>
-        <translation>500 zPHR のdenom.:</translation>
+        <translation>500 zCDI のdenom.:</translation>
     </message>
     <message>
         <source>Denominations with value 1000:</source>
-        <translation>1000 zPHR の塊(denomination):</translation>
+        <translation>1000 zCDI の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 1000:</source>
-        <translation>1000 zPHR のdenom.:</translation>
+        <translation>1000 zCDI のdenom.:</translation>
     </message>
     <message>
         <source>Denominations with value 5000:</source>
-        <translation>5000 zPHR の塊(denomination):</translation>
+        <translation>5000 zCDI の塊(denomination):</translation>
     </message>
     <message>
         <source>Denom. with value 5000:</source>
-        <translation>5000 zPHR のdenom.:</translation>
+        <translation>5000 zCDI のdenom.:</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -6131,8 +6131,8 @@ Please be patient after clicking import.</source>
         <translation>アドレス / 枚数:</translation>
     </message>
     <message>
-        <source>Add destinations to send PHR to</source>
-        <translation>PHRを送る宛先を追加</translation>
+        <source>Add destinations to send CDI to</source>
+        <translation>CDIを送る宛先を追加</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>

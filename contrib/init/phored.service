@@ -1,19 +1,19 @@
 [Unit]
-Description=Phore's distributed currency daemon
+Description=CDI's distributed currency daemon
 After=network.target
 
 [Service]
-User=phore
-Group=phore
+User=cdi
+Group=cdi
 
 Type=forking
-PIDFile=/var/lib/phored/phored.pid
+PIDFile=/var/lib/cdid/cdid.pid
 
-ExecStart=/usr/bin/phored -daemon -pid=/var/lib/phored/phored.pid \
-          -conf=/etc/phore/phore.conf -datadir=/var/lib/phored
+ExecStart=/usr/bin/cdid -daemon -pid=/var/lib/cdid/cdid.pid \
+          -conf=/etc/cdi/cdi.conf -datadir=/var/lib/cdid
 
-ExecStop=-/usr/bin/phore-cli -conf=/etc/phore/phore.conf \
-         -datadir=/var/lib/phored stop
+ExecStop=-/usr/bin/cdi-cli -conf=/etc/cdi/cdi.conf \
+         -datadir=/var/lib/cdid stop
 
 Restart=always
 PrivateTmp=true

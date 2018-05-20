@@ -1,6 +1,6 @@
 [Protocol]
-exec=phore-qt '%u'
-protocol=phore
+exec=cdi-qt '%u'
+protocol=cdi
 input=none
 output=none
 helper=true
