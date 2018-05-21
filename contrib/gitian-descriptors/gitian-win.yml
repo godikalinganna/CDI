@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/CryptoGeekJD/Learning-Phr.git"
+- "url": "https://github.com/godikalinganna/Learning-Phr.git"
   "dir": "cdi"
 files: []
 script: |
