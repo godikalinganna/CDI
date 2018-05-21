@@ -2159,6 +2159,7 @@ double ConvertBitsToDouble(unsigned int nBits)
     return dDiff;
 }
 
+//CDI specific values
 int64_t GetBlockValue(int nHeight)
 {
     int64_t nSubsidy = 0;
