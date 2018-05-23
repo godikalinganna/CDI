@@ -4546,8 +4546,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CDI Alert&quot; admin@foo.com
         <translation>設定ファイルにおいてmasternodeprivkey を設定してください。詳しくはガイドを確認ください。</translation>
     </message>
     <message>
-        <source>(11771 could be used only on mainnet)</source>
-        <translation>(メインネットでは11771のみを用いてください)</translation>
+        <source>(11787 could be used only on mainnet)</source>
+        <translation>(メインネットでは11787のみを用いてください)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4558,8 +4558,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CDI Alert&quot; admin@foo.com
         <translation>(デフォルト: 1)</translation>
     </message>
     <message>
-        <source>(must be 11771 for mainnet)</source>
-        <translation>(メインネットでは11771のみ)</translation>
+        <source>(must be 11787 for mainnet)</source>
+        <translation>(メインネットでは11787のみ)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
