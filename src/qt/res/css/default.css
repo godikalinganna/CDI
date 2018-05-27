@@ -748,7 +748,7 @@ width:1px;
 
 /**************************** SETTINGS MENU *********************************************/
 
-/* Encrypt Wallet and Change Passcdiase Dialog */
+/* Encrypt Wallet and Change Passphrase Dialog */
 QDialog#AskPassphraseDialog QLabel#passLabel1, QDialog#AskPassphraseDialog QLabel#passLabel2, QDialog#AskPassphraseDialog QLabel#passLabel3 {
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:170px;

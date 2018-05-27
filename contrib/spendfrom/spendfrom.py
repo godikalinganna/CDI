@@ -88,10 +88,10 @@ def unlock_wallet(cdid):
     t = int(info['unlocked_until'])
     if t <= time.time():
         try:
-            passcdiase = getpass.getpass("Wallet is locked; enter passcdiase: ")
-            cdid.walletpasscdiase(passcdiase, 5)
+            passphrase = getpass.getpass("Wallet is locked; enter passphrase: ")
+            cdid.walletpassphrase(passphrase, 5)
         except:
-            sys.stderr.write("Wrong passcdiase\n")
+            sys.stderr.write("Wrong passphrase\n")
 
     info = cdid.getinfo()
     return int(info['unlocked_until']) > time.time()
@@ -254,7 +254,7 @@ def main():
         fee = Decimal(options.fee)
         amount = Decimal(options.amount)
         while unlock_wallet(cdid) == False:
-            pass # Keep asking for passcdiase until they get it right
+            pass # Keep asking for passphrase until they get it right
         txdata = create_tx(cdid, options.fromaddresses.split(","), options.to, amount, fee)
         sanity_test_fee(cdid, txdata, amount*Decimal("0.01"))
         if options.dry_run:

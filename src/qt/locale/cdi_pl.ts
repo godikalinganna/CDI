@@ -96,15 +96,15 @@
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <source>Enter passcdiase</source>
+        <source>Enter passphrase</source>
         <translation>Wpisz hasło</translation>
     </message>
     <message>
-        <source>New passcdiase</source>
+        <source>New passphrase</source>
         <translation>Nowe hasło</translation>
     </message>
     <message>
-        <source>Repeat new passcdiase</source>
+        <source>Repeat new passphrase</source>
         <translation>Powtórz nowe hasło</translation>
     </message>
     <message>
@@ -116,7 +116,7 @@
         <translation>Zakoduj portfel</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcdiase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Ta operacja wymaga twojego hasła, by odblokować portfel</translation>
     </message>
     <message>
@@ -124,7 +124,7 @@
         <translation>Odblokuj portfel</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcdiase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Ta operacja wymaga twojego hasła, by zakodować portfel</translation>
     </message>
     <message>
@@ -132,11 +132,11 @@
         <translation>Zakoduj portfel</translation>
     </message>
     <message>
-        <source>Change passcdiase</source>
+        <source>Change passphrase</source>
         <translation>Zmień hasło</translation>
     </message>
     <message>
-        <source>Enter the old and new passcdiase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Wpisz stare oraz nowe hasło do portfela</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passcdiase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
         <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE CDI!</translation>
     </message>
     <message>
@@ -164,7 +164,7 @@
         <translation>Kodowanie portfela nieudane z powodu wewnętrznego błędu. Twój portfel nie został zakodowany</translation>
     </message>
     <message>
-        <source>The supplied passcdiases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>Podane hasła nie zgadzają się</translation>
     </message>
     <message>
@@ -172,7 +172,7 @@
         <translation>Odblokowanie portfela nieudane</translation>
     </message>
     <message>
-        <source>The passcdiase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Podane hasło do zakodowania portfela jest błędne</translation>
     </message>
     <message>
@@ -180,7 +180,7 @@
         <translation>Kodowanie portfela nieudane</translation>
     </message>
     <message>
-        <source>Wallet passcdiase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>Hasło do portfela zostało zmienione</translation>
     </message>
     <message>
@@ -219,7 +219,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passcdiase: </source>
+        <source>Passphrase: </source>
         <translation>Hasło:</translation>
     </message>
     <message>
@@ -255,7 +255,7 @@
         <translation>Adres importu</translation>
     </message>
     <message>
-        <source>The entered passcdiase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>Podane hasło jest nieprawidłowe</translation>
     </message>
     <message>
@@ -287,7 +287,7 @@
         <translation>Błąd kodowania</translation>
     </message>
     <message>
-        <source>Please check the key and passcdiase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>Proszę sprawdzić klucz i hasło ponownie</translation>
     </message>
     <message>
@@ -394,11 +394,11 @@
         <translation>&amp;Kopia zapasowa portfela z innej lokacji</translation>
     </message>
     <message>
-        <source>&amp;Change Passcdiase...</source>
+        <source>&amp;Change Passphrase...</source>
         <translation>&amp;Zmień hasło</translation>
     </message>
     <message>
-        <source>Change the passcdiase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>Zmień hasło do zakodowania portfela</translation>
     </message>
     <message>
@@ -562,7 +562,7 @@
         <translation>&amp;BIP 38 narzędzie</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passcdiase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>Zakoduj i odkoduj prywatne klucze używając hasła</translation>
     </message>
     <message>

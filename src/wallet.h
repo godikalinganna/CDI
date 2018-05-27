@@ -413,9 +413,9 @@ public:
     //! Adds a MultiSig address to the store, without saving it to disk (used by LoadWallet)
     bool LoadMultiSig(const CScript& dest);
 
-    bool Unlock(const SecureString& strWalletPasscdiase, bool anonimizeOnly = false);
-    bool ChangeWalletPasscdiase(const SecureString& strOldWalletPasscdiase, const SecureString& strNewWalletPasscdiase);
-    bool EncryptWallet(const SecureString& strWalletPasscdiase);
+    bool Unlock(const SecureString& strWalletPassphrase, bool anonimizeOnly = false);
+    bool ChangeWalletPassphrase(const SecureString& strOldWalletPassphrase, const SecureString& strNewWalletPassphrase);
+    bool EncryptWallet(const SecureString& strWalletPassphrase);
 
     void GetKeyBirthTimes(std::map<CKeyID, int64_t>& mapKeyBirth) const;
 

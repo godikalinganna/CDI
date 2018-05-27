@@ -25,13 +25,13 @@ if cmd == "backupwallet":
         
 elif cmd == "encryptwallet":
     try:
-        pwd = getpass.getpass(prompt="Enter passcdiase: ")
-        pwd2 = getpass.getpass(prompt="Repeat passcdiase: ")
+        pwd = getpass.getpass(prompt="Enter passphrase: ")
+        pwd2 = getpass.getpass(prompt="Repeat passphrase: ")
         if pwd == pwd2:
             access.encryptwallet(pwd)
             print "\n---Wallet encrypted. Server stopping, restart to run with encrypted wallet---\n"
         else:
-            print "\n---Passcdiases do not match---\n"
+            print "\n---Passphrases do not match---\n"
     except:
         print "\n---An error occurred---\n"
 
@@ -313,21 +313,21 @@ elif cmd == "validateaddress":
     except:
         print "\n---An error occurred---\n"
 
-elif cmd == "walletpasscdiase":
+elif cmd == "walletpassphrase":
     try:
-        pwd = getpass.getpass(prompt="Enter wallet passcdiase: ")
-        access.walletpasscdiase(pwd, 60)
+        pwd = getpass.getpass(prompt="Enter wallet passphrase: ")
+        access.walletpassphrase(pwd, 60)
         print "\n---Wallet unlocked---\n"
     except:
         print "\n---An error occurred---\n"
 
-elif cmd == "walletpasscdiasechange":
+elif cmd == "walletpassphrasechange":
     try:
-        pwd = getpass.getpass(prompt="Enter old wallet passcdiase: ")
-        pwd2 = getpass.getpass(prompt="Enter new wallet passcdiase: ")
-        access.walletpasscdiasechange(pwd, pwd2)
+        pwd = getpass.getpass(prompt="Enter old wallet passphrase: ")
+        pwd2 = getpass.getpass(prompt="Enter new wallet passphrase: ")
+        access.walletpassphrasechange(pwd, pwd2)
         print
-        print "\n---Passcdiase changed---\n"
+        print "\n---Passphrase changed---\n"
     except:
         print
         print "\n---An error occurred---\n"

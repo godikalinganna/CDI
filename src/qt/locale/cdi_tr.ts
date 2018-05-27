@@ -116,19 +116,19 @@
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <source>Passcdiase Dialog</source>
+        <source>Passphrase Dialog</source>
         <translation>Şifre sözcüğü Diyaloğu</translation>
     </message>
     <message>
-        <source>Enter passcdiase</source>
+        <source>Enter passphrase</source>
         <translation>Şifre sözcüğünüzü girin</translation>
     </message>
     <message>
-        <source>New passcdiase</source>
+        <source>New passphrase</source>
         <translation>Yeni şifre sözcüğü</translation>
     </message>
     <message>
-        <source>Repeat new passcdiase</source>
+        <source>Repeat new passphrase</source>
         <translation>yeni şifre sözcüğünü tekrarlayın</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Sadece anonimleştirme ve staking için</translation>
     </message>
     <message>
-        <source>Enter the new passcdiase to the wallet.&lt;br/&gt;Please use a passcdiase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Yeni şifre sözcüğünü cüzdana girinLütfen bir şifre söcüğü kullanın &lt;br/&gt;&lt;b&gt;10 veya daha fazla karakter içeren&lt;/b&gt;veya&lt;b&gt;8 veya daha fazla kelime içeren&lt;/b&gt;</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Cüzdanı şifreleyin</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcdiase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Bu işlem, cüzdan kilidini açmak için cüzdan parolanıza ihtiyaç duyuyor.</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>Cüzdanı aç</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcdiase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Bu işlem, cüzdan şifresini çözmek için cüzdan parolanıza ihtiyaç duyuyor.</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>cüzdan şifresini çöz</translation>
     </message>
     <message>
-        <source>Change passcdiase</source>
+        <source>Change passphrase</source>
         <translation>Şifreyi değiştir</translation>
     </message>
     <message>
-        <source>Enter the old and new passcdiase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Cüzdanınıza eski ve yeni parolayı girin.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passcdiase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>Dahili bir hata nedeniyle cüzdan şifrelemesi başarısız oldu. Cüzdanınız şifrelenmedi.</translation>
     </message>
     <message>
-        <source>The supplied passcdiases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>Verilen parolalar uyuşmuyor.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>Cüzdan kilidini açma başarısız oldu</translation>
     </message>
     <message>
-        <source>The passcdiase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>cüzdan şifre çözme işlemi için girilen parola yanlıştı.</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
         <translation>Cüzdan şifre çözme işlemi başarısız oldu</translation>
     </message>
     <message>
-        <source>Wallet passcdiase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>Cüzdan parolası başarıyla değiştirildi.
 </translation>
     </message>
@@ -242,7 +242,7 @@
         <translation>&amp;BIP 38 şifrele</translation>
     </message>
     <message>
-        <source>Enter a CDI Address that you would like to encrypt using BIP 38. Enter a passcdiase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a CDI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir CDI Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
 </translation>
     </message>
@@ -276,7 +276,7 @@
 </translation>
     </message>
     <message>
-        <source>Passcdiase: </source>
+        <source>Passphrase: </source>
         <translation>şifre</translation>
     </message>
     <message>
@@ -312,7 +312,7 @@
 </translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passcdiase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>BIP 38 şifreli özel anahtarını girin. Orta kutuya şifreyi  girin. Özel anahtarı hesaplamak için Anahtarın Çözülmesini tıklayın. Anahtar çözüldükten sonra 'Alma Adresi'ni tıklamak, bu özel anahtarı cüzdana ekleyecektir.</translation>
     </message>
     <message>
@@ -344,7 +344,7 @@
         <translation>Anahtarı hesaplamak için "Şifreyi Çöz" e tıklayın.</translation>
     </message>
     <message>
-        <source>The entered passcdiase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>Girilen şifre geçersiz.</translation>
     </message>
     <message>
@@ -377,7 +377,7 @@
         <translation>Şifre çözme  başarısız oldu.</translation>
     </message>
     <message>
-        <source>Please check the key and passcdiase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>Lütfen anahtarı ve parolayı kontrol edin ve tekrar deneyin</translation>
     </message>
     <message>
@@ -484,11 +484,11 @@
         <translation>Cüzdanı başka biryere yedekle</translation>
     </message>
     <message>
-        <source>&amp;Change Passcdiase...</source>
+        <source>&amp;Change Passphrase...</source>
         <translation>Parolayı değiştir</translation>
     </message>
     <message>
-        <source>Change the passcdiase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>Cüzdan şifrelemesi için kullanılan parolayı değiştir.</translation>
     </message>
     <message>
@@ -662,7 +662,7 @@
 </translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passcdiase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>Bir şifre kullanarak özel anahtarları şifrele ve şifresini çöz</translation>
     </message>
     <message>

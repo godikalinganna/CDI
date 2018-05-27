@@ -116,19 +116,19 @@
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <source>Passcdiase Dialog</source>
+        <source>Passphrase Dialog</source>
         <translation>密码输入框</translation>
     </message>
     <message>
-        <source>Enter passcdiase</source>
+        <source>Enter passphrase</source>
         <translation>输入钱包密码</translation>
     </message>
     <message>
-        <source>New passcdiase</source>
+        <source>New passphrase</source>
         <translation>输入新密码</translation>
     </message>
     <message>
-        <source>Repeat new passcdiase</source>
+        <source>Repeat new passphrase</source>
         <translation>再次输入新密码</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>仅用于匿名化和加密</translation>
     </message>
     <message>
-        <source>Enter the new passcdiase to the wallet.&lt;br/&gt;Please use a passcdiase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>输入一个新的钱包密码&lt;br/&gt;钱包密码&lt;b&gt;建议使用10位以上的随机字符&lt;/b&gt;，或者&lt;b&gt; 3个以上的单词&lt;/b&gt;。并建议有序使用大小写字母。</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>加密钱包</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcdiase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>需要您输入钱包密码来进行解锁。</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>解锁钱包</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcdiase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>需要您输入钱包密码来进行解锁。</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>解密钱包</translation>
     </message>
     <message>
-        <source>Change passcdiase</source>
+        <source>Change passphrase</source>
         <translation>修改密码</translation>
     </message>
     <message>
-        <source>Enter the old and new passcdiase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>输入钱包信旧密码</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>您确定加密您的钱包吗？</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passcdiase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
         <translation>注意：请妥善保管好你的密码，因为在加密后，没有密码将无法打开钱包。这将会让您&lt;b&gt;损失钱包中所有的CDI&lt;/b&gt;！</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>由于内部错误，钱包加密失败，您的钱包本次加密没有成功。</translation>
     </message>
     <message>
-        <source>The supplied passcdiases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>输入的密码不正确</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>钱包解锁失败</translation>
     </message>
     <message>
-        <source>The passcdiase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>为钱包解密输入的密码不正确。</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
         <translation>钱包解密失败</translation>
     </message>
     <message>
-        <source>Wallet passcdiase was successfully changed.</source>
+        <source>Wallet passphrase was successfully changed.</source>
         <translation>钱包密码已经更换为新密码</translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a CDI Address that you would like to encrypt using BIP 38. Enter a passcdiase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a CDI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>输入您要使用BIP 38加密的CDI地址。在中间框中输入密码。按加密计算加密私钥。</translation>
     </message>
     <message>
@@ -267,7 +267,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passcdiase: </source>
+        <source>Passphrase: </source>
         <translation>密码：</translation>
     </message>
     <message>
@@ -299,7 +299,7 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passcdiase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>输入BIP 38加密私钥。 在中间框中输入密码。 单击解密密钥计算私钥。 密钥解密后，单击“导入地址”将将该私钥添加到钱包中。</translation>
     </message>
     <message>
@@ -331,7 +331,7 @@
         <translation>点击“解密密钥”完成密钥计算</translation>
     </message>
     <message>
-        <source>The entered passcdiase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>输入的密码无效。</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@
         <translation>解密失败。</translation>
     </message>
     <message>
-        <source>Please check the key and passcdiase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>请检查密钥和密码短语，然后再试一次。</translation>
     </message>
     <message>
@@ -470,11 +470,11 @@
         <translation>备份钱包至其他目录</translation>
     </message>
     <message>
-        <source>&amp;Change Passcdiase...</source>
+        <source>&amp;Change Passphrase...</source>
         <translation>&amp;C修改密码</translation>
     </message>
     <message>
-        <source>Change the passcdiase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>修改用于钱包加密的密码</translation>
     </message>
     <message>
@@ -654,7 +654,7 @@
         <translation>&amp;BIP38工具</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passcdiase</source>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>使用密码加密和解密私钥</translation>
     </message>
     <message>

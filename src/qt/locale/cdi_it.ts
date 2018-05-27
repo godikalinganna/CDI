@@ -116,19 +116,19 @@
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <source>Passcdiase Dialog</source>
+        <source>Passphrase Dialog</source>
         <translation>Inserimento parola d'ordine</translation>
     </message>
     <message>
-        <source>Enter passcdiase</source>
+        <source>Enter passphrase</source>
         <translation>Inserire parola d'ordine</translation>
     </message>
     <message>
-        <source>New passcdiase</source>
+        <source>New passphrase</source>
         <translation>Nuova parola d'ordine</translation>
     </message>
     <message>
-        <source>Repeat new passcdiase</source>
+        <source>Repeat new passphrase</source>
         <translation>Ripetere la nuova parola d'ordine</translation>
     </message>
     <message>
@@ -140,7 +140,7 @@
         <translation>Esclusivamente per anonimizzazione e staking</translation>
     </message>
     <message>
-        <source>Enter the new passcdiase to the wallet.&lt;br/&gt;Please use a passcdiase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Inserisci la nuova parola d'ordine per il portafoglio.&lt;br/&gt;Si raccomanda di usare una parola d'ordine di &lt;b&gt;dieci o più caratteri casuali&lt;/b&gt;, oppure di &lt;b&gt;otto o più parole&lt;/b&gt;.</translation>
     </message>
     <message>
@@ -148,7 +148,7 @@
         <translation>Crittografa portafoglio</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcdiase to unlock the wallet.</source>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Questa operazione richiede la parola d'ordine per sbloccare il portafoglio.</translation>
     </message>
     <message>
@@ -156,7 +156,7 @@
         <translation>Sblocca portafoglio</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passcdiase to decrypt the wallet.</source>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Questa operazione richiede la parola d'ordine per decrittografare il portafoglio.</translation>
     </message>
     <message>
@@ -164,11 +164,11 @@
         <translation>Decrittografa portafoglio</translation>
     </message>
     <message>
-        <source>Change passcdiase</source>
+        <source>Change passphrase</source>
         <translation>Cambia parola d'ordine</translation>
     </message>
     <message>
-        <source>Enter the old and new passcdiase to the wallet.</source>
+        <source>Enter the old and new passphrase to the wallet.</source>
         <translation>Inserire la vecchia e la nuova parola d'ordine per il portafoglio.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passcdiase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
         <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI CDI&lt;7b&gt;!</translation>
     </message>
     <message>
@@ -204,7 +204,7 @@
         <translation>La cifratura del portafoglio è fallita a causa di un errore interno. Il portafoglio non è stato crittografato.</translation>
     </message>
     <message>
-        <source>The supplied passcdiases do not match.</source>
+        <source>The supplied passphrases do not match.</source>
         <translation>Le parole d'ordine fornite con coincidono.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
         <translation>Sblocco portafoglio fallito</translation>
     </message>
     <message>
-        <source>The passcdiase entered for the wallet decryption was incorrect.</source>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>La frase immessa per la decifrazione del portafoglio era errata.</translation>
     </message>
     <message>
@@ -220,8 +220,8 @@
         <translation>Decriptazione portafoglio fallita</translation>
     </message>
     <message>
-        <source>Wallet passcdiase was successfully changed.</source>
-        <translation>La passcdiase del portafoglio è stata modificata correttamente.</translation>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>La passphrase del portafoglio è stata modificata correttamente.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -239,8 +239,8 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a CDI Address that you would like to encrypt using BIP 38. Enter a passcdiase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo CDI che desideri crittografare utilizzando BIP 38. Inserisci una passcdiase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a CDI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo CDI che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -267,8 +267,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Passcdiase: </source>
-        <translation>Passcdiase:</translation>
+        <source>Passphrase: </source>
+        <translation>Passphrase:</translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
@@ -299,8 +299,8 @@
         <translation>&amp;BIP 38 Decripta</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passcdiase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Immettere la chiave privata codificata BIP 38. Inserire la passcdiase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
         <source>The CDI address the message was signed with</source>
@@ -331,7 +331,7 @@
         <translation>Fai clic su "Decripta Chiave" per calcolare la chiave</translation>
     </message>
     <message>
-        <source>The entered passcdiase is invalid. </source>
+        <source>The entered passphrase is invalid. </source>
         <translation>La frase inserita non è valida.</translation>
     </message>
     <message>
@@ -363,7 +363,7 @@
         <translation>Decriptazione fallita.</translation>
     </message>
     <message>
-        <source>Please check the key and passcdiase and try again.</source>
+        <source>Please check the key and passphrase and try again.</source>
         <translation>Controllare la chiave e la frase e riprovare.</translation>
     </message>
     <message>
@@ -470,11 +470,11 @@
         <translation>Fa una copia di sicurezza del tuo portafoglio in un'altra posizione</translation>
     </message>
     <message>
-        <source>&amp;Change Passcdiase...</source>
+        <source>&amp;Change Passphrase...</source>
         <translation>&amp;Modifica parola d'ordine...</translation>
     </message>
     <message>
-        <source>Change the passcdiase used for wallet encryption</source>
+        <source>Change the passphrase used for wallet encryption</source>
         <translation>Modifica la parola d'ordine utilizzata per la crittografia del portafoglio</translation>
     </message>
     <message>
@@ -630,8 +630,8 @@
         <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi CDI specifici</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passcdiase</source>
-        <translation>Crittografa e decrittografa le chiavi private usando una passcdiase</translation>
+        <source>Encrypt and decrypt private keys using a passphrase</source>
+        <translation>Crittografa e decrittografa le chiavi private usando una passphrase</translation>
     </message>
     <message>
         <source>MultiSend Settings</source>
